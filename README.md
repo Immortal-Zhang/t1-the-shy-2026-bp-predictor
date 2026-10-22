@@ -1,5 +1,7 @@
 # T1.the shy 2026 BP Predictor
 
+![T1.the shy 2026 BP Predictor — blue and red fantasy arena banner](docs/assets/readme-banner.png)
+
 [English](README.md) · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
 
 Ten champions enter. One model has opinions.

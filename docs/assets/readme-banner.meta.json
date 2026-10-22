@@ -1,0 +1,12 @@
+{
+  "asset": "docs/assets/readme-banner.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "bytes": 2759208,
+  "sha256": "58994315f6876aab6eacfa3f128f983e1789736b29a1e91f65fee9f3a89d0d27",
+  "generation": "Built-in imagegen",
+  "prompt": "docs/assets/readme-banner.prompt.txt",
+  "purpose": "README masthead; original fantasy artwork, no official team logos or real player portraits"
+}

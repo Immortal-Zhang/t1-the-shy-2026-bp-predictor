@@ -39,16 +39,16 @@
       "bytes": 1388
     },
     "README.ko.md": {
-      "sha256": "67e2a814530949882093c40a9e735e1ec35057ba1bfef8fc2362276c88e92416",
-      "bytes": 1352
+      "sha256": "f4d1ad63312339bbd4bb5dcfc33ef3e3385f721447967a023e4ecb5b7a41e9f8",
+      "bytes": 1449
     },
     "README.md": {
-      "sha256": "68804ebc2f1e7620c1850b1e4d395c1ae9b0ae0ace620c5d5d2732fe64a4e119",
-      "bytes": 1232
+      "sha256": "39503cf99ef5f8c61b9302a551aaa06b0fcc6b4b66bd39aafa001d0e47c97e9a",
+      "bytes": 1334
     },
     "README.zh-CN.md": {
-      "sha256": "f1611ea9d7cbefcf9652c34602e4ef088b54f5d49f578ec4b43f4f6d9bcba1b8",
-      "bytes": 1193
+      "sha256": "ccd83100e79c301ace9a5dd12d743ff813b930ba30602b6b7cfef20f44fb6826",
+      "bytes": 1280
     },
     "SOURCE_DATA.md": {
       "sha256": "473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
@@ -817,6 +817,18 @@
     "tests/test_worlds.py": {
       "sha256": "f3ccdccd06100d3a40b5f42333c86cf1af98371fd810181ee1bf0bd10faf65f4",
       "bytes": 2082
+    },
+    "docs/assets/readme-banner.png": {
+      "sha256": "58994315f6876aab6eacfa3f128f983e1789736b29a1e91f65fee9f3a89d0d27",
+      "bytes": 2759208
+    },
+    "docs/assets/readme-banner.prompt.txt": {
+      "sha256": "dd08087feffbf4cf1ad776c45c3c1bb55ddbe81486501b5797a30eb926655145",
+      "bytes": 2290
+    },
+    "docs/assets/readme-banner.meta.json": {
+      "sha256": "7d05e1c586c78bf62a531ba474a87014570cba30d2dbaeefee1f1730cba4569d",
+      "bytes": 384
     }
   }
 }
