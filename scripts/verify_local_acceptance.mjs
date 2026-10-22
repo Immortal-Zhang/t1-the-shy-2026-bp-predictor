@@ -7,12 +7,13 @@ import path from 'node:path';
 import os from 'node:os';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
-const reports = path.join(root, 'reports/acceptance');
+const reports = process.env.WORLDS_ACCEPTANCE_REPORT_DIR || path.join(root, 'reports/acceptance');
+const baseURL = process.env.PLAYWRIGHT_BASE_URL || 'http://127.0.0.1:5173';
 await mkdir(reports, { recursive: true });
 const outcomes = [];
 for (const [name, engine, options] of [['chrome', chromium, { channel: 'chrome' }], ['webkit', webkit, {}]]) {
   const browser = await engine.launch({ headless: true, ...options });
-  const context = await browser.newContext({ baseURL: 'http://127.0.0.1:5173', viewport: { width: 1440, height: 1050 } });
+  const context = await browser.newContext({ baseURL, viewport: { width: 1440, height: 1050 } });
   const page = await context.newPage();
   page.setDefaultTimeout(30_000);
   const errors = [];

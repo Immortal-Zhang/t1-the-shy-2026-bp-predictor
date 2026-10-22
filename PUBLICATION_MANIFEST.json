@@ -627,8 +627,8 @@
       "bytes": 6018
     },
     "scripts/start_local.sh": {
-      "sha256": "04a4c76352303c8204ab5f6056cbb8e1e979cf71f2deae96ec7f0fce3c911a61",
-      "bytes": 3708
+      "sha256": "b371cf931cac1921fc0361d5d51ff02ad3cd971c76f2daadbae66a8a798cf7ea",
+      "bytes": 3912
     },
     "scripts/train_aggressive.py": {
       "sha256": "5b29f7166a76e15fa5b11a096cc092160c656679c2c3a37327bbbb66b0d84ed8",
@@ -639,8 +639,8 @@
       "bytes": 8662
     },
     "scripts/verify_local_acceptance.mjs": {
-      "sha256": "8165873bc2d729a3eab69976f934e0941683381caed4cc1a05b3bf625bbabeb7",
-      "bytes": 8137
+      "sha256": "650ce01f858f3d5ad8884f4bbe22cba8a481e77284113734539e46afeed60556",
+      "bytes": 8232
     },
     "src/worlds_predictor/__init__.py": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",

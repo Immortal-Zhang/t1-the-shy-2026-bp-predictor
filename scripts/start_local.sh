@@ -19,21 +19,23 @@ trap cleanup EXIT
 trap 'exit 130' INT TERM
 api_url="http://127.0.0.1:$WORLDS_API_PORT"
 web_url="http://127.0.0.1:$WORLDS_WEB_PORT"
-if curl --noproxy '*' -fsS --max-time 3 "$api_url/health" > .runtime/health.json; then
+if curl --noproxy '*' -fsS --max-time 3 "$api_url/health" > .runtime/health.json 2>/dev/null; then
   .venv/bin/python -c 'import hashlib,json,pathlib; h=json.load(open(".runtime/health.json")); assert h.get("instance_id")==hashlib.sha256(str(pathlib.Path.cwd().resolve()).encode()).hexdigest(), "API port belongs to another checkout or an older running version; use another port or stop that service yourself"'
   echo "Reusing this checkout's API on $WORLDS_API_PORT."
 else
   .venv/bin/python -m uvicorn worlds_predictor.api:app --host 127.0.0.1 --port "$WORLDS_API_PORT" > .runtime/backend.log 2>&1 &
   backend_pid=$!
-  for attempt in {1..45}; do
+  # First import of freshly installed native ML libraries can be slow on macOS.
+  for attempt in {1..180}; do
     if curl --noproxy '*' -fsS --max-time 2 "$api_url/health" >/dev/null 2>&1; then break; fi
     kill -0 "$backend_pid" 2>/dev/null || { cat .runtime/backend.log >&2; exit 1; }
+    if (( attempt % 15 == 0 )); then echo 'Waiting for Python ML libraries and API startup...'; fi
     sleep 1
   done
   kill -0 "$backend_pid" 2>/dev/null || { cat .runtime/backend.log >&2; exit 1; }
   curl --noproxy '*' -fsS --max-time 3 "$api_url/health" >/dev/null
 fi
-if curl --noproxy '*' -fsS --max-time 3 "$web_url/__worlds_instance" > .runtime/frontend-instance.json; then
+if curl --noproxy '*' -fsS --max-time 3 "$web_url/__worlds_instance" > .runtime/frontend-instance.json 2>/dev/null; then
   .venv/bin/python -c 'import hashlib,json,pathlib,os; h=json.load(open(".runtime/frontend-instance.json")); assert h.get("instance_id")==hashlib.sha256(str(pathlib.Path.cwd().resolve()).encode()).hexdigest() and h.get("api_port")==int(os.environ["WORLDS_API_PORT"]), "Web port belongs to another checkout/backend"'
   echo "Website already running: $web_url"
   if [[ -n "$backend_pid" ]]; then wait "$backend_pid"; fi
