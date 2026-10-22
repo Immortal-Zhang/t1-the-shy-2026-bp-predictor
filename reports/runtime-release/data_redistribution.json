@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-10-22T12:43:16.108971+00:00",
+  "source": "ChainCC",
+  "source_url": "https://chaincc.lol/free/data/",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "ChainCC. League of Legends esports match dataset. https://chaincc.lol/free/data/ (accessed 2026-10-22).",
+  "changes": "Normalized source rows into one game per row, quarantined invalid games, derived stable local player identifiers and observed team stints; no current-game postgame features used for prediction.",
+  "redistribution_check": "Source page explicitly allows redistribution under CC BY 4.0; attribution, license link and modification notice retained."
+}

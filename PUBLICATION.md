@@ -2,9 +2,11 @@
 
 This repository publishes the project's source, multilingual README, cached
 reference catalogs, recorded evaluation reports and application screenshots.
-It does not include raw/processed match data, trained model binaries, local
-dependencies, private workspace files or the local development Git history.
-Follow the README's first-clone data/training steps before predicting.
+The Git tree does not include match-data or model binaries, local dependencies,
+private workspace files or the local development Git history. The matching
+pretrained models and inference data are distributed as a versioned GitHub
+Release asset. Run ./start.sh to install dependencies, download and verify that
+bundle, and start real prediction without training. See the README for details.
 
 Absolute workstation paths in three browser JSON reports were normalized to
 project-relative paths. Their test results were not changed. Original local

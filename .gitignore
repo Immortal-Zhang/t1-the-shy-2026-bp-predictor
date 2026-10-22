@@ -28,8 +28,11 @@ data/catalog/*.html
 data/catalog/*.pdf
 data/catalog/*.txt
 .runtime/
+data/runtime/
 reports/aggressive/*.parquet
 reports/aggressive/*.csv
 reports/aggressive/*.log
 reports/aggressive/playwright-report/
 reports/aggressive/playwright-artifacts/
+reports/runtime-release/*.log
+reports/runtime-release/playwright-artifacts/

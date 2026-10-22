@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "release_tag": "runtime-2026-10-22-v1",
+  "standard_model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+  "judgment_model": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+  "data_cutoff": "2026-10-18 19:48:36+00:00",
+  "real_games": 28738,
+  "files": {
+    "data/processed/games.parquet": {
+      "sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+      "bytes": 2527505
+    },
+    "data/processed/player_registry.csv": {
+      "sha256": "6bbcf8d9252babafb04b314cee5dd7c5602439c942a60054387447e2b9865e74",
+      "bytes": 620834
+    },
+    "data/processed/player_team_stints.csv": {
+      "sha256": "1e4402b0535cd91d215216a35dcd27a64e30e6252759025cc8d4b86e945aade3",
+      "bytes": 2039419
+    },
+    "data/processed/quality_report.json": {
+      "sha256": "41edd557caa0ff8d0c67d5fef6ef6876720df40f351cc5f0e28a4775424841a1",
+      "bytes": 21541
+    },
+    "data/runtime/NOTICE.md": {
+      "sha256": "82874e775a4c2854439eea37f3abddec31ccf02bddd9911f1017031cfebe63c2",
+      "bytes": 734
+    },
+    "data/runtime/sources.json": {
+      "sha256": "a70f50c4e3cb14225dedc328e1fca9be4f8316029b0910873e476920997e2bdc",
+      "bytes": 5948
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/B_catboost.joblib": {
+      "sha256": "29abcfcc4b897b6a0765904cd7c8290fd6a1dc8d6f5daaf6b999bf61c5e901cc",
+      "bytes": 5640192
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/evaluation.json": {
+      "sha256": "87fb6fcf095d2d32630d2225be31f549f91da2631d68d3b7c0829feb90563466",
+      "bytes": 1189651
+    },
+    "models/aggressive-experiment/latest/metadata.json": {
+      "sha256": "c5dc97ca92f8fbcb8fa6d4b0c7ddeb23f0330791a43ddd889d86eae89f12e1e4",
+      "bytes": 7035
+    },
+    "models/aggressive-experiment/latest/selected_model.joblib": {
+      "sha256": "26d96efccf0099a0e724ec586f21512d869540640e3875f811566c5a226b032b",
+      "bytes": 3830503
+    },
+    "models/latest/metadata.json": {
+      "sha256": "084a4b26e15be7fd78834f9218b121edd52ed44d10c139c3d5230c2b339cb0db",
+      "bytes": 4211
+    },
+    "models/latest/selected_model.joblib": {
+      "sha256": "96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+      "bytes": 8930843
+    }
+  },
+  "compatible_source_sha256": {
+    "src/worlds_predictor/features.py": "e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+    "src/worlds_predictor/enhanced_features.py": "68c0942fd881ae8fd8882d7ed1f11e5e51b54717f89de34d5ae3d7bd253da9a1",
+    "src/worlds_predictor/judgment_policy.py": "0cfe5d01706c6ea2f18cacfc441a92896b12c82e00ea1a5babb0ab25ecd776a2",
+    "requirements.lock.txt": "68847f6e9b68a634b1c914ae0c73b64b41c3e70526fba43542ae7dd22c77af61",
+    "reports/aggressive/judgment_policy.json": "3e8d2cdcdd0559caa8bc55d37ed555a9aae78fe3b808c64118cef21433869b91",
+    "reports/aggressive/judgment_manifest.json": "8f58c5c6695d48470a37200abc0a12e66b979f2480b9b45ccb0222289990ee17",
+    "reports/aggressive/judgment_evaluation.json": "3394d4a8e594d82ffd88a4c2a828e6468422426fdeeb77801a0795d09cbbf91f",
+    "data/catalog/champion-en_US.json": "84fd12721ea0cec502d2a747aea94d8e57d4da337422d1d3ca33a7890909787f",
+    "data/catalog/champion-zh_CN.json": "68de0b884ce4beb29d608c08b73f774ae2abe3a3271ebceaa6cbb19c7094a326",
+    "data/catalog/worlds_rules.json": "5f39817645f093bb96bf33548a423266be8ba33ac887d43f00947869e8924c46",
+    "configs/worlds2026_participants.json": "cf877abaa038ebb2bc92587cb88e394a886ac4b44ef3688f69345b38a5b22954"
+  },
+  "repository": "Immortal-Zhang/t1-the-shy-2026-bp-predictor",
+  "asset_name": "t1-the-shy-2026-runtime-v1.tar.gz",
+  "url": "https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/download/runtime-2026-10-22-v1/t1-the-shy-2026-runtime-v1.tar.gz",
+  "archive_sha256": "d838a2c879de8ccd59ed5e5484ad55bd88fd86f9cbb13d58ec1908354903c5ed",
+  "archive_bytes": 8806209,
+  "manifest_sha256": "3209c11df18570e99da9f29d4b13582e14a8be1255afe24c133520aef7cd30fe"
+}

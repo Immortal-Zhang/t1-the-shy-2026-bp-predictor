@@ -73,7 +73,7 @@ def create_app(
         yield
 
     app = FastAPI(
-        title="Worlds 2026 BP Predictor",
+        title="T1.the shy 2026 BP Predictor",
         version="0.3.0",
         description="Real historical professional match models. One map per request, pre-match inputs only.",
         lifespan=lifespan,
@@ -89,7 +89,8 @@ def create_app(
     @app.get("/health")
     def health(request: Request) -> dict:
         return {
-            "service": "Worlds 2026 BP Predictor",
+            "service": "T1.the shy 2026 BP Predictor",
+            "instance_id": hashlib.sha256(str(PROJECT_ROOT.resolve()).encode()).hexdigest(),
             "model": _model_status(model_path, data_path),
             "worlds_patch_verification": request.app.state.worlds_verification,
             "series_prediction_supported": False,
