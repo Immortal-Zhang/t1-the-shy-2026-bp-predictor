@@ -599,8 +599,8 @@
       "bytes": 14717
     },
     "scripts/export_public_snapshot.py": {
-      "sha256": "fb32d9cd555f26260a42fa8cd692d4b791ba04ae5fb84207e9979b112f4135fa",
-      "bytes": 4600
+      "sha256": "3e531e7c90c37a2adc7b1013f86818157695dbf16ef50470e1674d60866b4fff",
+      "bytes": 4764
     },
     "scripts/report_aggressive_delivery.py": {
       "sha256": "3d3e5c2d86a904ec50b50a9c1cbab674e7162aec514cc7751d6707d5c9445c2c",

@@ -32,6 +32,8 @@ def export(destination: Path):
     destination.mkdir(parents=True)
     transformations = []
     for name in filter(None, paths):
+        if name in {"PUBLICATION.md", "PUBLICATION_MANIFEST.json"}:
+            continue  # Regenerate export metadata; never hash a previous manifest into itself.
         source = ROOT / name
         if source.is_symlink() or not source.is_file() or ".." in Path(name).parts:
             raise ValueError(f"Unsupported tracked path: {name}")
