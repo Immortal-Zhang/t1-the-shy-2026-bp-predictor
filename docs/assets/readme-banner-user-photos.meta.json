@@ -1,0 +1,48 @@
+{
+  "asset": "docs/assets/readme-banner-user-photos.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "bytes": 2809915,
+  "sha256": "7cd9daa5dcb394f8d76f7a89074e4c94d3923c1bfbed4d32450f2a05debbb009",
+  "generation": "Built-in imagegen",
+  "prompt": "docs/assets/readme-banner-user-photos.prompt.txt",
+  "purpose": "AI-generated fan-art README composite using both user-supplied photographs: TheShy reaching forward on the left; Faker shushing on the right. One silver trophy and six gold trophies. Not an event photograph, prediction, or endorsement.",
+  "base_asset": "docs/assets/readme-banner-worlds-shush.png",
+  "references": [
+    {
+      "subject": "Faker",
+      "role": "user-supplied photo; right portrait and shush gesture",
+      "source": "User attachment",
+      "sha256": "1b7e2efc6da058a0d64756e664f547a3d8529bd8ebdbef8cd84d90f977fb09db",
+      "bytes": 2340643
+    },
+    {
+      "subject": "TheShy",
+      "role": "user-supplied photo; left portrait and reaching open palm",
+      "source": "User attachment",
+      "sha256": "203bce82f7a7dd05abc578355f0025b1c1fdaecb2e17d3f6a5f0ef028b28c263",
+      "bytes": 1934857
+    }
+  ],
+  "championship_context": {
+    "scope": "League of Legends World Championship titles through 2026-10-22",
+    "TheShy": [
+      2018
+    ],
+    "Faker": [
+      2013,
+      2015,
+      2016,
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "https://www.youtube.com/watch?v=or7Xc8tZg-g",
+      "https://en.yna.co.kr/view/AEN20251109003200320",
+      "https://nexus.leagueoflegends.com/en-us/2018/11/an-lpl-first-invictus-gaming-wins-it-all/"
+    ]
+  }
+}

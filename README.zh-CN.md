@@ -2,7 +2,7 @@
 
 # T1.the shy 2026 BP Predictor
 
-![T1.the shy 2026 BP Predictor — 左侧 TheShy 一冠，右侧 Faker 六冠与嘘手势](docs/assets/readme-banner-worlds-shush.png)
+![T1.the shy 2026 BP Predictor — 左侧 TheShy 一冠，右侧 Faker 六冠与嘘手势](docs/assets/readme-banner-user-photos.png)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
 

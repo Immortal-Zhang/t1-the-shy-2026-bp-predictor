@@ -39,16 +39,16 @@
       "bytes": 1388
     },
     "README.ko.md": {
-      "sha256": "9d2f81ece2479a448b859cbef6929dc29f828444212dc26775e5033c51164d4e",
-      "bytes": 1667
+      "sha256": "10e5fedfc86df3073afa905831a9475f50e21a2b518853cb79f1c853740d04d1",
+      "bytes": 1666
     },
     "README.md": {
-      "sha256": "04f9aaf2349859404024492c37d3c269f26bc5bab83998aaad954b269868c06b",
-      "bytes": 1533
+      "sha256": "d3b2ea7e3a96925f855f6b34bde7763ee229a4fd1d9673f13c791e7b0e707b41",
+      "bytes": 1532
     },
     "README.zh-CN.md": {
-      "sha256": "145a05ca8f842288008fe90d9276e58b5ba505921bffde78f4b5ae1c156a9dd9",
-      "bytes": 1476
+      "sha256": "76151e832cd83a8e6c647ab3efb3f50e6852d44871e7a72706c4501f7e6876b0",
+      "bytes": 1475
     },
     "SOURCE_DATA.md": {
       "sha256": "473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
@@ -857,6 +857,18 @@
     "docs/assets/readme-banner-worlds-shush.prompt.txt": {
       "sha256": "d949ff454efb77bef8f340c38a0231298463463dbb01e51e8c99b00a8e977e28",
       "bytes": 7152
+    },
+    "docs/assets/readme-banner-user-photos.png": {
+      "sha256": "7cd9daa5dcb394f8d76f7a89074e4c94d3923c1bfbed4d32450f2a05debbb009",
+      "bytes": 2809915
+    },
+    "docs/assets/readme-banner-user-photos.meta.json": {
+      "sha256": "f3a8eb7cfdfc1377b15dc6ab6a701f07741d359e9a22c1da3bed948e947fce8e",
+      "bytes": 1615
+    },
+    "docs/assets/readme-banner-user-photos.prompt.txt": {
+      "sha256": "e5ddcb6d27e026905857ca9eb46cbfa4699cb6dab583e779444a5b74a44270c7",
+      "bytes": 3558
     }
   }
 }
