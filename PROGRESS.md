@@ -1,4 +1,13 @@
-# Worlds 2026 BP Predictor — progress
+# T1.the shy 2026 BP Predictor — progress
+
+## Pretrained runtime release and rename — 2026-10-22
+
+- User-authorized public repository renamed to `Immortal-Zhang/t1-the-shy-2026-bp-predictor`; product title is `T1.the shy 2026 BP Predictor`. English/Chinese/Korean READMEs are each 25 lines, with short playful copy, one-command startup and download links; evaluation tables were removed from the READMEs, while historical evidence remains in reports.
+- Published real standard C, pre-BP B and enhanced judgment artifacts plus normalized games, player registry/team stints and provenance as `runtime-2026-10-22-v1`, asset `t1-the-shy-2026-runtime-v1.tar.gz` (8,806,209 bytes; SHA-256 `d838a2c879de8ccd59ed5e5484ad55bd88fd86f9cbb13d58ec1908354903c5ed`). The archive is separate from source Git.
+- `./start.sh` creates an isolated environment, installs locked dependencies, downloads and verifies the release, builds the frontend, and starts local services; `start.command` supports macOS double-click. It invokes no training. Offline archive install and check-only paths are available. Unknown local artifacts are preserved unless replacement is explicit, with backups.
+- Downloader verifies archive/member/source-compatibility hashes before any model deserialization, rejects unsafe archive entries and symlink destinations, and checks all conflicts before installing. Independent ports and checkout identities prevent reuse or termination of another checkout's service.
+- First clean setup exposed a 45-second cold native-library import timeout on macOS; increased startup allowance to 180 seconds with progress. A second completely fresh GitHub clone, with no venv, node_modules, models or data, then completed one-command public-download startup. Four real Chrome/WebKit predictions matched the existing models; no training performed. Different-checkout port collision was rejected without stopping the original service.
+- Full backend 281 tests passed; frontend 61 tests and production build passed. Release assets and all 12 installed runtime files match SHA-256. Evidence is in `reports/runtime-release/verification.json`. These checks are delivery verification, not new model-quality measurements.
 
 ## 2026-10-22
 

@@ -36,3 +36,5 @@ reports/aggressive/playwright-report/
 reports/aggressive/playwright-artifacts/
 reports/runtime-release/*.log
 reports/runtime-release/playwright-artifacts/
+reports/runtime-release/browser/
+reports/runtime-release/final-browser/

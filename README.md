@@ -8,7 +8,7 @@ Your draft has a plan. Your solo queue teammate does not. Let the real trained m
 
 ## Queue up
 
-Have Python 3.11+ and Node.js 20.19+ (or 22.12+) installed. First launch downloads dependencies, trained models and match history. No training arc required.
+Have Python 3.11–3.13 and Node.js 20.19+ (or 22.12+) installed. First launch downloads dependencies, trained models and match history. No training arc required.
 
 ```bash
 git clone https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor.git

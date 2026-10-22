@@ -8,7 +8,7 @@
 
 ## 접속
 
-Python 3.11+와 Node.js 20.19+(또는 22.12+)를 준비하세요. 첫 실행 시 의존성·학습된 모델·경기 기록을 내려받습니다. 재학습은 없습니다.
+Python 3.11–3.13와 Node.js 20.19+(또는 22.12+)를 준비하세요. 첫 실행 시 의존성·학습된 모델·경기 기록을 내려받습니다. 재학습은 없습니다.
 
 ```bash
 git clone https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor.git

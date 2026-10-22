@@ -8,7 +8,7 @@
 
 ## 上号
 
-先装好 Python 3.11+、Node.js 20.19+（或 22.12+）。首次启动自动下载依赖、训练好的模型和历史数据，不用闭关炼丹。
+先装好 Python 3.11–3.13、Node.js 20.19+（或 22.12+）。首次启动自动下载依赖、训练好的模型和历史数据，不用闭关炼丹。
 
 ```bash
 git clone https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor.git

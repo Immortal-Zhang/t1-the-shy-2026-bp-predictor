@@ -1,0 +1,129 @@
+{
+  "checked_at": "2026-10-22T12:59:40.489948+00:00",
+  "name": "T1.the shy 2026 BP Predictor",
+  "source_repository": "https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor",
+  "release_url": "https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/tag/runtime-2026-10-22-v1",
+  "clean_checkout": {
+    "checked_at": "2026-10-22T12:58:00.142648+00:00",
+    "public_repository": "https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor",
+    "release": "https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/download/runtime-2026-10-22-v1/t1-the-shy-2026-runtime-v1.tar.gz",
+    "clean_clone_commit": "56d056a6bcc1a736bc839042f57aade03db1d97c",
+    "started_without_existing_venv_models_data_node_modules": true,
+    "single_launch_command": "WORLDS_API_PORT=8028 WORLDS_WEB_PORT=5175 ./start.sh",
+    "training_invoked": false,
+    "public_archive_sha256": "d838a2c879de8ccd59ed5e5484ad55bd88fd86f9cbb13d58ec1908354903c5ed",
+    "public_archive_bytes": 8806209,
+    "installed_files_verified": {
+      "data/processed/games.parquet": true,
+      "data/processed/player_registry.csv": true,
+      "data/processed/player_team_stints.csv": true,
+      "data/processed/quality_report.json": true,
+      "data/runtime/NOTICE.md": true,
+      "data/runtime/sources.json": true,
+      "models/20261022T093531Z-f5eb82ee9db3/B_catboost.joblib": true,
+      "models/20261022T093531Z-f5eb82ee9db3/evaluation.json": true,
+      "models/aggressive-experiment/latest/metadata.json": true,
+      "models/aggressive-experiment/latest/selected_model.joblib": true,
+      "models/latest/metadata.json": true,
+      "models/latest/selected_model.joblib": true
+    },
+    "health": {
+      "service": "T1.the shy 2026 BP Predictor",
+      "instance_id": "c3b0b154da0bc05fa3506641bc42a1c57168b30687718da1ad429e490ba51310",
+      "model": {
+        "available": true,
+        "label_cutoff": "2025-12-30 00:00:00+00:00",
+        "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+        "integrity": "artifact_and_feature_hashes_verified",
+        "note": "Hashes checked against trusted local metadata; inference additionally validates deserialization and request time compatibility"
+      },
+      "worlds_patch_verification": {
+        "event": "Worlds 2026",
+        "configured_patch": "26.20",
+        "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+        "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+        "checked_at": "2026-10-22T12:57:29.405216+00:00",
+        "status": "confirmed",
+        "official_patch": "26.20",
+        "page_sha256": "51d8e2aecfdd4647d15968b01a4fe0c6b2e042b204d227b54c03d7a127629efe",
+        "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+        "reason": "Riot patch-note heading and explicit Worlds statement matched"
+      },
+      "series_prediction_supported": false
+    },
+    "frontend_http": 200,
+    "production_build": true,
+    "renamed_title_verified": true,
+    "checkout_identity_matches": true
+  },
+  "browser": {
+    "checked_at": "2026-10-22T12:58:52.553Z",
+    "outcomes": [
+      {
+        "browser": "chrome",
+        "passed": true,
+        "timings": {
+          "first_prediction_seconds": 9.872,
+          "bo5_current_map_seconds": 9.63
+        },
+        "page_errors": []
+      },
+      {
+        "browser": "webkit",
+        "passed": true,
+        "timings": {
+          "first_prediction_seconds": 9.545,
+          "bo5_current_map_seconds": 11.052
+        },
+        "page_errors": []
+      }
+    ]
+  },
+  "actual_predictions": {
+    "chrome": {
+      "standard_blue": 0.30217792358429685,
+      "judgment_blue": 0.3390241676901847,
+      "model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "judgment_model": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+      "page_errors": [],
+      "checks": {
+        "ten_real_players_and_champions": true,
+        "real_http_prediction": true,
+        "three_display_modes": true,
+        "bo5_four_previous_maps": true,
+        "fearless_exclusion": true,
+        "previous_maps_removed_before_prediction": true,
+        "bo5_current_map_http_prediction": true,
+        "context_does_not_fake_series_probability": true,
+        "editing_invalidates_result": true,
+        "incomplete_bp_prediction_blocked": true
+      }
+    },
+    "webkit": {
+      "standard_blue": 0.30217792358429685,
+      "judgment_blue": 0.3390241676901847,
+      "model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "judgment_model": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+      "page_errors": [],
+      "checks": {
+        "ten_real_players_and_champions": true,
+        "real_http_prediction": true,
+        "three_display_modes": true,
+        "bo5_four_previous_maps": true,
+        "fearless_exclusion": true,
+        "previous_maps_removed_before_prediction": true,
+        "bo5_current_map_http_prediction": true,
+        "context_does_not_fake_series_probability": true,
+        "editing_invalidates_result": true,
+        "incomplete_bp_prediction_blocked": true
+      }
+    }
+  },
+  "local_renamed_app_ready": true,
+  "different_checkout_on_occupied_port_rejected": true,
+  "original_service_not_stopped_by_collision_test": true,
+  "pytest_passed": 281,
+  "vitest_passed": 61,
+  "first_attempt_issue": "Original 45-second timeout expired while importing fresh macOS native ML libraries. Extended to 180 seconds with progress; verified a second completely fresh clone successfully.",
+  "retraining_performed": false
+}

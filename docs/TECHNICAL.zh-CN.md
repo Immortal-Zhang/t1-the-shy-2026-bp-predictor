@@ -1,4 +1,12 @@
-# Worlds 2026 BP Predictor
+# T1.the shy 2026 BP Predictor — 技术资料
+
+日常使用现在只需在克隆目录执行 `./start.sh`（Mac 可双击 `start.command`）。启动器安装依赖，从 [GitHub Release](https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/tag/runtime-2026-10-22-v1) 下载实际训练好的模型及推理数据，校验 SHA-256 后启动，**不重新训练**。
+
+已手动下载包时可执行 `./start.sh --archive /path/to/t1-the-shy-2026-runtime-v1.tar.gz`；只准备环境使用 `./start.sh --setup-only`。校验已安装产物：`.venv/bin/python scripts/download_runtime.py --check-only`。不同本地产物会保留；只有明确指定下载器的 `--replace` 才备份并替换。
+
+默认前端 5173、API 8026；需要另开一份时使用 `WORLDS_WEB_PORT=5174 WORLDS_API_PORT=8027 ./start.sh`。启动器只复用同一目录实例，不会停止其他项目服务。首次安装需要网络；后续使用本地模型，官方版本核验和英雄头像仍可能访问网络。
+
+以下保留原始开发与重训练说明；除非主动更新模型，普通使用者无需执行训练步骤。
 
 使用**真实职业比赛**训练的单局赛前胜率预测系统。第二阶段提供 React 中文 BP 分析工作台，接入原有 CatBoost/FastAPI 模型；没有模型或模型时间不合法时拒绝预测，不生成演示胜率。
 
