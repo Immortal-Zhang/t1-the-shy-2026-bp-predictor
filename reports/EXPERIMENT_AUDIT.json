@@ -1,0 +1,298 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "scope_and_provenance_limits",
+  "summary": "Ground truth, metrics, artifacts, temporal separation, and API failure behavior passed independent checks. Evidence is insufficient for reliable Worlds-specific accuracy or calibration because the exact target slice has only 22 games; player identity and historical publication provenance also remain unverified.",
+  "trace_path": ".aris/traces/experiment-audit/2026-10-22_run01/",
+  "agent_id": "/root/integrity_audit",
+  "verdict_id": "/root/integrity_audit:2026-10-22_run01:001-integrity",
+  "reviewer_model": "gpt-5.6-sol",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "ultra",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-10-22T09:39:09Z",
+  "date": "2026-10-22",
+  "auditor": "gpt-5.6-sol-ultra",
+  "project": "Worlds 2026 BP Predictor",
+  "code_commit": "acbbf9f48bce322ca768686875c7ac676861a86a",
+  "final_run_id": "20261022T093531Z-f5eb82ee9db3",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "All 28,738 accepted canonical outcomes matched the downloaded raw blue-side team result. No model output is used as ground truth. Current remote bytes for all six provider files matched the local manifest hashes.",
+      "evidence": [
+        "src/worlds_predictor/data.py:203-304",
+        "data/raw/sources.json:3-109",
+        "data/processed/quality_report.json:3-25",
+        "SOURCE_DATA.md:3-12"
+      ]
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Metrics are standard raw binary scores. No prediction-statistic denominator or self-normalization was found. All seven raw and calibrated model metrics independently reconciled with maximum absolute error 1.11e-16.",
+      "evidence": [
+        "src/worlds_predictor/evaluation.py:9-31",
+        "src/worlds_predictor/model.py:121-145",
+        "reports/metrics.json:38190-38212"
+      ]
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "The final run is complete; every claimed main result exists and reconciles. Source, data, model, report, API, replay, sensitivity, and plot artifacts align to the final run. All 26 artifact-manifest hashes and sizes matched.",
+      "evidence": [
+        "reports/metrics.json:2-65",
+        "reports/RESULTS.md:3-27",
+        "reports/artifact_manifest.json:2-109",
+        "reports/pytest.log:1-10"
+      ]
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Every main metric function is invoked by the evaluation pipeline and produces saved output. Supplemental metrics execute in the raw comparison; the calibrated path is explicitly blocked before scoring and emits no phantom result.",
+      "evidence": [
+        "src/worlds_predictor/model.py:133-183",
+        "src/worlds_predictor/sensitivity.py:124-139",
+        "reports/cross_league_sensitivity.md:3-23"
+      ]
+    },
+    "scope": {
+      "status": "warn",
+      "details": "One temporal holdout and one seed are adequate for a qualified retrospective result, not a reliable Worlds-specific claim. The exact target slice is n=22 and has accuracy 0.54545, AUC 0.58974, log loss 0.72044, Brier 0.26183, and ECE 0.32262. Identity and historical publication limits remain.",
+      "evidence": [
+        "reports/metrics.json:37298-37342",
+        "reports/RESULTS.md:23-36",
+        "data/processed/quality_report.json:200-209",
+        "SOURCE_DATA.md:53-55"
+      ]
+    },
+    "temporal_leakage": {
+      "status": "pass",
+      "details": "Game IDs are unique and split-disjoint; same timestamps/days are isolated by strict availability; calibration is separate; selection uses raw validation only; as_of and label cutoffs are enforced.",
+      "evidence": [
+        "src/worlds_predictor/data.py:386-405",
+        "src/worlds_predictor/features.py:256-293",
+        "src/worlds_predictor/evaluation.py:34-54",
+        "src/worlds_predictor/model.py:127-183"
+      ]
+    },
+    "api_fail_closed": {
+      "status": "pass",
+      "details": "Real public/source aliases normalized to identical model context and probability; wrong patch returned 422. Tampered artifact health was unavailable and prediction returned 503 with no probability.",
+      "evidence": [
+        "src/worlds_predictor/context.py:21-81",
+        "src/worlds_predictor/api.py:20-43",
+        "reports/api_context_smoke.json:2-14",
+        "tests/test_readiness.py:29-66"
+      ]
+    },
+    "eval_type": {
+      "status": "pass",
+      "classification": {
+        "main": "real_gt",
+        "worlds_target_slice": "real_gt",
+        "cross_league_raw": "real_gt",
+        "cross_league_calibrated": "real_gt_protocol_blocked_no_result",
+        "historical_replay": "real_gt_demonstration_not_evaluation",
+        "unit_test_fixtures": "synthetic_structural_fixtures_not_evaluation"
+      }
+    }
+  },
+  "source_claims": {
+    "provider": "ChainCC open dataset",
+    "provider_url": "https://chaincc.lol/free/data/",
+    "provider_license_claim": "CC BY 4.0, as displayed by the provider on 2026-10-22",
+    "ground_truth_field": "team result mapped to canonical blue_win",
+    "current_remote_byte_match_verified_at": "2026-10-22",
+    "remote_files": {
+      "chaincc-players-2024.csv.gz": "sha256:a7f5904da91e379d9879190a300d6f067f141c30f0dee58ae2bd0df040bfa0e3",
+      "chaincc-teams-2024.csv.gz": "sha256:df629eb85e09f6e25abf16f50990bf08b2fda861dd625f80192e8fb87f2a0766",
+      "chaincc-players-2025.csv.gz": "sha256:48a47fc574fcbe7295133266d6a3a8c0d04d02b2e96a66972fb283ed14a3437a",
+      "chaincc-teams-2025.csv.gz": "sha256:6cf310b5a6b58ffb8bf0fb00c43b6251ce8227ba9e1dc403967ebe131d87d015",
+      "chaincc-players-2026.csv.gz": "sha256:f4f3f3d600ae0953c09e2e6a95d224d688989127a816c0a954e3b0e844e3dda5",
+      "chaincc-teams-2026.csv.gz": "sha256:ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d"
+    },
+    "historical_publication_state": "unverified; current snapshot cannot reconstruct vendor state at each historical prediction time",
+    "player_identity": "unverified exact display-name local IDs for all accepted player rows",
+    "worlds_public_patch": "26.20 confirmed by Riot patch note",
+    "model_source_patch": "16.20 with Data Dragon version 16.20.1 present",
+    "patch_mapping_evidence_type": "inferred_cross_namespace_equivalence, not a directly published official crosswalk"
+  },
+  "deterministic_reconciliation": {
+    "canonical_games_checked_against_raw": 28738,
+    "canonical_label_mismatches": 0,
+    "accepted_raw_team_rows_per_game": 2,
+    "accepted_raw_player_rows_per_game": 10,
+    "champion_slot_mismatches": 0,
+    "main_models": 7,
+    "test_rows_per_model": 9309,
+    "main_metric_max_abs_error": 1.11e-16,
+    "bp_delta_max_abs_error": 6.57e-17,
+    "selected_artifact_prediction_max_abs_error": 1.11e-16,
+    "split_unique_game_ids": 28710,
+    "split_duplicate_game_ids": 0,
+    "boundary_games_purged": 28,
+    "target_slice_rows": 22,
+    "target_slice_metric_max_abs_error": 0.0,
+    "raw_sensitivity_test_rows": 502,
+    "raw_sensitivity_metric_max_abs_error": 4.17e-17,
+    "artifact_manifest_entries_checked": 26,
+    "artifact_manifest_mismatches": 0,
+    "pytest_passed": 174,
+    "pytest_warning_count": 1
+  },
+  "resolved_findings": [
+    {
+      "id": "R1",
+      "finding": "WLDs/source-patch requests bypassed Worlds public-patch enforcement",
+      "status": "resolved",
+      "evidence": "src/worlds_predictor/context.py:21-81; reports/api_context_smoke.json:2-14"
+    },
+    {
+      "id": "R2",
+      "finding": "Health reported an artifact available using presence-only checks",
+      "status": "resolved",
+      "evidence": "src/worlds_predictor/api.py:20-43; tests/test_readiness.py:29-66"
+    },
+    {
+      "id": "R3",
+      "finding": "Uniform-weight model was called sensitivity-only despite being deployment-eligible",
+      "status": "resolved",
+      "evidence": "src/worlds_predictor/model.py:111-183; README.md:112-125"
+    },
+    {
+      "id": "R4",
+      "finding": "No exact target event-plus-patch cohort was reported",
+      "status": "resolved",
+      "evidence": "src/worlds_predictor/model.py:146-154; reports/RESULTS.md:23-27"
+    },
+    {
+      "id": "R5",
+      "finding": "Intermediate source hash and dependent artifacts became stale during repair",
+      "status": "resolved",
+      "evidence": "final run fingerprint and all source hashes recomputed; reports/artifact_manifest.json:2-109"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Training and evaluation use downloaded professional match outcomes rather than model-generated labels",
+      "impact": "supported"
+    },
+    {
+      "id": "C2",
+      "claim": "Reported broad-test metrics and the selected artifact are reproducible from saved prediction rows",
+      "impact": "supported"
+    },
+    {
+      "id": "C3",
+      "claim": "Model selection did not use test outcomes",
+      "impact": "supported"
+    },
+    {
+      "id": "C4",
+      "claim": "Reliable Worlds 2026 accuracy or calibration has been demonstrated",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C5",
+      "claim": "BP features provide stable predictive improvement",
+      "impact": "unsupported_by_this_run"
+    },
+    {
+      "id": "C6",
+      "claim": "BP features causally improve winning",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C7",
+      "claim": "Cross-league transport is established",
+      "impact": "unsupported_exploratory_raw_sensitivity_only"
+    },
+    {
+      "id": "C8",
+      "claim": "Player identity history is globally verified",
+      "impact": "unsupported"
+    }
+  ],
+  "audited_input_hashes": {
+    "PROGRESS.md": "sha256:7baa4504de227cb12cb872939b3f03e999207a7af13ea7ad05ba61452d6622c5",
+    "README.md": "sha256:97296bb314d15a1635af7c304ef49647fb83ed7e571d56d11eeade18e8a1fb12",
+    "SOURCE_DATA.md": "sha256:473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
+    "configs/player_aliases.csv": "sha256:34598c76978539452e9c0aee439a4dfdbfc07dc621d461627fc8af2385714786",
+    "configs/train.json": "sha256:2318c7c8b17c1480a59872aa16c38d3db0dca2f761f97950fb26d5c73cb082f1",
+    "configs/worlds2026.json": "sha256:135c4f6c9c9227741e687c37b708544b310eb731df2bd848064b5fd30e01f306",
+    "data/processed/games.parquet": "sha256:d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+    "data/processed/player_registry.csv": "sha256:6bbcf8d9252babafb04b314cee5dd7c5602439c942a60054387447e2b9865e74",
+    "data/processed/player_team_stints.csv": "sha256:1e4402b0535cd91d215216a35dcd27a64e30e6252759025cc8d4b86e945aade3",
+    "data/processed/quality_report.json": "sha256:41edd557caa0ff8d0c67d5fef6ef6876720df40f351cc5f0e28a4775424841a1",
+    "data/processed/quarantine.csv": "sha256:c868af75b897b0daf145977178e21207895103a0fbb94653e001e04d7dfca238",
+    "data/raw/chaincc-players-2024.csv.gz": "sha256:a7f5904da91e379d9879190a300d6f067f141c30f0dee58ae2bd0df040bfa0e3",
+    "data/raw/chaincc-players-2025.csv.gz": "sha256:48a47fc574fcbe7295133266d6a3a8c0d04d02b2e96a66972fb283ed14a3437a",
+    "data/raw/chaincc-players-2026.csv.gz": "sha256:f4f3f3d600ae0953c09e2e6a95d224d688989127a816c0a954e3b0e844e3dda5",
+    "data/raw/chaincc-teams-2024.csv.gz": "sha256:df629eb85e09f6e25abf16f50990bf08b2fda861dd625f80192e8fb87f2a0766",
+    "data/raw/chaincc-teams-2025.csv.gz": "sha256:6cf310b5a6b58ffb8bf0fb00c43b6251ce8227ba9e1dc403967ebe131d87d015",
+    "data/raw/chaincc-teams-2026.csv.gz": "sha256:ae1008ed9424a5eda59a873e9d70d06669337a2068d48497efbbd695e1c8105d",
+    "data/raw/sources.json": "sha256:a70f50c4e3cb14225dedc328e1fca9be4f8316029b0910873e476920997e2bdc",
+    "examples/real_match_replay.json": "sha256:b9fd2a3331d737420489b5665c7b7d9e432fbd1796456335a4d4c726f7aec8bc",
+    "examples/real_match_replay.provenance.json": "sha256:bed346500d04880a7fd6050d3b684ce21cdebfd78b38bb035ae6ea8c96c17ec4",
+    "models/latest/metadata.json": "sha256:084a4b26e15be7fd78834f9218b121edd52ed44d10c139c3d5230c2b339cb0db",
+    "models/latest/selected_model.joblib": "sha256:96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+    "reports/RESULTS.md": "sha256:b66970c59737dcfb15eeedf8cd654cc74ea02e55c5e23067c90526119db2a10a",
+    "reports/api_context_smoke.json": "sha256:9ac113d5cf7b910b9c0cb6a29d8202f15edeab10211c5edd7d896fcf1e3923e2",
+    "reports/api_smoke.json": "sha256:b9b9221d8f1ad43e874532f4f2e41c36f30678eee3de100dea67cdf2a93dbc9c",
+    "reports/artifact_manifest.json": "sha256:ce142d6023eed0f9ad7ebc733ceb5779d03d021af6b03ef3157874189af94bee",
+    "reports/calibration.plot_manifest.json": "sha256:a85e53304af6df2ae33556725411e25e345fe129072b8a2857364a80d90aa192",
+    "reports/cross_league_raw_sensitivity.json": "sha256:f8ad0770bf7b3c5e3fb3ce29c4ac3bda84d1428d3bf72d960dabe389c839fe27",
+    "reports/cross_league_raw_sensitivity.md": "sha256:d3737904f9ee0022a919a5a621a1e664929af363bae55f94aa142f393ceed161",
+    "reports/cross_league_raw_sensitivity_membership.csv": "sha256:817a1b41b33fedee14ff07c09f1c423b8cc5c60848afa7d2e48fd710d41c15b1",
+    "reports/cross_league_raw_sensitivity_predictions.csv": "sha256:6e7fff20522856b4c13d75587b6bdf276627f7eac5d7a38df96d2ff61970f8fc",
+    "reports/cross_league_sensitivity.json": "sha256:b61d534cd9e954c1887d4f5f93ba174ca5bace9d2463240c86b227457a9cef27",
+    "reports/cross_league_sensitivity.md": "sha256:e756f9b02ad11938445de7c11749bd82ce33e448fcaffc117497e92d76ca4728",
+    "reports/cross_league_sensitivity_membership.csv": "sha256:817a1b41b33fedee14ff07c09f1c423b8cc5c60848afa7d2e48fd710d41c15b1",
+    "reports/data_quality.json": "sha256:41edd557caa0ff8d0c67d5fef6ef6876720df40f351cc5f0e28a4775424841a1",
+    "reports/data_sources.json": "sha256:a70f50c4e3cb14225dedc328e1fca9be4f8316029b0910873e476920997e2bdc",
+    "reports/features.parquet": "sha256:b61946c8accc481fbc11402177debdef18a07ee7ac5504f201f47c9cf4009d44",
+    "reports/metrics.json": "sha256:87fb6fcf095d2d32630d2225be31f549f91da2631d68d3b7c0829feb90563466",
+    "reports/patch_namespace_mapping.json": "sha256:723203e967c1a84eb7ad61d45c1061f3e5c1acc50424cc949d204501df64b4a8",
+    "reports/predictions_A_catboost.csv": "sha256:a491106112d18f308dc7465d6dd50d3b3b6512360b79c5e21a4d011b55ec3e57",
+    "reports/predictions_A_logistic.csv": "sha256:5f1c77b712f51bfa93c3420b503258ff90e0b78d5593d9d06a98c5508955c915",
+    "reports/predictions_B_catboost.csv": "sha256:c480e726c25119d60774e58b41f731d957dda9def262bc75bec94a5f70320865",
+    "reports/predictions_B_logistic.csv": "sha256:f2d034538fb32fc4f789b52b27589b208e183894ac562343db013631678baf2d",
+    "reports/predictions_C_catboost.csv": "sha256:b7c72d95c6794e498785b48af8c5916718c2a2a9d8110e8c17a171ab43f6d9bb",
+    "reports/predictions_C_catboost_uniform.csv": "sha256:a07c7e6fe604924754db9bfc5e61e49f9ff44d8d33b6f308973d98ced97935a7",
+    "reports/predictions_C_logistic.csv": "sha256:b147a50aab6fb683879869a286c15c48cc4594ccbe55412e44811f41304a5af0",
+    "reports/pytest.log": "sha256:2d4bd05ea71f57db0114fb8b6f03f10bea12674148e99575a39e4bf3ae45501f",
+    "reports/replay_prediction.json": "sha256:3a687b6c60f1ab1f53d65165c4d074fe669bb71b4acfde94250c6de99abfd303",
+    "reports/split_membership.csv": "sha256:02443d893d1ac91faf48ef1c9aa2853d0592a4d2cc07714ac3cd25dd2b8fafdf",
+    "reports/training.log": "sha256:ff86317f7c2497b4dc5e8a2299cb69b9f115894ea7c8e170b945aec75359a23d",
+    "reports/worlds_patch_verification.json": "sha256:8b88dd4dd3758f5e8d2cedbf05300368d953dd2fd481945ee04bd4ba4a3f8d99",
+    "src/worlds_predictor/__init__.py": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/worlds_predictor/__main__.py": "sha256:6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "src/worlds_predictor/api.py": "sha256:aa301cb62adbee101bc6fcf72bcd64df571a384cd062dbc15bec61c193329a26",
+    "src/worlds_predictor/cli.py": "sha256:574874b67e919d9a2e744eeadd990f422930acf1bd7a6b35b99a7f1b253dbff6",
+    "src/worlds_predictor/context.py": "sha256:b3585b5302d1df195b6afe709f24844335f379879727c4874541f995da13b153",
+    "src/worlds_predictor/data.py": "sha256:1c013b5becacf0856b9d3a7dfd3bd7e8ea4e6ef687adc8fa0453811701cc5b91",
+    "src/worlds_predictor/evaluation.py": "sha256:3916241059f37053d36c27866645b50b05cbd9ad1117ec42a3e70677d0dccf01",
+    "src/worlds_predictor/features.py": "sha256:e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+    "src/worlds_predictor/lookup.py": "sha256:2a3f91aa4aaa4ce30bfd82659a5e08c609d4274b63c0e9474cf1b48787d01947",
+    "src/worlds_predictor/model.py": "sha256:ff5ced9a9e8acec8bc57abfb032d9c18f5128966ef7a67d5cc3091d0543f07bf",
+    "src/worlds_predictor/plots.py": "sha256:68ee9a306d308fdadfda612fab0663af3574ae4f28498079c46b2fc70750d2ac",
+    "src/worlds_predictor/schemas.py": "sha256:8959b063f3f4b141a1a073060585397e3e4da64830b08b94197fa8df9138696a",
+    "src/worlds_predictor/sensitivity.py": "sha256:b8b9cd52aea203fc9cd55bc49b3f9168efd51021e0af99ed56e570c00054a778",
+    "src/worlds_predictor/worlds.py": "sha256:545bd219e1a6efa6be08829ad867421ab1e426edd9b3bd4946e229af578d4c20",
+    "tests/smoke_live_api.py": "sha256:9e471a97229475b3cd43998b2024bbd210a2b4450fce71cbebb31c800bd31e5c",
+    "tests/test_api.py": "sha256:5cf88ebd25f6bbcf5dcb552baad7062ef8b71e9aa67ad8333cb09a82a90a1740",
+    "tests/test_context.py": "sha256:1c8579487d70f91a0f24b67319b7600d353acfcd2b558e41c7535f28dbbb5d14",
+    "tests/test_data.py": "sha256:70180b0cb7dc2725a14ee73f3d6687e576d53a3a99f561649c4228bb2e0826a8",
+    "tests/test_evaluation.py": "sha256:9f41cef3b57056415e59457fca46f92a3a097f97a3c1212af40e590a0de867a7",
+    "tests/test_features.py": "sha256:9394a62f07c918bd636ccb0ed9dfe79640202a71224a708b08cdbe0e6f1829f4",
+    "tests/test_lookup.py": "sha256:e3b03034f8f6053ebdd4c260bf2366109f461d67193547675f225d18a2b0330a",
+    "tests/test_model.py": "sha256:b061061e135bcb78ad6da5bc9634267b13cb0b82196324182a19bf9e17e7e0b4",
+    "tests/test_readiness.py": "sha256:9a3fb98b44af4f470d40c1b3f2d4081e6f6ff178a9d5875b0fe341b8a6583331",
+    "tests/test_sensitivity.py": "sha256:c463d68af1c013c91f15bc7c4df3b3e0730d47f7990b2fbec7f6bbe58344f1e0",
+    "tests/test_worlds.py": "sha256:f3ccdccd06100d3a40b5f42333c86cf1af98371fd810181ee1bf0bd10faf65f4"
+  }
+}

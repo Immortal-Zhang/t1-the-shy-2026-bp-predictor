@@ -1,0 +1,71 @@
+{
+  "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+  "champion_version": "16.20.1",
+  "public_patch": "26.20",
+  "champion_count": 173,
+  "champion_assets_source": "https://developer.riotgames.com/docs/lol#data-dragon",
+  "policy_url": "https://developer.riotgames.com/policies/general",
+  "champion_asset_terms": "Riot Data Dragon assets permitted by Riot developer policies; retain attribution and non-endorsement notice. Public products require Riot registration/review; this project is local-only.",
+  "team_logo_policy": "No verified reusable team logos are bundled; neutral initials are not team marks.",
+  "non_endorsement": "Worlds 2026 BP Predictor isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.",
+  "match_data_source": "https://chaincc.lol/free/data/",
+  "match_data_license": "CC BY 4.0; attribution required",
+  "sources": [
+    {
+      "filename": "champion-en_US.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/champion.json",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "84fd12721ea0cec502d2a747aea94d8e57d4da337422d1d3ca33a7890909787f",
+      "bytes": 159011
+    },
+    {
+      "filename": "champion-zh_CN.json",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/champion.json",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "68de0b884ce4beb29d608c08b73f774ae2abe3a3271ebceaa6cbb19c7094a326",
+      "bytes": 195548
+    },
+    {
+      "filename": "worlds-2026-primer.html",
+      "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "cfa6c54200bab6917828c3b9d7249b63c8042024f6f2bb68681b061dc9074799",
+      "bytes": 213307
+    },
+    {
+      "filename": "riot-rules-library.html",
+      "url": "https://competitiveops.riotgames.com/en-US/library?game=lol",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "5822f6b541fb36d1c602aeb85d3d7b6ea98d667697460a4adf3983b7ee006291",
+      "bytes": 279861
+    },
+    {
+      "filename": "worlds-2026-rules.pdf",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "3907cf8389be3a06ff895ce863fb02346d5c9eac9a025595a77793222aa35eab",
+      "bytes": 476823
+    },
+    {
+      "filename": "international-2026-rules.pdf",
+      "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "0ece714f4124803884bffc546d770f528f4409a477dbf972b5fbef81de080d1b",
+      "bytes": 619701
+    },
+    {
+      "filename": "fearless-definition.html",
+      "url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "2e20a080d52eb6f82be622bd0d4dfc0b1d157f44a063640e7a852cd8f45905a4",
+      "bytes": 192890
+    },
+    {
+      "filename": "riot-developer-policy.html",
+      "url": "https://developer.riotgames.com/policies/general",
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "sha256": "27c3dec47858d90693ab46e71a0152cbc8394b32a56d50ed70b3da5a2537b8a1",
+      "bytes": 18909
+    }
+  ]
+}

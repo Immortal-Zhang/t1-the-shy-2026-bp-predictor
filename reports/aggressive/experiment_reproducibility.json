@@ -1,0 +1,15 @@
+{
+  "game_id": "LOLTMNT02_480511",
+  "raw_score": -1.1557370249207115,
+  "calibrated_probability": 0.3390241676901847,
+  "saved_prediction": 0.3390241676901847,
+  "prediction_matches_saved": true,
+  "shap_reconstruction_error": 2.886579864025407e-15,
+  "runtime_seconds": 5.680139624979347,
+  "model_version": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+  "model_label_cutoff": "2025-12-30 00:00:00+00:00",
+  "frozen_standard_artifact_unchanged": true,
+  "frozen_feature_unchanged": true,
+  "baseline_prediction_max_abs_delta": 0.0,
+  "baseline_predictions_compared": 9309
+}

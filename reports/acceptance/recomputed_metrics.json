@@ -1,0 +1,22 @@
+{
+  "real_unique_games": 28738,
+  "test": {
+    "frozen_C": {
+      "n": 9309,
+      "accuracy": 0.6394886668815125,
+      "roc_auc": 0.6976526715201767,
+      "log_loss": 0.6301706182065784,
+      "brier_score": 0.22015026141057542,
+      "all_labels_match_real_data": true
+    },
+    "enhanced_recent90_d4": {
+      "n": 9309,
+      "accuracy": 0.6363734020840047,
+      "roc_auc": 0.692046099839368,
+      "log_loss": 0.6333061050756578,
+      "brier_score": 0.22148368939681257,
+      "all_labels_match_real_data": true
+    }
+  },
+  "scope": "Frozen original model temporal test; enhanced experiment reuses this previously inspected holdout."
+}

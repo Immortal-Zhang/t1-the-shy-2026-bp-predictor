@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-10-22T12:10:36.836038+00:00",
+  "policy_sha256": "3e8d2cdcdd0559caa8bc55d37ed555a9aae78fe3b808c64118cef21433869b91",
+  "evaluation_sha256": "3394d4a8e594d82ffd88a4c2a828e6468422426fdeeb77801a0795d09cbbf91f",
+  "policy_code_sha256": "0cfe5d01706c6ea2f18cacfc441a92896b12c82e00ea1a5babb0ab25ecd776a2",
+  "evaluation_code_sha256": "feaec61d573f4d5dc96932f912df3db1678a55531f9c0ab350a2de41639b1bd5",
+  "experiment_report_sha256": "f5b78c07b4c0b80e8ad0f9458eeb7ac5f45158b0442500a9dbfd20330016d851",
+  "artifact_sha256": "26d96efccf0099a0e724ec586f21512d869540640e3875f811566c5a226b032b",
+  "model_version": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+  "prediction_csv_sha256": "63a89e8fddbbdd1991072c529975c202f9150c345ebe9039b133d962cf3b6d78",
+  "baseline_prediction_csv_sha256": "37c7274f3208866435b9ee83c4d0b337961a81470a062db5d61636c4b6ad4310",
+  "worlds_prediction_csv_sha256": "427746f77b0ee0d8572aaabbcf586aef97226719191599a76935698cc779e6b5"
+}

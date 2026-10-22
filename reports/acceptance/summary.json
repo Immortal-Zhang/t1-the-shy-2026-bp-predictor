@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-22T12:26:16.134Z",
+  "outcomes": [
+    {
+      "browser": "chrome",
+      "passed": true,
+      "timings": {
+        "first_prediction_seconds": 9.41,
+        "bo5_current_map_seconds": 9.191
+      },
+      "page_errors": []
+    },
+    {
+      "browser": "webkit",
+      "passed": true,
+      "timings": {
+        "first_prediction_seconds": 9.22,
+        "bo5_current_map_seconds": 9.034
+      },
+      "page_errors": []
+    }
+  ]
+}

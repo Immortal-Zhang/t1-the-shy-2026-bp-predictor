@@ -1,0 +1,76 @@
+{
+  "status": "blocked",
+  "evaluation_type": "real_gt",
+  "protocol_declared_at": "2026-10-22T09:36:33.945505+00:00",
+  "target_league": "LCK",
+  "global_run_id": "20261022T093531Z-f5eb82ee9db3",
+  "data_sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+  "feature_cache_sha256": "b61946c8accc481fbc11402177debdef18a07ee7ac5504f201f47c9cf4009d44",
+  "feature_code_sha256": "e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+  "global_predictions_sha256": "b7c72d95c6794e498785b48af8c5916718c2a2a9d8110e8c17a171ab43f6d9bb",
+  "config": {
+    "as_of": "2026-10-22T00:00:00Z",
+    "train_end": "2025-07-01T00:00:00Z",
+    "validation_end": "2025-10-01T00:00:00Z",
+    "calibration_end": "2026-01-01T00:00:00Z",
+    "seed": 2026,
+    "iterations": 350,
+    "depth": 5,
+    "learning_rate": 0.045,
+    "l2_leaf_reg": 12,
+    "half_life_days": 180,
+    "thread_count": 2,
+    "min_train": 500,
+    "min_eval": 100,
+    "run_sensitivity": true
+  },
+  "cohorts": {
+    "train": {
+      "n": 831,
+      "blue_wins": 437,
+      "first_game": "2024-01-17 08:20:00+00:00",
+      "last_game": "2025-06-15 08:16:26+00:00",
+      "latest_result_available": "2025-06-16 00:00:00+00:00"
+    },
+    "validation": {
+      "n": 206,
+      "blue_wins": 94,
+      "first_game": "2025-07-23 08:07:58+00:00",
+      "last_game": "2025-09-28 08:21:35+00:00",
+      "latest_result_available": "2025-09-29 00:00:00+00:00"
+    },
+    "calibration": {
+      "n": 0,
+      "blue_wins": 0,
+      "first_game": null,
+      "last_game": null,
+      "latest_result_available": null
+    },
+    "test": {
+      "n": 502,
+      "blue_wins": 283,
+      "first_game": "2026-01-14 08:13:43+00:00",
+      "last_game": "2026-09-13 08:19:05+00:00",
+      "latest_result_available": "2026-09-14 00:00:00+00:00"
+    }
+  },
+  "pooled_cohort_counts": {
+    "train": 15717,
+    "validation": 2968,
+    "calibration": 716,
+    "test": 9309
+  },
+  "calibrated_comparison": true,
+  "protocol": "Fixed supplemental comparison of pooled C CatBoost labels against target-league-only C CatBoost labels. Same features, chronology, hyperparameters, seed, recency weights, and identical target-league held-out games. No test-driven tuning or deployment selection.",
+  "feature_history_scope": "Globally pooled historical features are preserved in both arms. This is pooled training-label sensitivity, not complete region isolation.",
+  "limitations": [
+    "Single target league, chronological holdout and random seed; results do not establish transport to every region or Worlds.",
+    "League-only and pooled models use different training sample sizes and opposition coverage; effects are not causal.",
+    "Globally derived team/player/champion history remains available to both models.",
+    "This supplemental protocol was fixed before its league-only fit, after the main evaluation; it is exploratory evidence."
+  ],
+  "blockers": [
+    "calibration: 0 eligible games, requires 50",
+    "calibration: requires both binary outcomes"
+  ]
+}

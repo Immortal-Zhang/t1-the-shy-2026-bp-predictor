@@ -1,0 +1,22 @@
+{
+  "event": "Worlds 2026",
+  "year": 2026,
+  "configured_patch": "26.20",
+  "official_patch_url": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+  "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+  "verification_timeout_seconds": 8,
+  "on_unverified": "warn",
+  "on_mismatch": "reject_worlds_prediction",
+  "scope": "Single map only; map side and BP first-pick entitlement are independent fields.",
+  "model_patch": "16.20",
+  "model_league": "WLDs",
+  "patch_namespace_mapping": {
+    "public_patch": "26.20",
+    "model_patch": "16.20",
+    "data_dragon_version": "16.20.1",
+    "data_dragon_versions_url": "https://ddragon.leagueoflegends.com/api/versions.json",
+    "policy": "Explicit reviewed mapping only; do not infer other public/source patch conversions",
+    "source_evidence_report": "reports/patch_namespace_mapping.json",
+    "evidence_type": "inferred_cross_namespace_equivalence"
+  }
+}

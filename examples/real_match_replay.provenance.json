@@ -1,0 +1,8 @@
+{
+  "type": "historical_real_match_replay",
+  "game_id": "LOLTMNT02_480511",
+  "source_league": "WLDs",
+  "source_patch": "16.20",
+  "actual_blue_win": 0,
+  "note": "Actual outcome stored only in provenance, never sent to predictor. This is a retrospective replay, not a forecast of an unplayed match. Public/source version aliases are explicit."
+}

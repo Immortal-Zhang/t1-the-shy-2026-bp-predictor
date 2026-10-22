@@ -1,0 +1,2940 @@
+{
+  "teams": {
+    "as_of": "2026-10-22T00:00:00+00:00",
+    "teams": [
+      {
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "name": "FURIA",
+        "source_name": "FURIA",
+        "code": "FUR",
+        "region": "CBLOL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 233,
+        "last_observed": "2026-10-17T20:50:48+00:00"
+      },
+      {
+        "team_id": "oe:team:ea65e6cc48a9be50fc5334369a5fca5",
+        "name": "LOS",
+        "source_name": "LØS",
+        "code": "LOS",
+        "region": "CBLOL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 115,
+        "last_observed": "2026-10-12T23:41:27+00:00"
+      },
+      {
+        "team_id": "oe:team:ef69efa6acebe94107f0cf1ba716806",
+        "name": "Dplus Kia",
+        "source_name": "Dplus Kia",
+        "code": "DK",
+        "region": "LCK",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 454,
+        "last_observed": "2026-09-06T11:11:44+00:00"
+      },
+      {
+        "team_id": "oe:team:50f58982d91a36557ec8aec52ab014f",
+        "name": "Gen.G",
+        "source_name": "Gen.G",
+        "code": "GEN",
+        "region": "LCK",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 444,
+        "last_observed": "2026-09-13T08:19:05+00:00"
+      },
+      {
+        "team_id": "oe:team:3a1d18f46bcb3716ebcfcf4ef068934",
+        "name": "Hanwha Life Esports",
+        "source_name": "Hanwha Life Esports",
+        "code": "HLE",
+        "region": "LCK",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 456,
+        "last_observed": "2026-09-13T08:19:05+00:00"
+      },
+      {
+        "team_id": "oe:team:ce499dea30cfce118f4fe85da0227e8",
+        "name": "T1",
+        "source_name": "T1",
+        "code": "T1",
+        "region": "LCK",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 532,
+        "last_observed": "2026-09-12T08:21:21+00:00"
+      },
+      {
+        "team_id": "oe:team:0916b3c324c8577b0c6344f3e067f62",
+        "name": "CTBC Flying Oyster",
+        "source_name": "CTBC Flying Oyster",
+        "code": "CFO",
+        "region": "LCP",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 276,
+        "last_observed": "2026-08-30T10:26:53+00:00"
+      },
+      {
+        "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "name": "MVK Esports",
+        "source_name": "MVK Esports",
+        "code": "MVK",
+        "region": "LCP",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 93,
+        "last_observed": "2026-10-18T19:48:36+00:00"
+      },
+      {
+        "team_id": "oe:team:740de582f50775c516c77ed7b923fd5",
+        "name": "Team Secret Whales",
+        "source_name": "Team Secret Whales",
+        "code": "TSW",
+        "region": "LCP",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 180,
+        "last_observed": "2026-08-30T10:26:53+00:00"
+      },
+      {
+        "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "name": "Cloud9 Kia",
+        "source_name": "Cloud9",
+        "code": "C9",
+        "region": "LCS",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 229,
+        "last_observed": "2026-10-16T23:43:16+00:00"
+      },
+      {
+        "team_id": "oe:team:da1143bf9a245b78a8dc86417de85b3",
+        "name": "LYON",
+        "source_name": "LYON",
+        "code": "LYON",
+        "region": "LCS",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 155,
+        "last_observed": "2026-10-04T23:31:20+00:00"
+      },
+      {
+        "team_id": "oe:team:8eb884e168f28402ce685bedebb5250",
+        "name": "Team Liquid Alienware",
+        "source_name": "Team Liquid",
+        "code": "TLAW",
+        "region": "LCS",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 257,
+        "last_observed": "2026-10-04T23:31:20+00:00"
+      },
+      {
+        "team_id": "oe:team:7d6673d3a9d00363c6bebc1a630da6e",
+        "name": "G2 Esports",
+        "source_name": "G2 Esports",
+        "code": "G2",
+        "region": "LEC",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 359,
+        "last_observed": "2026-09-20T17:13:10+00:00"
+      },
+      {
+        "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "name": "Karmine Corp",
+        "source_name": "Karmine Corp",
+        "code": "KC",
+        "region": "LEC",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 294,
+        "last_observed": "2026-10-18T19:48:36+00:00"
+      },
+      {
+        "team_id": "oe:team:4acc40654379b4da680be1bd3129dfa",
+        "name": "Movistar KOI",
+        "source_name": "Movistar KOI",
+        "code": "MKOI",
+        "region": "LEC",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 283,
+        "last_observed": "2026-09-20T17:13:10+00:00"
+      },
+      {
+        "team_id": "oe:team:ed28f87f0cfdba0a2a8f183cebae73a",
+        "name": "Anyone’s Legend",
+        "source_name": "Anyone's Legend",
+        "code": "AL",
+        "region": "LPL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 414,
+        "last_observed": "2026-09-13T12:03:56+00:00"
+      },
+      {
+        "team_id": "oe:team:d356a144644879dabb5f34cd99c886d",
+        "name": "Bilibili Gaming",
+        "source_name": "Bilibili Gaming",
+        "code": "BLG",
+        "region": "LPL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 510,
+        "last_observed": "2026-09-13T12:03:56+00:00"
+      },
+      {
+        "team_id": "oe:team:53a258f289c26d94431c0496a54e151",
+        "name": "Shanghai Invictus Gaming Meituan",
+        "source_name": "Invictus Gaming",
+        "code": "IG",
+        "region": "LPL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 360,
+        "last_observed": "2026-09-19T12:09:59+00:00"
+      },
+      {
+        "team_id": "oe:team:fcec508e780bbd1ad493852640f5b36",
+        "name": "TOP Esports",
+        "source_name": "Top Esports",
+        "code": "TES",
+        "region": "LPL",
+        "logo_url": null,
+        "logo_notice": "未取得可复用的战队标志授权来源，显示中性文字缩写。",
+        "worlds_2026": true,
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "history_games": 459,
+        "last_observed": "2026-09-17T12:10:40+00:00"
+      }
+    ],
+    "returned": 19,
+    "participation_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "participation_updated_at": "2026-10-22T11:15:10.845237+00:00",
+    "notice": "参赛资格使用当前官方公告快照；历史场次、阵容及表现严格截断至 as_of。公告快照不是历史时点资格归档。"
+  },
+  "roster": {
+    "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+    "as_of": "2026-10-22T00:00:00+00:00",
+    "roster_status": "observed_last_match",
+    "observed_at": "2026-10-17T20:50:48+00:00",
+    "game_id": "LOLTMNT02_481308",
+    "source_url": "https://chaincc.lol/free/data/",
+    "notice": "这是截止时间前最近一场实际出场阵容，不是当前首发或世界赛注册名单确认；请核实并按需更换选手。",
+    "players": [
+      {
+        "role": "top",
+        "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+        "name": "Guigo",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "history_games": 251,
+        "recent_games": 20,
+        "recent_win_rate": 0.5,
+        "best_champions": [
+          {
+            "champion": "K'Sante",
+            "games": 33,
+            "win_rate": 0.42424242424242425
+          },
+          {
+            "champion": "Ambessa",
+            "games": 23,
+            "win_rate": 0.5652173913043478
+          },
+          {
+            "champion": "Sion",
+            "games": 21,
+            "win_rate": 0.6190476190476191
+          },
+          {
+            "champion": "Jax",
+            "games": 21,
+            "win_rate": 0.5714285714285714
+          },
+          {
+            "champion": "Rumble",
+            "games": 19,
+            "win_rate": 0.6842105263157895
+          }
+        ],
+        "identity_basis": "source_playername_unverified"
+      },
+      {
+        "role": "jng",
+        "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+        "name": "Tatu",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "history_games": 246,
+        "recent_games": 20,
+        "recent_win_rate": 0.5,
+        "best_champions": [
+          {
+            "champion": "Xin Zhao",
+            "games": 32,
+            "win_rate": 0.65625
+          },
+          {
+            "champion": "Skarner",
+            "games": 23,
+            "win_rate": 0.782608695652174
+          },
+          {
+            "champion": "Sejuani",
+            "games": 22,
+            "win_rate": 0.7727272727272727
+          },
+          {
+            "champion": "Wukong",
+            "games": 19,
+            "win_rate": 0.5263157894736842
+          },
+          {
+            "champion": "Pantheon",
+            "games": 17,
+            "win_rate": 0.5294117647058824
+          }
+        ],
+        "identity_basis": "source_playername_unverified"
+      },
+      {
+        "role": "mid",
+        "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+        "name": "Tutsz",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "history_games": 233,
+        "recent_games": 20,
+        "recent_win_rate": 0.5,
+        "best_champions": [
+          {
+            "champion": "Ahri",
+            "games": 25,
+            "win_rate": 0.6
+          },
+          {
+            "champion": "Ryze",
+            "games": 22,
+            "win_rate": 0.5909090909090909
+          },
+          {
+            "champion": "Taliyah",
+            "games": 19,
+            "win_rate": 0.631578947368421
+          },
+          {
+            "champion": "Akali",
+            "games": 18,
+            "win_rate": 0.7222222222222222
+          },
+          {
+            "champion": "Syndra",
+            "games": 15,
+            "win_rate": 0.5333333333333333
+          }
+        ],
+        "identity_basis": "source_playername_unverified"
+      },
+      {
+        "role": "bot",
+        "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+        "name": "Ayu",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "history_games": 233,
+        "recent_games": 20,
+        "recent_win_rate": 0.5,
+        "best_champions": [
+          {
+            "champion": "Ezreal",
+            "games": 30,
+            "win_rate": 0.5333333333333333
+          },
+          {
+            "champion": "Ashe",
+            "games": 24,
+            "win_rate": 0.75
+          },
+          {
+            "champion": "Miss Fortune",
+            "games": 18,
+            "win_rate": 0.7222222222222222
+          },
+          {
+            "champion": "Yunara",
+            "games": 17,
+            "win_rate": 0.7647058823529411
+          },
+          {
+            "champion": "Lucian",
+            "games": 15,
+            "win_rate": 0.5333333333333333
+          }
+        ],
+        "identity_basis": "source_playername_unverified"
+      },
+      {
+        "role": "sup",
+        "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+        "name": "JoJo",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "history_games": 244,
+        "recent_games": 20,
+        "recent_win_rate": 0.5,
+        "best_champions": [
+          {
+            "champion": "Rakan",
+            "games": 28,
+            "win_rate": 0.7142857142857143
+          },
+          {
+            "champion": "Rell",
+            "games": 23,
+            "win_rate": 0.43478260869565216
+          },
+          {
+            "champion": "Leona",
+            "games": 22,
+            "win_rate": 0.5
+          },
+          {
+            "champion": "Alistar",
+            "games": 21,
+            "win_rate": 0.47619047619047616
+          },
+          {
+            "champion": "Seraphine",
+            "games": 19,
+            "win_rate": 0.7368421052631579
+          }
+        ],
+        "identity_basis": "source_playername_unverified"
+      }
+    ]
+  },
+  "catalog_metadata": {
+    "as_of": "2026-10-22T00:00:00+00:00",
+    "worlds": {
+      "event": "Worlds 2026",
+      "patch": "26.20",
+      "rules": {
+        "verified": true,
+        "mechanism_verified": true,
+        "fearless_mode": "global",
+        "source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+        "updated_at": "2026-10-22T11:15:10.845237+00:00",
+        "definition_source_url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+        "event_source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+        "description": "全局无畏征召：同一系列赛内，双方之前小局已经选用的英雄都不能再选；普通禁用不跨局累积。",
+        "evidence_scope": "2026国际赛事规则4.5.6–4.5.7承认无畏模式并规定错误选禁处理；双方历史选用均不可复用的机制来自Riot官方Fearless解释。2026世界赛规则引用该国际赛事规则并给出Bo3/Bo5赛制。",
+        "applicability_notice": "本工具管理用户指定的同一Bo3/Bo5无畏系列赛上下文；赛事特殊禁用、临时规则和实际名单仍以裁判公布为准。不要把不同系列赛的选用记录合并。",
+        "formats": [
+          "bo3",
+          "bo5"
+        ],
+        "series_prediction_supported": false,
+        "previous_picks_restricted_for": "both_teams",
+        "standard_bans_carry_over": false,
+        "event_rules_sections": [
+          "Worlds 2026 §1.1",
+          "Worlds 2026 §§4.1.1–4.1.3",
+          "International 2026 §§4.5.6–4.5.7"
+        ]
+      },
+      "participant_count": 19
+    },
+    "provenance": {
+      "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+      "champion_version": "16.20.1",
+      "public_patch": "26.20",
+      "champion_count": 173,
+      "champion_assets_source": "https://developer.riotgames.com/docs/lol#data-dragon",
+      "policy_url": "https://developer.riotgames.com/policies/general",
+      "champion_asset_terms": "Riot Data Dragon assets permitted by Riot developer policies; retain attribution and non-endorsement notice. Public products require Riot registration/review; this project is local-only.",
+      "team_logo_policy": "No verified reusable team logos are bundled; neutral initials are not team marks.",
+      "non_endorsement": "Worlds 2026 BP Predictor isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.",
+      "match_data_source": "https://chaincc.lol/free/data/",
+      "match_data_license": "CC BY 4.0; attribution required",
+      "sources": [
+        {
+          "filename": "champion-en_US.json",
+          "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/champion.json",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "84fd12721ea0cec502d2a747aea94d8e57d4da337422d1d3ca33a7890909787f",
+          "bytes": 159011
+        },
+        {
+          "filename": "champion-zh_CN.json",
+          "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/champion.json",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "68de0b884ce4beb29d608c08b73f774ae2abe3a3271ebceaa6cbb19c7094a326",
+          "bytes": 195548
+        },
+        {
+          "filename": "worlds-2026-primer.html",
+          "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "cfa6c54200bab6917828c3b9d7249b63c8042024f6f2bb68681b061dc9074799",
+          "bytes": 213307
+        },
+        {
+          "filename": "riot-rules-library.html",
+          "url": "https://competitiveops.riotgames.com/en-US/library?game=lol",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "5822f6b541fb36d1c602aeb85d3d7b6ea98d667697460a4adf3983b7ee006291",
+          "bytes": 279861
+        },
+        {
+          "filename": "worlds-2026-rules.pdf",
+          "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "3907cf8389be3a06ff895ce863fb02346d5c9eac9a025595a77793222aa35eab",
+          "bytes": 476823
+        },
+        {
+          "filename": "international-2026-rules.pdf",
+          "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "0ece714f4124803884bffc546d770f528f4409a477dbf972b5fbef81de080d1b",
+          "bytes": 619701
+        },
+        {
+          "filename": "fearless-definition.html",
+          "url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "2e20a080d52eb6f82be622bd0d4dfc0b1d157f44a063640e7a852cd8f45905a4",
+          "bytes": 192890
+        },
+        {
+          "filename": "riot-developer-policy.html",
+          "url": "https://developer.riotgames.com/policies/general",
+          "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+          "sha256": "27c3dec47858d90693ab46e71a0152cbc8394b32a56d50ed70b3da5a2537b8a1",
+          "bytes": 18909
+        }
+      ],
+      "history_games": 28738,
+      "history_cutoff": "2026-10-18T19:48:36+00:00",
+      "identity_notice": "选手 ID 是来源职业名称映射的本地稳定标识，并非已全部核验的官方人物 ID。"
+    }
+  },
+  "champion_count": 173,
+  "matches": {
+    "as_of": "2026-10-22T00:00:00+00:00",
+    "matches": [
+      {
+        "game_id": "LOLTMNT02_480511",
+        "date": "2026-10-18T19:48:36+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "red_team_name": "Karmine Corp",
+        "blue_win": 0,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480511",
+          "as_of": "2026-10-18T19:48:36+00:00",
+          "scheduled_start": "2026-10-18T19:48:36+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Yone"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Aatrox"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Locke"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Twitch"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Camille"
+              }
+            ],
+            "bans": [
+              "Renata Glasc",
+              "Syndra",
+              "Jax",
+              "Renekton",
+              "Trundle"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Zaahen"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Naafiri"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Viktor"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Ezreal"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Leona"
+              }
+            ],
+            "bans": [
+              "Olaf",
+              "Vi",
+              "Nocturne",
+              "Rakan",
+              "Wukong"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480508",
+        "date": "2026-10-18T19:01:11+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "red_team_name": "MVK Esports",
+        "blue_win": 1,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480508",
+          "as_of": "2026-10-18T19:01:11+00:00",
+          "scheduled_start": "2026-10-18T19:01:11+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Galio"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Qiyana"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Ryze"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Yunara"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Olaf",
+              "Vi",
+              "Nocturne",
+              "Kog'Maw",
+              "Yone"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Rumble"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Malphite"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Hwei"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Milio"
+              }
+            ],
+            "bans": [
+              "Syndra",
+              "Renata Glasc",
+              "Nautilus",
+              "Caitlyn",
+              "Jhin"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480507",
+        "date": "2026-10-18T18:10:00+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "red_team_name": "MVK Esports",
+        "blue_win": 1,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480507",
+          "as_of": "2026-10-18T18:10:00+00:00",
+          "scheduled_start": "2026-10-18T18:10:00+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Jayce"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Lee Sin"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Cassiopeia"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Zeri"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Yuumi"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Olaf",
+              "Ezreal",
+              "Viktor",
+              "K'Sante"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Yorick"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Akali"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Ashe"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Seraphine"
+              }
+            ],
+            "bans": [
+              "Syndra",
+              "Rumble",
+              "Vi",
+              "Nautilus",
+              "Jhin"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_481308",
+        "date": "2026-10-17T20:50:48+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_481308",
+          "as_of": "2026-10-17T20:50:48+00:00",
+          "scheduled_start": "2026-10-17T20:50:48+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Olaf"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Wukong"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Ryze"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Corki"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Shen"
+              }
+            ],
+            "bans": [
+              "Renata Glasc",
+              "Akali",
+              "Trundle",
+              "Kai'Sa",
+              "Sylas"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Jax"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Pantheon"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Taliyah"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Sivir"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Alistar"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Lee Sin",
+              "Karma",
+              "Zyra",
+              "Maokai"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_481295",
+        "date": "2026-10-17T19:54:42+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 0,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_481295",
+          "as_of": "2026-10-17T19:54:42+00:00",
+          "scheduled_start": "2026-10-17T19:54:42+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "K'Sante"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Jayce"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Mel"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Ziggs"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Leona"
+              }
+            ],
+            "bans": [
+              "Renata Glasc",
+              "Olaf",
+              "Pantheon",
+              "Jax",
+              "Naafiri"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Rumble"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Skarner"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Twisted Fate"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Miss Fortune"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Seraphine"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Pyke",
+              "Lee Sin",
+              "Nautilus",
+              "Maokai"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_481282",
+        "date": "2026-10-17T19:06:09+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_481282",
+          "as_of": "2026-10-17T19:06:09+00:00",
+          "scheduled_start": "2026-10-17T19:06:09+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Gnar"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Vi"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Kog'Maw"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Jhin"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Bard"
+              }
+            ],
+            "bans": [
+              "Akali",
+              "Renata Glasc",
+              "Olaf",
+              "Locke",
+              "Jax"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Ambessa"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Nasus"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Viktor"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Xayah"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Rakan"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Caitlyn",
+              "Seraphine",
+              "Neeko",
+              "Rumble"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_481268",
+        "date": "2026-10-17T18:14:21+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_481268",
+          "as_of": "2026-10-17T18:14:21+00:00",
+          "scheduled_start": "2026-10-17T18:14:21+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Zaahen"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Cassiopeia"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Ezreal"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Karma",
+              "Vi",
+              "Olaf",
+              "Akali",
+              "Jax"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Camille"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Sejuani"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Syndra"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Milio"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Pyke",
+              "Lee Sin",
+              "Jayce",
+              "Renekton"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480123",
+        "date": "2026-10-16T23:43:16+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "blue_team_name": "FURIA",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 1,
+        "player_names": {
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480123",
+          "as_of": "2026-10-16T23:43:16+00:00",
+          "scheduled_start": "2026-10-16T23:43:16+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Jax"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Vi"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Twisted Fate"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Miss Fortune"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Rell"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Yone",
+              "Jayce",
+              "Xin Zhao",
+              "Gnar"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Aatrox"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Trundle"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Locke"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Ziggs"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Nautilus"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Galio",
+              "Skarner",
+              "Aurora",
+              "Cassiopeia"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480113",
+        "date": "2026-10-16T22:47:30+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "blue_team_name": "FURIA",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 1,
+        "player_names": {
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480113",
+          "as_of": "2026-10-16T22:47:30+00:00",
+          "scheduled_start": "2026-10-16T22:47:30+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Volibear"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Cho'Gath"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Viktor"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Sivir"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Karma"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Cassiopeia",
+              "Locke",
+              "Seraphine",
+              "Gnar"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Renekton"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Naafiri"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Orianna"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Ezreal"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Alistar"
+              }
+            ],
+            "bans": [
+              "Ashe",
+              "Xayah",
+              "Jayce",
+              "Vayne",
+              "Varus"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480094",
+        "date": "2026-10-16T21:52:45+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "blue_team_name": "Cloud9",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 0,
+        "player_names": {
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480094",
+          "as_of": "2026-10-16T21:52:45+00:00",
+          "scheduled_start": "2026-10-16T21:52:45+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "K'Sante"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Lee Sin"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Sylas"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Caitlyn"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Bard"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Ezreal",
+              "Pantheon",
+              "Skarner",
+              "Gnar"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Olaf"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Sejuani"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Akali"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Yunara"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Maokai",
+              "Nocturne",
+              "Vi",
+              "Camille",
+              "Twisted Fate"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480078",
+        "date": "2026-10-16T20:53:42+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "blue_team_name": "FURIA",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 0,
+        "player_names": {
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480078",
+          "as_of": "2026-10-16T20:53:42+00:00",
+          "scheduled_start": "2026-10-16T20:53:42+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Ambessa"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Ahri"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Kalista"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Renata Glasc"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Cassiopeia",
+              "Karma",
+              "Xin Zhao",
+              "Maokai"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Rumble"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Qiyana"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Syndra"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Milio"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Skarner",
+              "K'Sante",
+              "Vi",
+              "Akali"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480033",
+        "date": "2026-10-16T19:53:53+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "red_team_name": "Karmine Corp",
+        "blue_win": 0,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:8c54a0e6-c0fc-54dc-bbce-44fe22fb43ce": "SanSan",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480033",
+          "as_of": "2026-10-16T19:53:53+00:00",
+          "scheduled_start": "2026-10-16T19:53:53+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Yorick"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:8c54a0e6-c0fc-54dc-bbce-44fe22fb43ce",
+                "champion": "Wukong"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Kog'Maw"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Milio"
+              }
+            ],
+            "bans": [
+              "Orianna",
+              "Caitlyn",
+              "Gnar",
+              "Cassiopeia",
+              "Renekton"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Kennen"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Viktor"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Xayah"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Rakan"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Camille",
+              "Olaf",
+              "Vayne",
+              "Taliyah"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_480014",
+        "date": "2026-10-16T19:01:16+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "red_team_name": "MVK Esports",
+        "blue_win": 1,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:8c54a0e6-c0fc-54dc-bbce-44fe22fb43ce": "SanSan",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_480014",
+          "as_of": "2026-10-16T19:01:16+00:00",
+          "scheduled_start": "2026-10-16T19:01:16+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Galio"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Lee Sin"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Ahri"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Ashe"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Seraphine"
+              }
+            ],
+            "bans": [
+              "Olaf",
+              "Nocturne",
+              "Cassiopeia",
+              "Wukong",
+              "Yone"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Twisted Fate"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:8c54a0e6-c0fc-54dc-bbce-44fe22fb43ce",
+                "champion": "Qiyana"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Rumble"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Ezreal"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Pyke"
+              }
+            ],
+            "bans": [
+              "Pantheon",
+              "Karma",
+              "Orianna",
+              "Ryze",
+              "Jax"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479982",
+        "date": "2026-10-16T18:11:36+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "red_team_name": "MVK Esports",
+        "blue_win": 1,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479982",
+          "as_of": "2026-10-16T18:11:36+00:00",
+          "scheduled_start": "2026-10-16T18:11:36+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Jayce"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Vi"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Syndra"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Draven"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Nautilus"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Olaf",
+              "Lee Sin",
+              "Yone",
+              "Yunara"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Ambessa"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Maokai"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "K'Sante"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Tristana"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Rumble",
+              "Seraphine",
+              "Cassiopeia",
+              "Gnar",
+              "Ezreal"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_478726",
+        "date": "2026-10-16T01:01:24+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_478726",
+          "as_of": "2026-10-16T01:01:24+00:00",
+          "scheduled_start": "2026-10-16T01:01:24+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Zaahen"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Kog'Maw"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Jhin"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Camille"
+              }
+            ],
+            "bans": [
+              "Ezreal",
+              "Renata Glasc",
+              "Sylas",
+              "Poppy",
+              "Shen"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "K'Sante"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Naafiri"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Ryze"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Kai'Sa"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Leona"
+              }
+            ],
+            "bans": [
+              "Locke",
+              "Nocturne",
+              "Yone",
+              "Orianna",
+              "Vayne"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_478718",
+        "date": "2026-10-16T00:06:03+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_478718",
+          "as_of": "2026-10-16T00:06:03+00:00",
+          "scheduled_start": "2026-10-16T00:06:03+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Rumble"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Lee Sin"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Viktor"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Milio"
+              }
+            ],
+            "bans": [
+              "Ezreal",
+              "Renata Glasc",
+              "Akali",
+              "Pantheon",
+              "Ambessa"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Ornn"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Wukong"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Syndra"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Xayah"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Rakan"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Jarvan IV",
+              "Caitlyn",
+              "Locke",
+              "LeBlanc"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_478715",
+        "date": "2026-10-15T23:11:16+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "blue_team_name": "MVK Esports",
+        "red_team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "red_team_name": "FURIA",
+        "blue_win": 1,
+        "player_names": {
+          "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e": "Kratos",
+          "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0": "Gury",
+          "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61": "Chika",
+          "pro:c38d7068-688c-5e1b-b085-9224d4cad92d": "Harky",
+          "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430": "SiuLoong",
+          "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5": "Guigo",
+          "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd": "Tatu",
+          "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1": "Tutsz",
+          "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03": "Ayu",
+          "pro:463e5618-88ee-5eab-907e-17e0b6434398": "JoJo"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_478715",
+          "as_of": "2026-10-15T23:11:16+00:00",
+          "scheduled_start": "2026-10-15T23:11:16+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+                "champion": "Olaf"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+                "champion": "Vi"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+                "champion": "Cassiopeia"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+                "champion": "Ashe"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+                "champion": "Seraphine"
+              }
+            ],
+            "bans": [
+              "Ezreal",
+              "Pantheon",
+              "Akali",
+              "Sylas",
+              "Locke"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:d2fcc6c9-7655-5c1c-a050-abbdcfa6abd5",
+                "champion": "Jax"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:04a39137-f02f-5c0f-9198-36287c6ee5dd",
+                "champion": "Trundle"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:11654814-94bf-5f1e-a1e0-34dde445b1b1",
+                "champion": "Galio"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:5bb2e4d5-2b27-5022-9557-bfab3b9bef03",
+                "champion": "Yunara"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:463e5618-88ee-5eab-907e-17e0b6434398",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Pyke",
+              "Nocturne",
+              "Jarvan IV",
+              "Maokai",
+              "Lee Sin"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479649",
+        "date": "2026-10-15T22:16:00+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 1,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479649",
+          "as_of": "2026-10-15T22:16:00+00:00",
+          "scheduled_start": "2026-10-15T22:16:00+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "blue",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Ambessa"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Trundle"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Ahri"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Kai'Sa"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Rell"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "Maokai",
+              "Pantheon",
+              "Poppy",
+              "Kindred"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "K'Sante"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Lillia"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Yone"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Ziggs"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Shen"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Caitlyn",
+              "Vayne",
+              "LeBlanc",
+              "Kha'Zix"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479642",
+        "date": "2026-10-15T21:14:05+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "blue_team_name": "Cloud9",
+        "red_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "red_team_name": "Karmine Corp",
+        "blue_win": 0,
+        "player_names": {
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan",
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479642",
+          "as_of": "2026-10-15T21:14:05+00:00",
+          "scheduled_start": "2026-10-15T21:14:05+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Zaahen"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Sejuani"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Sylas"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Yunara"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Lulu"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Caitlyn",
+              "Viktor",
+              "Aphelios",
+              "Draven"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Renekton"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Qiyana"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Orianna"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Xayah"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Rakan"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "K'Sante",
+              "Pantheon",
+              "Vayne",
+              "Skarner"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479637",
+        "date": "2026-10-15T20:17:23+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 0,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479637",
+          "as_of": "2026-10-15T20:17:23+00:00",
+          "scheduled_start": "2026-10-15T20:17:23+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Kled"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Naafiri"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Anivia"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Lucian"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Nami"
+              }
+            ],
+            "bans": [
+              "Orianna",
+              "Lulu",
+              "Qiyana",
+              "K'Sante",
+              "Aurora"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Olaf"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Jarvan IV"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Annie"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Jhin"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Alistar"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Caitlyn",
+              "Viktor",
+              "Vayne",
+              "Sylas"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479631",
+        "date": "2026-10-15T19:14:54+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "blue_team_name": "Cloud9",
+        "red_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "red_team_name": "Karmine Corp",
+        "blue_win": 0,
+        "player_names": {
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan",
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479631",
+          "as_of": "2026-10-15T19:14:54+00:00",
+          "scheduled_start": "2026-10-15T19:14:54+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Camille"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Wukong"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Akali"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Kalista"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Renata Glasc"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Caitlyn",
+              "Qiyana",
+              "Lucian",
+              "Rakan"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Jayce"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Vi"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Cassiopeia"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Varus"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Vel'Koz"
+              }
+            ],
+            "bans": [
+              "Nocturne",
+              "K'Sante",
+              "Lulu",
+              "Olaf",
+              "Jarvan IV"
+            ]
+          }
+        }
+      },
+      {
+        "game_id": "LOLTMNT02_479621",
+        "date": "2026-10-15T18:16:33+00:00",
+        "league": "WLDs",
+        "patch": "26.20",
+        "blue_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "blue_team_name": "Karmine Corp",
+        "red_team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "red_team_name": "Cloud9",
+        "blue_win": 0,
+        "player_names": {
+          "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6": "Canna",
+          "pro:45a9a379-4717-5bd7-bb57-726c773c1b10": "Yike",
+          "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3": "kyeahoo",
+          "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da": "Caliste",
+          "pro:7a49a785-de07-5ce2-9836-32606f80d693": "Busio",
+          "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08": "Thanatos",
+          "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3": "Blaber",
+          "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4": "Loki",
+          "pro:58f42fdf-7867-5e82-8660-480b4eec0db9": "Tactical",
+          "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298": "Vulcan"
+        },
+        "source_url": "https://chaincc.lol/free/data/",
+        "request": {
+          "game_id": "LOLTMNT02_479621",
+          "as_of": "2026-10-15T18:16:33+00:00",
+          "scheduled_start": "2026-10-15T18:16:33+00:00",
+          "league": "Worlds",
+          "patch": "26.20",
+          "first_pick_side": "red",
+          "blue": {
+            "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+                "champion": "Rumble"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+                "champion": "Lee Sin"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+                "champion": "Syndra"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+                "champion": "Miss Fortune"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+                "champion": "Nautilus"
+              }
+            ],
+            "bans": [
+              "Vi",
+              "K'Sante",
+              "Skarner",
+              "Orianna",
+              "Sylas"
+            ]
+          },
+          "red": {
+            "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+            "players": [
+              {
+                "role": "top",
+                "player_id": "pro:ca90b9f4-7026-5f81-886b-55c8b3b0dc08",
+                "champion": "Gnar"
+              },
+              {
+                "role": "jng",
+                "player_id": "pro:35ad58e9-ed51-5170-8ed1-7230101be1f3",
+                "champion": "Xin Zhao"
+              },
+              {
+                "role": "mid",
+                "player_id": "pro:97179afd-7871-5280-88ae-6ef1ee8f91d4",
+                "champion": "Locke"
+              },
+              {
+                "role": "bot",
+                "player_id": "pro:58f42fdf-7867-5e82-8660-480b4eec0db9",
+                "champion": "Ezreal"
+              },
+              {
+                "role": "sup",
+                "player_id": "pro:e6d8aa0d-65e1-5542-a2c9-537bd2a06298",
+                "champion": "Karma"
+              }
+            ],
+            "bans": [
+              "Seraphine",
+              "Nocturne",
+              "Qiyana",
+              "Jhin",
+              "Akali"
+            ]
+          }
+        }
+      }
+    ],
+    "returned": 22,
+    "available_games": 22,
+    "source_url": "https://chaincc.lol/free/data/",
+    "notice": "历史实际结果仅用于展示和赛后对比，重放请求不包含结果；Worlds 列表排除了同标签的地区资格赛。"
+  }
+}

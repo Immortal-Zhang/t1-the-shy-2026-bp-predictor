@@ -1,0 +1,181 @@
+{
+  "audit_skill": "experiment-audit",
+  "verdict": "WARN",
+  "reason_code": "limited_retrospective_single_seed_scope",
+  "summary": "Real-ground-truth artifacts, metrics, hashes, and inference reproduce. The selected enhanced model does not improve the reused 2026 holdout; evidence supports implementation claims but not overall, strong-call, or Worlds reliability claims.",
+  "claim_supported": "partial",
+  "audited_snapshot": {
+    "path": "reports/aggressive/AUDITED_SNAPSHOT.json",
+    "sha256": "21f367f90657de3cfb19bd5900875449955639eb912c34e4d2b98e235cac00cc",
+    "file_count": 138,
+    "scope": "Trusted-local snapshot; hashes are not external signatures"
+  },
+  "audited_input_hashes": {
+    "data/processed/games.parquet": "sha256:d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+    "models/latest/selected_model.joblib": "sha256:96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+    "models/aggressive-experiment/latest/selected_model.joblib": "sha256:26d96efccf0099a0e724ec586f21512d869540640e3875f811566c5a226b032b",
+    "reports/aggressive/experiment_metrics.json": "sha256:f5b78c07b4c0b80e8ad0f9458eeb7ac5f45158b0442500a9dbfd20330016d851",
+    "reports/aggressive/judgment_policy.json": "sha256:3e8d2cdcdd0559caa8bc55d37ed555a9aae78fe3b808c64118cef21433869b91",
+    "reports/aggressive/judgment_evaluation.json": "sha256:3394d4a8e594d82ffd88a4c2a828e6468422426fdeeb77801a0795d09cbbf91f",
+    "reports/aggressive/judgment_predictions.csv": "sha256:63a89e8fddbbdd1991072c529975c202f9150c345ebe9039b133d962cf3b6d78",
+    "reports/aggressive/real_analysis.json": "sha256:b8db1eed2f1275a2de559e701b977f096abc0cecede78fd7bf5b69516be4dc0c",
+    "src/worlds_predictor/enhanced_features.py": "sha256:68c0942fd881ae8fd8882d7ed1f11e5e51b54717f89de34d5ae3d7bd253da9a1",
+    "src/worlds_predictor/enhanced.py": "sha256:95511cd19fa5c7a151b2005ffbf90255ac022ce285ebc5457e22f75890207be4",
+    "src/worlds_predictor/enhanced_training.py": "sha256:e3c4d2a4410d7c64ada25506a418ceaf31c7ae7588ffd18cf2035a24191b11b1",
+    "src/worlds_predictor/judgment_policy.py": "sha256:0cfe5d01706c6ea2f18cacfc441a92896b12c82e00ea1a5babb0ab25ecd776a2",
+    "src/worlds_predictor/judgment.py": "sha256:c6a53a2228feaa7fe77170a6d1c35080d63e87365652cb497dfcc458ffee9f5e",
+    "src/worlds_predictor/analysis.py": "sha256:27c3bf578ebbdc5630088c96427f93ac0fe1fc2900d91249eb8c8566f376e587",
+    "src/worlds_predictor/evaluation.py": "sha256:3916241059f37053d36c27866645b50b05cbd9ad1117ec42a3e70677d0dccf01",
+    "src/worlds_predictor/features.py": "sha256:e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+    "src/worlds_predictor/data.py": "sha256:1c013b5becacf0856b9d3a7dfd3bd7e8ea4e6ef687adc8fa0453811701cc5b91",
+    "scripts/train_aggressive.py": "sha256:5b29f7166a76e15fa5b11a096cc092160c656679c2c3a37327bbbb66b0d84ed8",
+    "scripts/evaluate_aggressive.py": "sha256:feaec61d573f4d5dc96932f912df3db1678a55531f9c0ab350a2de41639b1bd5"
+  },
+  "trace_path": ".aris/traces/experiment-audit/2026-10-22_aggressive/",
+  "agent_id": "/root/aggressive_integrity_audit",
+  "verdict_id": "/root/aggressive_integrity_audit:2026-10-22_aggressive",
+  "executor_model": "codex-runtime-model-not-exposed",
+  "executor_family": "openai",
+  "reviewer_model": "codex-runtime-model-not-exposed",
+  "reviewer_family": "openai",
+  "reviewer_reasoning": "inherited",
+  "review_independence": "same-family",
+  "acceptance_status": "provisional",
+  "generated_at": "2026-10-22T12:19:32Z",
+  "date": "2026-10-22",
+  "auditor": "fresh-codex-reviewer",
+  "overall_verdict": "warn",
+  "integrity_status": "warn",
+  "evaluation_type": "real_gt",
+  "checks": {
+    "gt_provenance": {
+      "status": "pass",
+      "details": "blue_win is derived from the external dataset team result after composite-key and complementary-result validation; all evaluated CSV labels match games.parquet."
+    },
+    "score_normalization": {
+      "status": "pass",
+      "details": "Performance metrics use raw labels/probabilities. The validation-margin ECDF is explicitly a non-probability presentation index."
+    },
+    "result_existence": {
+      "status": "pass",
+      "details": "All 15 prediction CSVs and referenced models/reports exist; rows, IDs, labels, metrics, artifact predictions, and recorded hashes match."
+    },
+    "dead_code": {
+      "status": "pass",
+      "details": "Metric, temporal split, policy, evaluation, and paired-bootstrap functions are called and their outputs are saved."
+    },
+    "scope": {
+      "status": "warn",
+      "details": "One seed, one temporal split, reused/previously inspected 2026 holdout, and only 22 target Worlds maps. Current language discloses these limits."
+    },
+    "eval_type": "real_gt",
+    "temporal_isolation": {
+      "status": "pass",
+      "details": "Strict date and available_at cutoffs, target exclusion, request-time validation, and no target/postgame current-match fields."
+    },
+    "source_model_consistency": {
+      "status": "pass",
+      "details": "Model, feature, policy, evaluation, runtime, frontend, report, and log hashes match the audited snapshot."
+    },
+    "pair_semantics": {
+      "status": "pass",
+      "details": "Role-aware champion/player pair observations are historical associations; final explanations use both sides and the minimum pair sample."
+    },
+    "no_fabricated_tactical_evidence": {
+      "status": "pass",
+      "details": "Reasons/risks come from signed full SHAP groups or explicit evidence gaps; unsupported tactical ratings are absent."
+    },
+    "optional_source_failure": {
+      "status": "pass",
+      "details": "Judgment failures return unavailable and preserve the standard calibrated result; backend and UI tests cover this path."
+    }
+  },
+  "recomputation": {
+    "canonical_games": 28738,
+    "canonical_unique_games": 28738,
+    "prediction_csv_count": 15,
+    "max_metric_abs_difference": 1.1102230246251565e-16,
+    "max_artifact_prediction_abs_difference": 1.1102230246251565e-16,
+    "selected_test": {
+      "n": 9309,
+      "accuracy": 0.6363734020840047,
+      "roc_auc": 0.692046099839368,
+      "log_loss": 0.6333061050756578,
+      "brier_score": 0.2214836893968125
+    },
+    "frozen_test": {
+      "n": 9309,
+      "accuracy": 0.6394886668815125,
+      "roc_auc": 0.6976526715201767,
+      "log_loss": 0.6301706182065784,
+      "brier_score": 0.22015026141057542
+    },
+    "selected_minus_frozen": {
+      "accuracy": -0.0031152647975077885,
+      "roc_auc": -0.005606571680808692,
+      "log_loss": 0.0031354868690793847,
+      "brier_score": 0.0013334279862370795
+    },
+    "selected_strong": {
+      "n": 2697,
+      "correct": 2072,
+      "accuracy": 0.7682610307749351
+    },
+    "frozen_strong": {
+      "n": 2666,
+      "correct": 2080,
+      "accuracy": 0.7801950487621906
+    },
+    "worlds_target": {
+      "n": 22,
+      "correct": 15,
+      "accuracy": 0.6818181818181818,
+      "wilson_low": 0.47318597741042745,
+      "wilson_high": 0.8363940681864375
+    }
+  },
+  "verification": {
+    "backend_direct": "263 passed, 1 dependency deprecation warning",
+    "bound_final_targeted_backend": "55 passed, 1 dependency deprecation warning",
+    "bound_frontend_unit": "61 passed",
+    "bound_browser": "16 passed, 0 failed/skipped/flaky, Chromium and Playwright WebKit",
+    "bound_build": "strict TypeScript and production build passed",
+    "reviewer_frontend_rerun": "blocked by local macOS rolldown native-binding code-signature mismatch; source review and bound successful logs used"
+  },
+  "resolved_during_review": [
+    "Regenerated an intermediate stale real_analysis pair explanation so the final snapshot uses both sides and the minimum 3-game evidence.",
+    "Made the two no-negative-contribution risk fallbacks distinct and explicitly unmodeled/evidence-gap statements."
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "Enhanced training was attempted and completed on real historical data.",
+      "impact": "supported"
+    },
+    {
+      "id": "C2",
+      "claim": "An explicit winner, evidence, and non-probability support index are implemented.",
+      "impact": "supported"
+    },
+    {
+      "id": "C3",
+      "claim": "The selected enhanced model improves overall ranking or performance.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C4",
+      "claim": "The selected enhanced model improves strong-call hit rate.",
+      "impact": "unsupported"
+    },
+    {
+      "id": "C5",
+      "claim": "Strong-group hit rates are descriptive retrospective subgroup statistics.",
+      "impact": "supported_with_qualifier"
+    },
+    {
+      "id": "C6",
+      "claim": "The system has established Worlds-specific reliability.",
+      "impact": "unsupported"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "declared_at": "2026-10-22T12:08:58.603827+00:00",
+  "config": {
+    "as_of": "2026-10-22T00:00:00Z",
+    "train_end": "2025-07-01T00:00:00Z",
+    "validation_end": "2025-10-01T00:00:00Z",
+    "calibration_end": "2026-01-01T00:00:00Z",
+    "seed": 2026,
+    "thread_count": 4,
+    "min_train": 500,
+    "min_eval": 100,
+    "baseline_model_dir": "models/latest",
+    "selection": "Maximum raw validation ROC-AUC among candidates with validation raw log loss <= frozen baseline + 0.01; must strictly improve baseline validation AUC to deploy.",
+    "validation_log_loss_tolerance": 0.01,
+    "bootstrap_repetitions": 500,
+    "candidates": [
+      {
+        "name": "enhanced_uniform_d5",
+        "iterations": 450,
+        "depth": 5,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 15,
+        "half_life_days": null
+      },
+      {
+        "name": "enhanced_recent180_d5",
+        "iterations": 450,
+        "depth": 5,
+        "learning_rate": 0.04,
+        "l2_leaf_reg": 15,
+        "half_life_days": 180
+      },
+      {
+        "name": "enhanced_recent90_d4",
+        "iterations": 550,
+        "depth": 4,
+        "learning_rate": 0.035,
+        "l2_leaf_reg": 20,
+        "half_life_days": 90
+      }
+    ]
+  },
+  "scope": "Real-data retrospective challenger experiment. The 2026 holdout has already been inspected in prior project stages; it is not fresh confirmatory evidence.",
+  "selection": "Maximum raw validation ROC-AUC among candidates with validation raw log loss <= frozen baseline + 0.01; must strictly improve baseline validation AUC to deploy.",
+  "feature_version": "observed-form-pairs-v1",
+  "unsupported": [
+    "No curated crowd-control/engage rating",
+    "No early/mid/late power curve",
+    "No team play-style causal matchup",
+    "No postgame statistics as current input"
+  ],
+  "future_results": "Feature history rolls forward only after strict available_at and date cutoffs; fitted estimators and calibrators remain frozen."
+}

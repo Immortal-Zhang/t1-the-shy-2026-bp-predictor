@@ -1,0 +1,111 @@
+{
+  "run_id": "20261022T093531Z-f5eb82ee9db3",
+  "code_commit": "acbbf9f48bce322ca768686875c7ac676861a86a",
+  "verification": "All expected paths exist; current source hashes equal training source hashes; API/replay/sensitivity/plot run IDs match.",
+  "files": {
+    "models/20261022T093531Z-f5eb82ee9db3/B_catboost.joblib": {
+      "sha256": "29abcfcc4b897b6a0765904cd7c8290fd6a1dc8d6f5daaf6b999bf61c5e901cc",
+      "bytes": 5640192
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/A_logistic.joblib": {
+      "sha256": "1a5ff36f3e3a41ee3032c4eb2fcf687705410c996fae9d82c59be1dcc60908aa",
+      "bytes": 72888
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/C_catboost.joblib": {
+      "sha256": "1c2add904d417b99e05a746595187aba31b341372aeaff4bffa0abb03f4c4427",
+      "bytes": 6766866
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/C_catboost_uniform.joblib": {
+      "sha256": "96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+      "bytes": 8930843
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/B_logistic.joblib": {
+      "sha256": "98a9068d7ff70ebcaa712951a1a4dc7aa194a24a5595b7d6691cb4c01ef82e15",
+      "bytes": 510000
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/A_catboost.joblib": {
+      "sha256": "c1839f550bec92805bbc0e855ae267e85aab42f3a15a79da4dfe0db2e2bd1dd0",
+      "bytes": 3507469
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/C_logistic.joblib": {
+      "sha256": "bb1153cacf2447a67d84ceb2bb718a92af47908ff4345f83c4ac2b1501681a0d",
+      "bytes": 590712
+    },
+    "models/20261022T093531Z-f5eb82ee9db3/metadata.json": {
+      "sha256": "084a4b26e15be7fd78834f9218b121edd52ed44d10c139c3d5230c2b339cb0db",
+      "bytes": 4211
+    },
+    "models/latest/selected_model.joblib": {
+      "sha256": "96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+      "bytes": 8930843
+    },
+    "models/latest/metadata.json": {
+      "sha256": "084a4b26e15be7fd78834f9218b121edd52ed44d10c139c3d5230c2b339cb0db",
+      "bytes": 4211
+    },
+    "reports/metrics.json": {
+      "sha256": "87fb6fcf095d2d32630d2225be31f549f91da2631d68d3b7c0829feb90563466",
+      "bytes": 1189651
+    },
+    "reports/RESULTS.md": {
+      "sha256": "b66970c59737dcfb15eeedf8cd654cc74ea02e55c5e23067c90526119db2a10a",
+      "bytes": 2485
+    },
+    "reports/split_membership.csv": {
+      "sha256": "02443d893d1ac91faf48ef1c9aa2853d0592a4d2cc07714ac3cd25dd2b8fafdf",
+      "bytes": 2220668
+    },
+    "reports/replay_prediction.json": {
+      "sha256": "3a687b6c60f1ab1f53d65165c4d074fe669bb71b4acfde94250c6de99abfd303",
+      "bytes": 3620
+    },
+    "reports/api_smoke.json": {
+      "sha256": "b9b9221d8f1ad43e874532f4f2e41c36f30678eee3de100dea67cdf2a93dbc9c",
+      "bytes": 5675
+    },
+    "reports/api_context_smoke.json": {
+      "sha256": "9ac113d5cf7b910b9c0cb6a29d8202f15edeab10211c5edd7d896fcf1e3923e2",
+      "bytes": 468
+    },
+    "reports/cross_league_raw_sensitivity.json": {
+      "sha256": "f8ad0770bf7b3c5e3fb3ce29c4ac3bda84d1428d3bf72d960dabe389c839fe27",
+      "bytes": 57589
+    },
+    "reports/cross_league_sensitivity.json": {
+      "sha256": "b61d534cd9e954c1887d4f5f93ba174ca5bace9d2463240c86b227457a9cef27",
+      "bytes": 3030
+    },
+    "reports/calibration.png": {
+      "sha256": "469e4061e0bf172c3d74d6e2efd365e30246242057181290ca4f3814add707d8",
+      "bytes": 293064
+    },
+    "reports/calibration.pdf": {
+      "sha256": "b209ccfc4e8149acd10acdbc5530511b2df6cdcea82fbeadd4d1c16afcf743a9",
+      "bytes": 44895
+    },
+    "data/processed/games.parquet": {
+      "sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+      "bytes": 2527505
+    },
+    "data/processed/games.duckdb": {
+      "sha256": "9ecef6c0ea62ae82c1e14895cea83daf15e457d099d4754f97be4ace0582e598",
+      "bytes": 9449472
+    },
+    "data/raw/sources.json": {
+      "sha256": "a70f50c4e3cb14225dedc328e1fca9be4f8316029b0910873e476920997e2bdc",
+      "bytes": 5948
+    },
+    "requirements.lock.txt": {
+      "sha256": "68847f6e9b68a634b1c914ae0c73b64b41c3e70526fba43542ae7dd22c77af61",
+      "bytes": 836
+    },
+    "reports/training.log": {
+      "sha256": "ff86317f7c2497b4dc5e8a2299cb69b9f115894ea7c8e170b945aec75359a23d",
+      "bytes": 818
+    },
+    "reports/pytest.log": {
+      "sha256": "2d4bd05ea71f57db0114fb8b6f03f10bea12674148e99575a39e4bf3ae45501f",
+      "bytes": 797
+    }
+  }
+}

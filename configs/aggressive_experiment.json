@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-22T00:00:00Z",
+  "train_end": "2025-07-01T00:00:00Z",
+  "validation_end": "2025-10-01T00:00:00Z",
+  "calibration_end": "2026-01-01T00:00:00Z",
+  "seed": 2026,
+  "thread_count": 4,
+  "min_train": 500,
+  "min_eval": 100,
+  "baseline_model_dir": "models/latest",
+  "selection": "Maximum raw validation ROC-AUC among candidates with validation raw log loss <= frozen baseline + 0.01; must strictly improve baseline validation AUC to deploy.",
+  "validation_log_loss_tolerance": 0.01,
+  "bootstrap_repetitions": 500,
+  "candidates": [
+    {"name": "enhanced_uniform_d5", "iterations": 450, "depth": 5, "learning_rate": 0.04, "l2_leaf_reg": 15, "half_life_days": null},
+    {"name": "enhanced_recent180_d5", "iterations": 450, "depth": 5, "learning_rate": 0.04, "l2_leaf_reg": 15, "half_life_days": 180},
+    {"name": "enhanced_recent90_d4", "iterations": 550, "depth": 4, "learning_rate": 0.035, "l2_leaf_reg": 20, "half_life_days": 90}
+  ]
+}

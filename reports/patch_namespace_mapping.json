@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-10-22T09:31:22.264137+00:00",
+  "mapping": {
+    "public_patch": "26.20",
+    "model_patch": "16.20",
+    "data_dragon_version": "16.20.1"
+  },
+  "source_league": "WLDs",
+  "accepted_league_aliases": [
+    "WLDs",
+    "WCS",
+    "Worlds",
+    "World Championship"
+  ],
+  "data_dragon": {
+    "url": "https://ddragon.leagueoflegends.com/api/versions.json",
+    "retrieved_at": "2026-10-22T09:31:22.264155+00:00",
+    "sha256": "344c1f32acc5af49a90bd10355f8ee6ba59e4119d6797ce0f26e287463e2262a",
+    "matching_version": "16.20.1",
+    "latest_versions": [
+      "16.21.1",
+      "16.20.1",
+      "16.19.1",
+      "16.18.1",
+      "16.17.1"
+    ],
+    "version_count": 502
+  },
+  "official_public_patch_evidence": {
+    "event": "Worlds 2026",
+    "configured_patch": "26.20",
+    "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+    "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+    "checked_at": "2026-10-22T09:26:04.729306+00:00",
+    "status": "confirmed",
+    "official_patch": "26.20",
+    "page_sha256": "288efdd05fb312dc8ba9211e3f4e1f4e4a3bedb1a5db1c0259e1d8494b643021",
+    "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+    "reason": "Riot patch-note heading and explicit Worlds statement matched"
+  },
+  "evidence_interpretation": "Official sources independently verify the public Worlds patch name26.20 and existence of DataDragon version16.20.1. Source CSV Worlds2026 records use16.20. Their equivalence is an explicit reviewed inference from the same event and period, not a claim that these URLs publish a direct namespace crosswalk.",
+  "policy": "Normalize incoming context only. Raw CSV, trained feature table, models, and reported evaluation metrics remain unchanged.",
+  "source_observations": {
+    "path": "data/processed/games.parquet",
+    "query_scope": "2026 WLDs records",
+    "patch_groups": [
+      {
+        "league": "WLDs",
+        "patch": "16.17",
+        "games": 12,
+        "first_date": "2026-09-17 17:11:42+08:00",
+        "last_date": "2026-09-19 20:09:59+08:00"
+      },
+      {
+        "league": "WLDs",
+        "patch": "16.20",
+        "games": 22,
+        "first_date": "2026-10-16 02:16:33+08:00",
+        "last_date": "2026-10-19 03:48:36+08:00"
+      }
+    ]
+  },
+  "evidence_type": "inferred_cross_namespace_equivalence"
+}

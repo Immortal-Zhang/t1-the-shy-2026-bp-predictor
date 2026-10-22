@@ -1,0 +1,2590 @@
+{
+  "raw_score": -1.1557370249207115,
+  "calibrated_probability": 0.3390241676901847,
+  "feature_values": {
+    "league": "WLDs",
+    "patch": "16.20",
+    "first_pick_side": "blue",
+    "historical_blue_win_rate": 0.5332869323125109,
+    "historical_game_count": 28715.0,
+    "blue_team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+    "blue_team_win_rate": 0.48,
+    "blue_team_games": 90.0,
+    "blue_team_recent_win_rate": 0.5,
+    "blue_team_recent_games": 20.0,
+    "blue_top_player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+    "blue_top_champion": "Yone",
+    "blue_top_player_win_rate": 0.49261083743842365,
+    "blue_top_player_games": 193.0,
+    "blue_top_player_recent_win_rate": 0.5,
+    "blue_top_player_recent_games": 20.0,
+    "blue_top_champion_win_rate": 0.5298013245033113,
+    "blue_top_champion_games": 282.0,
+    "blue_top_player_champion_win_rate": 0.5454545454545454,
+    "blue_top_player_champion_games": 1.0,
+    "blue_top_matchup_win_rate": 0.5,
+    "blue_top_matchup_games": 0.0,
+    "blue_top_patch_champion_win_rate": 0.5,
+    "blue_top_patch_champion_games": 0.0,
+    "blue_jng_player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+    "blue_jng_champion": "Aatrox",
+    "blue_jng_player_win_rate": 0.5444015444015444,
+    "blue_jng_player_games": 249.0,
+    "blue_jng_player_recent_win_rate": 0.5,
+    "blue_jng_player_recent_games": 20.0,
+    "blue_jng_champion_win_rate": 0.4939759036144578,
+    "blue_jng_champion_games": 395.0,
+    "blue_jng_player_champion_win_rate": 0.5555555555555556,
+    "blue_jng_player_champion_games": 8.0,
+    "blue_jng_matchup_win_rate": 0.5,
+    "blue_jng_matchup_games": 16.0,
+    "blue_jng_patch_champion_win_rate": 0.5,
+    "blue_jng_patch_champion_games": 0.0,
+    "blue_mid_player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+    "blue_mid_champion": "Locke",
+    "blue_mid_player_win_rate": 0.5633802816901409,
+    "blue_mid_player_games": 132.0,
+    "blue_mid_player_recent_win_rate": 0.5,
+    "blue_mid_player_recent_games": 20.0,
+    "blue_mid_champion_win_rate": 0.5095367847411444,
+    "blue_mid_champion_games": 347.0,
+    "blue_mid_player_champion_win_rate": 0.42857142857142855,
+    "blue_mid_player_champion_games": 4.0,
+    "blue_mid_matchup_win_rate": 0.4782608695652174,
+    "blue_mid_matchup_games": 26.0,
+    "blue_mid_patch_champion_win_rate": 0.5333333333333333,
+    "blue_mid_patch_champion_games": 10.0,
+    "blue_bot_player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+    "blue_bot_champion": "Twitch",
+    "blue_bot_player_win_rate": 0.5416666666666666,
+    "blue_bot_player_games": 134.0,
+    "blue_bot_player_recent_win_rate": 0.5,
+    "blue_bot_player_recent_games": 20.0,
+    "blue_bot_champion_win_rate": 0.42574257425742573,
+    "blue_bot_champion_games": 81.0,
+    "blue_bot_player_champion_win_rate": 0.5,
+    "blue_bot_player_champion_games": 0.0,
+    "blue_bot_matchup_win_rate": 0.48148148148148145,
+    "blue_bot_matchup_games": 7.0,
+    "blue_bot_patch_champion_win_rate": 0.5,
+    "blue_bot_patch_champion_games": 0.0,
+    "blue_sup_player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+    "blue_sup_champion": "Camille",
+    "blue_sup_player_win_rate": 0.532258064516129,
+    "blue_sup_player_games": 176.0,
+    "blue_sup_player_recent_win_rate": 0.5,
+    "blue_sup_player_recent_games": 20.0,
+    "blue_sup_champion_win_rate": 0.4952741020793951,
+    "blue_sup_champion_games": 509.0,
+    "blue_sup_player_champion_win_rate": 0.4666666666666667,
+    "blue_sup_player_champion_games": 5.0,
+    "blue_sup_matchup_win_rate": 0.4631578947368421,
+    "blue_sup_matchup_games": 75.0,
+    "blue_sup_patch_champion_win_rate": 0.5,
+    "blue_sup_patch_champion_games": 2.0,
+    "blue_synergy_mean_win_rate": 0.5108933654106804,
+    "blue_synergy_mean_games": 4.4,
+    "blue_synergy_min_games": 0.0,
+    "blue_synergy_known_pairs": 7.0,
+    "blue_ban1": "Renata Glasc",
+    "blue_ban2": "Syndra",
+    "blue_ban3": "Jax",
+    "blue_ban4": "Renekton",
+    "blue_ban5": "Trundle",
+    "blue_known_bans": 5.0,
+    "red_team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+    "red_team_win_rate": 0.5813953488372093,
+    "red_team_games": 291.0,
+    "red_team_recent_win_rate": 0.5333333333333333,
+    "red_team_recent_games": 20.0,
+    "red_top_player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+    "red_top_champion": "Zaahen",
+    "red_top_player_win_rate": 0.6042402826855123,
+    "red_top_player_games": 273.0,
+    "red_top_player_recent_win_rate": 0.5333333333333333,
+    "red_top_player_recent_games": 20.0,
+    "red_top_champion_win_rate": 0.526032315978456,
+    "red_top_champion_games": 537.0,
+    "red_top_player_champion_win_rate": 0.5454545454545454,
+    "red_top_player_champion_games": 1.0,
+    "red_top_matchup_win_rate": 0.5,
+    "red_top_matchup_games": 0.0,
+    "red_top_patch_champion_win_rate": 0.5,
+    "red_top_patch_champion_games": 10.0,
+    "red_jng_player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+    "red_jng_champion": "Naafiri",
+    "red_jng_player_win_rate": 0.636604774535809,
+    "red_jng_player_games": 367.0,
+    "red_jng_player_recent_win_rate": 0.5333333333333333,
+    "red_jng_player_recent_games": 20.0,
+    "red_jng_champion_win_rate": 0.5023498694516971,
+    "red_jng_champion_games": 1895.0,
+    "red_jng_player_champion_win_rate": 0.48148148148148145,
+    "red_jng_player_champion_games": 17.0,
+    "red_jng_matchup_win_rate": 0.5,
+    "red_jng_matchup_games": 16.0,
+    "red_jng_patch_champion_win_rate": 0.5151515151515151,
+    "red_jng_patch_champion_games": 13.0,
+    "red_mid_player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+    "red_mid_champion": "Viktor",
+    "red_mid_player_win_rate": 0.5581395348837209,
+    "red_mid_player_games": 377.0,
+    "red_mid_player_recent_win_rate": 0.5333333333333333,
+    "red_mid_player_recent_games": 20.0,
+    "red_mid_champion_win_rate": 0.48361252731245447,
+    "red_mid_champion_games": 2726.0,
+    "red_mid_player_champion_win_rate": 0.625,
+    "red_mid_player_champion_games": 22.0,
+    "red_mid_matchup_win_rate": 0.5217391304347826,
+    "red_mid_matchup_games": 26.0,
+    "red_mid_patch_champion_win_rate": 0.5277777777777778,
+    "red_mid_patch_champion_games": 16.0,
+    "red_bot_player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+    "red_bot_champion": "Ezreal",
+    "red_bot_player_win_rate": 0.6303724928366762,
+    "red_bot_player_games": 339.0,
+    "red_bot_player_recent_win_rate": 0.5333333333333333,
+    "red_bot_player_recent_games": 20.0,
+    "red_bot_champion_win_rate": 0.4950980392156863,
+    "red_bot_champion_games": 6304.0,
+    "red_bot_player_champion_win_rate": 0.5660377358490566,
+    "red_bot_player_champion_games": 43.0,
+    "red_bot_matchup_win_rate": 0.5185185185185185,
+    "red_bot_matchup_games": 7.0,
+    "red_bot_patch_champion_win_rate": 0.5116279069767442,
+    "red_bot_patch_champion_games": 23.0,
+    "red_sup_player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+    "red_sup_champion": "Leona",
+    "red_sup_player_win_rate": 0.6388059701492538,
+    "red_sup_player_games": 325.0,
+    "red_sup_player_recent_win_rate": 0.5333333333333333,
+    "red_sup_player_recent_games": 20.0,
+    "red_sup_champion_win_rate": 0.4661166764879199,
+    "red_sup_champion_games": 5071.0,
+    "red_sup_player_champion_win_rate": 0.7380952380952381,
+    "red_sup_player_champion_games": 32.0,
+    "red_sup_matchup_win_rate": 0.5368421052631579,
+    "red_sup_matchup_games": 75.0,
+    "red_sup_patch_champion_win_rate": 0.52,
+    "red_sup_patch_champion_games": 5.0,
+    "red_synergy_mean_win_rate": 0.49817555773115557,
+    "red_synergy_mean_games": 230.8,
+    "red_synergy_min_games": 17.0,
+    "red_synergy_known_pairs": 10.0,
+    "red_ban1": "Olaf",
+    "red_ban2": "Vi",
+    "red_ban3": "Nocturne",
+    "red_ban4": "Rakan",
+    "red_ban5": "Wukong",
+    "red_known_bans": 5.0,
+    "team_win_rate_diff": -0.10139534883720935,
+    "team_recent_win_rate_diff": -0.033333333333333326,
+    "player_win_rate_diff": -0.07876913207561352,
+    "player_recent_win_rate_diff": -0.033333333333333326,
+    "champion_win_rate_diff": -0.00377574785009589,
+    "player_champion_win_rate_diff": -0.09196416092642508,
+    "matchup_win_rate_diff": -0.030839901686583605,
+    "patch_champion_win_rate_diff": -0.008244773314540765,
+    "synergy_win_rate_diff": 0.01271780767952485,
+    "blue_team_decay_win_rate": 0.48990311615252224,
+    "blue_team_decay_effective_games": 39.114761454405475,
+    "blue_team_decay_inactive_days": 0.8254166666666667,
+    "blue_team_form_change": 0.020000000000000018,
+    "blue_top_player_decay_win_rate": 0.47474356007981827,
+    "blue_top_player_decay_effective_games": 37.696957363862836,
+    "blue_top_player_decay_inactive_days": 0.8254166666666667,
+    "blue_top_player_form_change": 0.007389162561576346,
+    "blue_jng_player_decay_win_rate": 0.5122386391798694,
+    "blue_jng_player_decay_effective_games": 39.39625540735692,
+    "blue_jng_player_decay_inactive_days": 0.8254166666666667,
+    "blue_jng_player_form_change": -0.044401544401544424,
+    "blue_mid_player_decay_win_rate": 0.5257452756316282,
+    "blue_mid_player_decay_effective_games": 35.08736647215208,
+    "blue_mid_player_decay_inactive_days": 0.8254166666666667,
+    "blue_mid_player_form_change": -0.06338028169014087,
+    "blue_bot_player_decay_win_rate": 0.5228422689193086,
+    "blue_bot_player_decay_effective_games": 41.514348178461816,
+    "blue_bot_player_decay_inactive_days": 0.8254166666666667,
+    "blue_bot_player_form_change": -0.04166666666666663,
+    "blue_sup_player_decay_win_rate": 0.5099364436919653,
+    "blue_sup_player_decay_effective_games": 41.625154784828275,
+    "blue_sup_player_decay_inactive_days": 0.8254166666666667,
+    "blue_sup_player_form_change": -0.032258064516129004,
+    "blue_team_patch_win_rate": 0.54,
+    "blue_team_patch_games": 10.0,
+    "blue_roster_win_rate": 0.49230769230769234,
+    "blue_roster_games": 45.0,
+    "blue_head_to_head_win_rate": 0.43478260869565216,
+    "blue_head_to_head_games": 3.0,
+    "blue_top_player_champion_recent_win_rate": 0.5454545454545454,
+    "blue_top_player_champion_recent_games": 1.0,
+    "blue_top_matchup_recent_win_rate": 0.5,
+    "blue_top_matchup_recent_games": 0.0,
+    "blue_top_player_patch_win_rate": 0.54,
+    "blue_top_player_patch_games": 10.0,
+    "blue_top_player_champion_patch_win_rate": 0.5,
+    "blue_top_player_champion_patch_games": 0.0,
+    "blue_jng_player_champion_recent_win_rate": 0.5555555555555556,
+    "blue_jng_player_champion_recent_games": 8.0,
+    "blue_jng_matchup_recent_win_rate": 0.5,
+    "blue_jng_matchup_recent_games": 16.0,
+    "blue_jng_player_patch_win_rate": 0.5869565217391305,
+    "blue_jng_player_patch_games": 8.0,
+    "blue_jng_player_champion_patch_win_rate": 0.5,
+    "blue_jng_player_champion_patch_games": 0.0,
+    "blue_mid_player_champion_recent_win_rate": 0.42857142857142855,
+    "blue_mid_player_champion_recent_games": 4.0,
+    "blue_mid_matchup_recent_win_rate": 0.5,
+    "blue_mid_matchup_recent_games": 20.0,
+    "blue_mid_player_patch_win_rate": 0.54,
+    "blue_mid_player_patch_games": 10.0,
+    "blue_mid_player_champion_patch_win_rate": 0.5,
+    "blue_mid_player_champion_patch_games": 0.0,
+    "blue_bot_player_champion_recent_win_rate": 0.5,
+    "blue_bot_player_champion_recent_games": 0.0,
+    "blue_bot_matchup_recent_win_rate": 0.48148148148148145,
+    "blue_bot_matchup_recent_games": 7.0,
+    "blue_bot_player_patch_win_rate": 0.54,
+    "blue_bot_player_patch_games": 10.0,
+    "blue_bot_player_champion_patch_win_rate": 0.5,
+    "blue_bot_player_champion_patch_games": 0.0,
+    "blue_sup_player_champion_recent_win_rate": 0.4666666666666667,
+    "blue_sup_player_champion_recent_games": 5.0,
+    "blue_sup_matchup_recent_win_rate": 0.525,
+    "blue_sup_matchup_recent_games": 20.0,
+    "blue_sup_player_patch_win_rate": 0.54,
+    "blue_sup_player_patch_games": 10.0,
+    "blue_sup_player_champion_patch_win_rate": 0.5238095238095238,
+    "blue_sup_player_champion_patch_games": 1.0,
+    "blue_mid_jungle_win_rate": 0.5151515151515151,
+    "blue_mid_jungle_games": 3.0,
+    "blue_mid_jungle_recent_win_rate": 0.5151515151515151,
+    "blue_mid_jungle_recent_games": 3.0,
+    "blue_mid_jungle_patch_win_rate": 0.5,
+    "blue_mid_jungle_patch_games": 0.0,
+    "blue_mid_jungle_players_win_rate": 0.5263157894736842,
+    "blue_mid_jungle_players_games": 56.0,
+    "blue_bot_support_win_rate": 0.5,
+    "blue_bot_support_games": 0.0,
+    "blue_bot_support_recent_win_rate": 0.5,
+    "blue_bot_support_recent_games": 0.0,
+    "blue_bot_support_patch_win_rate": 0.5,
+    "blue_bot_support_patch_games": 0.0,
+    "blue_bot_support_players_win_rate": 0.5384615384615384,
+    "blue_bot_support_players_games": 84.0,
+    "red_team_decay_win_rate": 0.6143793828825734,
+    "red_team_decay_effective_games": 60.82434061971953,
+    "red_team_decay_inactive_days": 1.8254166666666667,
+    "red_team_form_change": -0.04806201550387601,
+    "red_top_player_decay_win_rate": 0.6144360555356935,
+    "red_top_player_decay_effective_games": 60.8140754532475,
+    "red_top_player_decay_inactive_days": 1.8254166666666667,
+    "red_top_player_form_change": -0.070906949352179,
+    "red_jng_player_decay_win_rate": 0.6145634410034836,
+    "red_jng_player_decay_effective_games": 60.94737874010336,
+    "red_jng_player_decay_inactive_days": 1.8254166666666667,
+    "red_jng_player_form_change": -0.10327144120247567,
+    "red_mid_player_decay_win_rate": 0.6136450439034349,
+    "red_mid_player_decay_effective_games": 62.712487298119335,
+    "red_mid_player_decay_inactive_days": 1.8254166666666667,
+    "red_mid_player_form_change": -0.024806201550387597,
+    "red_bot_player_decay_win_rate": 0.6146152299033957,
+    "red_bot_player_decay_effective_games": 60.90213140566513,
+    "red_bot_player_decay_inactive_days": 1.8254166666666667,
+    "red_bot_player_form_change": -0.09703915950334285,
+    "red_sup_player_decay_win_rate": 0.6179526145831776,
+    "red_sup_player_decay_effective_games": 61.55622535706271,
+    "red_sup_player_decay_inactive_days": 1.8254166666666667,
+    "red_sup_player_form_change": -0.10547263681592045,
+    "red_team_patch_win_rate": 0.5869565217391305,
+    "red_team_patch_games": 8.0,
+    "red_roster_win_rate": 0.6204819277108434,
+    "red_roster_games": 146.0,
+    "red_head_to_head_win_rate": 0.5652173913043478,
+    "red_head_to_head_games": 3.0,
+    "red_top_player_champion_recent_win_rate": 0.5454545454545454,
+    "red_top_player_champion_recent_games": 1.0,
+    "red_top_matchup_recent_win_rate": 0.5,
+    "red_top_matchup_recent_games": 0.0,
+    "red_top_player_patch_win_rate": 0.5869565217391305,
+    "red_top_player_patch_games": 8.0,
+    "red_top_player_champion_patch_win_rate": 0.5,
+    "red_top_player_champion_patch_games": 0.0,
+    "red_jng_player_champion_recent_win_rate": 0.48148148148148145,
+    "red_jng_player_champion_recent_games": 17.0,
+    "red_jng_matchup_recent_win_rate": 0.5,
+    "red_jng_matchup_recent_games": 16.0,
+    "red_jng_player_patch_win_rate": 0.5869565217391305,
+    "red_jng_player_patch_games": 8.0,
+    "red_jng_player_champion_patch_win_rate": 0.47619047619047616,
+    "red_jng_player_champion_patch_games": 1.0,
+    "red_mid_player_champion_recent_win_rate": 0.6,
+    "red_mid_player_champion_recent_games": 20.0,
+    "red_mid_matchup_recent_win_rate": 0.5,
+    "red_mid_matchup_recent_games": 20.0,
+    "red_mid_player_patch_win_rate": 0.5869565217391305,
+    "red_mid_player_patch_games": 8.0,
+    "red_mid_player_champion_patch_win_rate": 0.5238095238095238,
+    "red_mid_player_champion_patch_games": 1.0,
+    "red_bot_player_champion_recent_win_rate": 0.5,
+    "red_bot_player_champion_recent_games": 20.0,
+    "red_bot_matchup_recent_win_rate": 0.5185185185185185,
+    "red_bot_matchup_recent_games": 7.0,
+    "red_bot_player_patch_win_rate": 0.5869565217391305,
+    "red_bot_player_patch_games": 8.0,
+    "red_bot_player_champion_patch_win_rate": 0.5,
+    "red_bot_player_champion_patch_games": 0.0,
+    "red_sup_player_champion_recent_win_rate": 0.7333333333333333,
+    "red_sup_player_champion_recent_games": 20.0,
+    "red_sup_matchup_recent_win_rate": 0.475,
+    "red_sup_matchup_recent_games": 20.0,
+    "red_sup_player_patch_win_rate": 0.5869565217391305,
+    "red_sup_player_patch_games": 8.0,
+    "red_sup_player_champion_patch_win_rate": 0.5,
+    "red_sup_player_champion_patch_games": 0.0,
+    "red_mid_jungle_win_rate": 0.5114503816793893,
+    "red_mid_jungle_games": 101.0,
+    "red_mid_jungle_recent_win_rate": 0.54,
+    "red_mid_jungle_recent_games": 20.0,
+    "red_mid_jungle_patch_win_rate": 0.5,
+    "red_mid_jungle_patch_games": 0.0,
+    "red_mid_jungle_players_win_rate": 0.6204819277108434,
+    "red_mid_jungle_players_games": 146.0,
+    "red_bot_support_win_rate": 0.4945155393053016,
+    "red_bot_support_games": 1064.0,
+    "red_bot_support_recent_win_rate": 0.62,
+    "red_bot_support_recent_games": 20.0,
+    "red_bot_support_patch_win_rate": 0.5161290322580645,
+    "red_bot_support_patch_games": 1.0,
+    "red_bot_support_players_win_rate": 0.6204819277108434,
+    "red_bot_support_players_games": 146.0,
+    "team_decay_win_rate_diff": -0.12447626673005119,
+    "team_form_change_diff": 0.06806201550387603,
+    "player_decay_win_rate_diff": -0.10594123948531906,
+    "player_champion_recent_win_rate_diff": -0.07280423280423279,
+    "matchup_recent_win_rate_diff": 0.002592592592592602,
+    "player_patch_win_rate_diff": -0.03756521739130436,
+    "player_champion_patch_win_rate_diff": 0.0047619047619047675,
+    "team_patch_win_rate_diff": -0.04695652173913045,
+    "roster_win_rate_diff": -0.1281742354031511,
+    "head_to_head_win_rate_diff": -0.13043478260869562,
+    "mid_jungle_win_rate_diff": 0.0037011334721258615,
+    "bot_support_win_rate_diff": 0.005484460694698379,
+    "mid_jungle_recent_win_rate_diff": -0.024848484848484897,
+    "bot_support_recent_win_rate_diff": -0.12,
+    "mid_jungle_patch_win_rate_diff": 0.0,
+    "bot_support_patch_win_rate_diff": -0.016129032258064502,
+    "mid_jungle_players_win_rate_diff": -0.09416613823715925,
+    "bot_support_players_win_rate_diff": -0.08202038924930499
+  },
+  "categorical": [
+    "league",
+    "blue_team_id",
+    "red_team_id",
+    "first_pick_side",
+    "blue_top_player_id",
+    "blue_jng_player_id",
+    "blue_mid_player_id",
+    "blue_bot_player_id",
+    "blue_sup_player_id",
+    "red_top_player_id",
+    "red_jng_player_id",
+    "red_mid_player_id",
+    "red_bot_player_id",
+    "red_sup_player_id",
+    "patch",
+    "blue_ban1",
+    "blue_ban2",
+    "blue_ban3",
+    "blue_ban4",
+    "blue_ban5",
+    "blue_top_champion",
+    "blue_jng_champion",
+    "blue_mid_champion",
+    "blue_bot_champion",
+    "blue_sup_champion",
+    "red_ban1",
+    "red_ban2",
+    "red_ban3",
+    "red_ban4",
+    "red_ban5",
+    "red_top_champion",
+    "red_jng_champion",
+    "red_mid_champion",
+    "red_bot_champion",
+    "red_sup_champion"
+  ],
+  "contributions": [
+    {
+      "feature": "historical_blue_win_rate",
+      "value": 0.5332869323125109,
+      "contribution": -0.0033007529550434338
+    },
+    {
+      "feature": "historical_game_count",
+      "value": 28715.0,
+      "contribution": -0.08713750654050469
+    },
+    {
+      "feature": "blue_team_win_rate",
+      "value": 0.48,
+      "contribution": 0.0017526067648514253
+    },
+    {
+      "feature": "blue_team_games",
+      "value": 90.0,
+      "contribution": 0.006757910262088732
+    },
+    {
+      "feature": "blue_team_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0013619057946532257
+    },
+    {
+      "feature": "blue_team_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_team_win_rate",
+      "value": 0.5813953488372093,
+      "contribution": -0.009589796835658639
+    },
+    {
+      "feature": "red_team_games",
+      "value": 291.0,
+      "contribution": -0.07104111525111874
+    },
+    {
+      "feature": "red_team_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": -0.0005159812494208388
+    },
+    {
+      "feature": "red_team_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "team_win_rate_diff",
+      "value": -0.10139534883720935,
+      "contribution": 0.009433529185043942
+    },
+    {
+      "feature": "team_recent_win_rate_diff",
+      "value": -0.033333333333333326,
+      "contribution": 0.025161062628393873
+    },
+    {
+      "feature": "blue_top_player_win_rate",
+      "value": 0.49261083743842365,
+      "contribution": 0.004032102928747445
+    },
+    {
+      "feature": "blue_top_player_games",
+      "value": 193.0,
+      "contribution": -0.005712922110153508
+    },
+    {
+      "feature": "blue_top_player_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0012886750859372152
+    },
+    {
+      "feature": "blue_top_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.002533735873849639
+    },
+    {
+      "feature": "blue_jng_player_win_rate",
+      "value": 0.5444015444015444,
+      "contribution": 0.0029342073987474143
+    },
+    {
+      "feature": "blue_jng_player_games",
+      "value": 249.0,
+      "contribution": -0.0009486249968102105
+    },
+    {
+      "feature": "blue_jng_player_recent_win_rate",
+      "value": 0.5,
+      "contribution": -0.004499880379540967
+    },
+    {
+      "feature": "blue_jng_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.004948255313617218
+    },
+    {
+      "feature": "blue_mid_player_win_rate",
+      "value": 0.5633802816901409,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_mid_player_games",
+      "value": 132.0,
+      "contribution": 0.0222353205690023
+    },
+    {
+      "feature": "blue_mid_player_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.002331867615349334
+    },
+    {
+      "feature": "blue_mid_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.0021518893546906134
+    },
+    {
+      "feature": "blue_bot_player_win_rate",
+      "value": 0.5416666666666666,
+      "contribution": 0.0034185362343681896
+    },
+    {
+      "feature": "blue_bot_player_games",
+      "value": 134.0,
+      "contribution": 0.012869632407863197
+    },
+    {
+      "feature": "blue_bot_player_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0008685261833408182
+    },
+    {
+      "feature": "blue_bot_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.007569133567714518
+    },
+    {
+      "feature": "blue_sup_player_win_rate",
+      "value": 0.532258064516129,
+      "contribution": 0.00802858493553766
+    },
+    {
+      "feature": "blue_sup_player_games",
+      "value": 176.0,
+      "contribution": 0.062012323371038014
+    },
+    {
+      "feature": "blue_sup_player_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0001585915487080548
+    },
+    {
+      "feature": "blue_sup_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_top_player_win_rate",
+      "value": 0.6042402826855123,
+      "contribution": -0.00017011163595861912
+    },
+    {
+      "feature": "red_top_player_games",
+      "value": 273.0,
+      "contribution": -0.005393444585215759
+    },
+    {
+      "feature": "red_top_player_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": -0.00047353395877440085
+    },
+    {
+      "feature": "red_top_player_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_jng_player_win_rate",
+      "value": 0.636604774535809,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_jng_player_games",
+      "value": 367.0,
+      "contribution": -0.0073329099726657035
+    },
+    {
+      "feature": "red_jng_player_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": 0.0009111021345920734
+    },
+    {
+      "feature": "red_jng_player_recent_games",
+      "value": 20.0,
+      "contribution": -0.0016792857219881027
+    },
+    {
+      "feature": "red_mid_player_win_rate",
+      "value": 0.5581395348837209,
+      "contribution": -0.012534961978899025
+    },
+    {
+      "feature": "red_mid_player_games",
+      "value": 377.0,
+      "contribution": -0.125562206107032
+    },
+    {
+      "feature": "red_mid_player_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": 0.001209647181641805
+    },
+    {
+      "feature": "red_mid_player_recent_games",
+      "value": 20.0,
+      "contribution": -0.0007943856746479403
+    },
+    {
+      "feature": "red_bot_player_win_rate",
+      "value": 0.6303724928366762,
+      "contribution": -0.004463326882494645
+    },
+    {
+      "feature": "red_bot_player_games",
+      "value": 339.0,
+      "contribution": -0.014021805102977293
+    },
+    {
+      "feature": "red_bot_player_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_bot_player_recent_games",
+      "value": 20.0,
+      "contribution": -0.001694184443766474
+    },
+    {
+      "feature": "red_sup_player_win_rate",
+      "value": 0.6388059701492538,
+      "contribution": 0.004792571575478856
+    },
+    {
+      "feature": "red_sup_player_games",
+      "value": 325.0,
+      "contribution": -0.1159178007022409
+    },
+    {
+      "feature": "red_sup_player_recent_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": 0.0032068323924298427
+    },
+    {
+      "feature": "red_sup_player_recent_games",
+      "value": 20.0,
+      "contribution": -0.00023628135526945892
+    },
+    {
+      "feature": "player_win_rate_diff",
+      "value": -0.07876913207561352,
+      "contribution": -0.016896644292557498
+    },
+    {
+      "feature": "player_recent_win_rate_diff",
+      "value": -0.033333333333333326,
+      "contribution": -0.007539766218573752
+    },
+    {
+      "feature": "blue_known_bans",
+      "value": 5.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_top_champion_win_rate",
+      "value": 0.5298013245033113,
+      "contribution": 0.0009850380598762434
+    },
+    {
+      "feature": "blue_top_champion_games",
+      "value": 282.0,
+      "contribution": 0.0034124962528386277
+    },
+    {
+      "feature": "blue_top_player_champion_win_rate",
+      "value": 0.5454545454545454,
+      "contribution": 0.0012072123152100564
+    },
+    {
+      "feature": "blue_top_player_champion_games",
+      "value": 1.0,
+      "contribution": 0.0004171508087651415
+    },
+    {
+      "feature": "blue_top_matchup_win_rate",
+      "value": 0.5,
+      "contribution": 0.0003881023798942393
+    },
+    {
+      "feature": "blue_top_matchup_games",
+      "value": 0.0,
+      "contribution": -2.4583468072922288e-05
+    },
+    {
+      "feature": "blue_top_patch_champion_win_rate",
+      "value": 0.5,
+      "contribution": 0.0013623111630951873
+    },
+    {
+      "feature": "blue_top_patch_champion_games",
+      "value": 0.0,
+      "contribution": 0.004094699916899155
+    },
+    {
+      "feature": "blue_jng_champion_win_rate",
+      "value": 0.4939759036144578,
+      "contribution": -0.00022357369923069762
+    },
+    {
+      "feature": "blue_jng_champion_games",
+      "value": 395.0,
+      "contribution": 9.677908034583439e-05
+    },
+    {
+      "feature": "blue_jng_player_champion_win_rate",
+      "value": 0.5555555555555556,
+      "contribution": 0.003666596261754638
+    },
+    {
+      "feature": "blue_jng_player_champion_games",
+      "value": 8.0,
+      "contribution": -8.806903280126828e-05
+    },
+    {
+      "feature": "blue_jng_matchup_win_rate",
+      "value": 0.5,
+      "contribution": 0.00646583483716029
+    },
+    {
+      "feature": "blue_jng_matchup_games",
+      "value": 16.0,
+      "contribution": -0.0004028438789839356
+    },
+    {
+      "feature": "blue_jng_patch_champion_win_rate",
+      "value": 0.5,
+      "contribution": -0.007833836428668393
+    },
+    {
+      "feature": "blue_jng_patch_champion_games",
+      "value": 0.0,
+      "contribution": -0.0012428935914443717
+    },
+    {
+      "feature": "blue_mid_champion_win_rate",
+      "value": 0.5095367847411444,
+      "contribution": -0.004137015461331472
+    },
+    {
+      "feature": "blue_mid_champion_games",
+      "value": 347.0,
+      "contribution": 0.004486047292884501
+    },
+    {
+      "feature": "blue_mid_player_champion_win_rate",
+      "value": 0.42857142857142855,
+      "contribution": -0.001781807034456393
+    },
+    {
+      "feature": "blue_mid_player_champion_games",
+      "value": 4.0,
+      "contribution": -0.0012561852609264698
+    },
+    {
+      "feature": "blue_mid_matchup_win_rate",
+      "value": 0.4782608695652174,
+      "contribution": 0.0073430711009153
+    },
+    {
+      "feature": "blue_mid_matchup_games",
+      "value": 26.0,
+      "contribution": 0.0023562637500624053
+    },
+    {
+      "feature": "blue_mid_patch_champion_win_rate",
+      "value": 0.5333333333333333,
+      "contribution": 0.025108028948530477
+    },
+    {
+      "feature": "blue_mid_patch_champion_games",
+      "value": 10.0,
+      "contribution": 0.0028700633981953677
+    },
+    {
+      "feature": "blue_bot_champion_win_rate",
+      "value": 0.42574257425742573,
+      "contribution": 0.0015126761696719504
+    },
+    {
+      "feature": "blue_bot_champion_games",
+      "value": 81.0,
+      "contribution": -0.0016784702483193157
+    },
+    {
+      "feature": "blue_bot_player_champion_win_rate",
+      "value": 0.5,
+      "contribution": 0.0014359010632252957
+    },
+    {
+      "feature": "blue_bot_player_champion_games",
+      "value": 0.0,
+      "contribution": -0.004244401149155841
+    },
+    {
+      "feature": "blue_bot_matchup_win_rate",
+      "value": 0.48148148148148145,
+      "contribution": -0.006323316407929006
+    },
+    {
+      "feature": "blue_bot_matchup_games",
+      "value": 7.0,
+      "contribution": -0.0010163009295458569
+    },
+    {
+      "feature": "blue_bot_patch_champion_win_rate",
+      "value": 0.5,
+      "contribution": 0.003062362318716503
+    },
+    {
+      "feature": "blue_bot_patch_champion_games",
+      "value": 0.0,
+      "contribution": -0.0018270683868813991
+    },
+    {
+      "feature": "blue_sup_champion_win_rate",
+      "value": 0.4952741020793951,
+      "contribution": 0.0029369675902066747
+    },
+    {
+      "feature": "blue_sup_champion_games",
+      "value": 509.0,
+      "contribution": -0.0013895358351681114
+    },
+    {
+      "feature": "blue_sup_player_champion_win_rate",
+      "value": 0.4666666666666667,
+      "contribution": -0.004090868994084532
+    },
+    {
+      "feature": "blue_sup_player_champion_games",
+      "value": 5.0,
+      "contribution": -0.0023857390085687824
+    },
+    {
+      "feature": "blue_sup_matchup_win_rate",
+      "value": 0.4631578947368421,
+      "contribution": -0.0004195453731496287
+    },
+    {
+      "feature": "blue_sup_matchup_games",
+      "value": 75.0,
+      "contribution": -0.0016084051249333573
+    },
+    {
+      "feature": "blue_sup_patch_champion_win_rate",
+      "value": 0.5,
+      "contribution": 0.005406773438500817
+    },
+    {
+      "feature": "blue_sup_patch_champion_games",
+      "value": 2.0,
+      "contribution": -0.0036717545925386303
+    },
+    {
+      "feature": "blue_synergy_mean_win_rate",
+      "value": 0.5108933654106804,
+      "contribution": 0.0247096234734121
+    },
+    {
+      "feature": "blue_synergy_mean_games",
+      "value": 4.4,
+      "contribution": -0.004028304034486415
+    },
+    {
+      "feature": "blue_synergy_min_games",
+      "value": 0.0,
+      "contribution": 0.0018454798153163124
+    },
+    {
+      "feature": "blue_synergy_known_pairs",
+      "value": 7.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_known_bans",
+      "value": 5.0,
+      "contribution": -4.3435570936922244e-05
+    },
+    {
+      "feature": "red_top_champion_win_rate",
+      "value": 0.526032315978456,
+      "contribution": -0.028935543612346546
+    },
+    {
+      "feature": "red_top_champion_games",
+      "value": 537.0,
+      "contribution": -0.007112706164941912
+    },
+    {
+      "feature": "red_top_player_champion_win_rate",
+      "value": 0.5454545454545454,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_top_player_champion_games",
+      "value": 1.0,
+      "contribution": 0.010500812374867823
+    },
+    {
+      "feature": "red_top_matchup_win_rate",
+      "value": 0.5,
+      "contribution": -5.167361957101918e-06
+    },
+    {
+      "feature": "red_top_matchup_games",
+      "value": 0.0,
+      "contribution": 0.0024598066120997838
+    },
+    {
+      "feature": "red_top_patch_champion_win_rate",
+      "value": 0.5,
+      "contribution": 0.0021855756741495504
+    },
+    {
+      "feature": "red_top_patch_champion_games",
+      "value": 10.0,
+      "contribution": -0.013223345419438022
+    },
+    {
+      "feature": "red_jng_champion_win_rate",
+      "value": 0.5023498694516971,
+      "contribution": 0.007285690854967865
+    },
+    {
+      "feature": "red_jng_champion_games",
+      "value": 1895.0,
+      "contribution": -0.007465288387600085
+    },
+    {
+      "feature": "red_jng_player_champion_win_rate",
+      "value": 0.48148148148148145,
+      "contribution": -0.0006394386757613288
+    },
+    {
+      "feature": "red_jng_player_champion_games",
+      "value": 17.0,
+      "contribution": -0.0011296368431939843
+    },
+    {
+      "feature": "red_jng_matchup_win_rate",
+      "value": 0.5,
+      "contribution": 0.0006169298709331945
+    },
+    {
+      "feature": "red_jng_matchup_games",
+      "value": 16.0,
+      "contribution": -0.0004932457969510424
+    },
+    {
+      "feature": "red_jng_patch_champion_win_rate",
+      "value": 0.5151515151515151,
+      "contribution": -0.006031144090641498
+    },
+    {
+      "feature": "red_jng_patch_champion_games",
+      "value": 13.0,
+      "contribution": 0.011878430414007955
+    },
+    {
+      "feature": "red_mid_champion_win_rate",
+      "value": 0.48361252731245447,
+      "contribution": 0.018317210064137637
+    },
+    {
+      "feature": "red_mid_champion_games",
+      "value": 2726.0,
+      "contribution": -0.004931348755026503
+    },
+    {
+      "feature": "red_mid_player_champion_win_rate",
+      "value": 0.625,
+      "contribution": -0.003737419275990097
+    },
+    {
+      "feature": "red_mid_player_champion_games",
+      "value": 22.0,
+      "contribution": 0.0038033149301376443
+    },
+    {
+      "feature": "red_mid_matchup_win_rate",
+      "value": 0.5217391304347826,
+      "contribution": -0.005378380043423888
+    },
+    {
+      "feature": "red_mid_matchup_games",
+      "value": 26.0,
+      "contribution": 0.004710100753385987
+    },
+    {
+      "feature": "red_mid_patch_champion_win_rate",
+      "value": 0.5277777777777778,
+      "contribution": 0.008875013741584755
+    },
+    {
+      "feature": "red_mid_patch_champion_games",
+      "value": 16.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_bot_champion_win_rate",
+      "value": 0.4950980392156863,
+      "contribution": 0.01096077317417739
+    },
+    {
+      "feature": "red_bot_champion_games",
+      "value": 6304.0,
+      "contribution": -0.003703427281009309
+    },
+    {
+      "feature": "red_bot_player_champion_win_rate",
+      "value": 0.5660377358490566,
+      "contribution": 0.0017229475257217754
+    },
+    {
+      "feature": "red_bot_player_champion_games",
+      "value": 43.0,
+      "contribution": 0.00026593820761633413
+    },
+    {
+      "feature": "red_bot_matchup_win_rate",
+      "value": 0.5185185185185185,
+      "contribution": -0.00662499088281443
+    },
+    {
+      "feature": "red_bot_matchup_games",
+      "value": 7.0,
+      "contribution": -0.0014199657930073495
+    },
+    {
+      "feature": "red_bot_patch_champion_win_rate",
+      "value": 0.5116279069767442,
+      "contribution": 0.0009807880854049646
+    },
+    {
+      "feature": "red_bot_patch_champion_games",
+      "value": 23.0,
+      "contribution": -0.00035301547815084306
+    },
+    {
+      "feature": "red_sup_champion_win_rate",
+      "value": 0.4661166764879199,
+      "contribution": -0.00526055105818047
+    },
+    {
+      "feature": "red_sup_champion_games",
+      "value": 5071.0,
+      "contribution": 0.04461557032241423
+    },
+    {
+      "feature": "red_sup_player_champion_win_rate",
+      "value": 0.7380952380952381,
+      "contribution": 0.03649037875043623
+    },
+    {
+      "feature": "red_sup_player_champion_games",
+      "value": 32.0,
+      "contribution": -0.00015966109818730354
+    },
+    {
+      "feature": "red_sup_matchup_win_rate",
+      "value": 0.5368421052631579,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_sup_matchup_games",
+      "value": 75.0,
+      "contribution": -0.0002670415205181634
+    },
+    {
+      "feature": "red_sup_patch_champion_win_rate",
+      "value": 0.52,
+      "contribution": 0.005548866944876092
+    },
+    {
+      "feature": "red_sup_patch_champion_games",
+      "value": 5.0,
+      "contribution": 0.00045714977604570893
+    },
+    {
+      "feature": "red_synergy_mean_win_rate",
+      "value": 0.49817555773115557,
+      "contribution": 0.00653489414817791
+    },
+    {
+      "feature": "red_synergy_mean_games",
+      "value": 230.8,
+      "contribution": 0.0019141606378619137
+    },
+    {
+      "feature": "red_synergy_min_games",
+      "value": 17.0,
+      "contribution": 0.0026753237782878407
+    },
+    {
+      "feature": "red_synergy_known_pairs",
+      "value": 10.0,
+      "contribution": -0.001568800606846291
+    },
+    {
+      "feature": "champion_win_rate_diff",
+      "value": -0.00377574785009589,
+      "contribution": 0.0022672414711867876
+    },
+    {
+      "feature": "player_champion_win_rate_diff",
+      "value": -0.09196416092642508,
+      "contribution": -0.017570984744530463
+    },
+    {
+      "feature": "matchup_win_rate_diff",
+      "value": -0.030839901686583605,
+      "contribution": -0.015477088789259397
+    },
+    {
+      "feature": "patch_champion_win_rate_diff",
+      "value": -0.008244773314540765,
+      "contribution": 0.0031101197302015006
+    },
+    {
+      "feature": "synergy_win_rate_diff",
+      "value": 0.01271780767952485,
+      "contribution": -0.014751010728856805
+    },
+    {
+      "feature": "blue_bot_matchup_recent_games",
+      "value": 7.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_bot_matchup_recent_win_rate",
+      "value": 0.48148148148148145,
+      "contribution": 0.0009578575817517261
+    },
+    {
+      "feature": "blue_bot_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": 0.0015884592917648163
+    },
+    {
+      "feature": "blue_bot_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -9.103049180119317e-05
+    },
+    {
+      "feature": "blue_bot_player_champion_recent_games",
+      "value": 0.0,
+      "contribution": -0.0037408733714965883
+    },
+    {
+      "feature": "blue_bot_player_champion_recent_win_rate",
+      "value": 0.5,
+      "contribution": -0.00029247563119519913
+    },
+    {
+      "feature": "blue_bot_player_decay_effective_games",
+      "value": 41.514348178461816,
+      "contribution": 0.0054488823145545425
+    },
+    {
+      "feature": "blue_bot_player_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": -0.0030894605041048616
+    },
+    {
+      "feature": "blue_bot_player_decay_win_rate",
+      "value": 0.5228422689193086,
+      "contribution": 0.007666101361325258
+    },
+    {
+      "feature": "blue_bot_player_form_change",
+      "value": -0.04166666666666663,
+      "contribution": 0.00412810825524733
+    },
+    {
+      "feature": "blue_bot_player_patch_games",
+      "value": 10.0,
+      "contribution": 0.004607838633619929
+    },
+    {
+      "feature": "blue_bot_player_patch_win_rate",
+      "value": 0.54,
+      "contribution": 0.004516128189140942
+    },
+    {
+      "feature": "blue_bot_support_games",
+      "value": 0.0,
+      "contribution": -0.011516968781003424
+    },
+    {
+      "feature": "blue_bot_support_patch_games",
+      "value": 0.0,
+      "contribution": 0.0007919488200327959
+    },
+    {
+      "feature": "blue_bot_support_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.011611328694250045
+    },
+    {
+      "feature": "blue_bot_support_players_games",
+      "value": 84.0,
+      "contribution": -0.027368141822825067
+    },
+    {
+      "feature": "blue_bot_support_players_win_rate",
+      "value": 0.5384615384615384,
+      "contribution": -0.0005943447974492059
+    },
+    {
+      "feature": "blue_bot_support_recent_games",
+      "value": 0.0,
+      "contribution": -0.017741435463211434
+    },
+    {
+      "feature": "blue_bot_support_recent_win_rate",
+      "value": 0.5,
+      "contribution": -0.0010544439233851615
+    },
+    {
+      "feature": "blue_bot_support_win_rate",
+      "value": 0.5,
+      "contribution": -0.0021143221975006773
+    },
+    {
+      "feature": "blue_head_to_head_games",
+      "value": 3.0,
+      "contribution": 0.0007920333386770673
+    },
+    {
+      "feature": "blue_head_to_head_win_rate",
+      "value": 0.43478260869565216,
+      "contribution": -0.013075700422472403
+    },
+    {
+      "feature": "blue_jng_matchup_recent_games",
+      "value": 16.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_jng_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.001472600508176945
+    },
+    {
+      "feature": "blue_jng_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": -0.0003623960364356496
+    },
+    {
+      "feature": "blue_jng_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_jng_player_champion_recent_games",
+      "value": 8.0,
+      "contribution": 0.0005363381839352031
+    },
+    {
+      "feature": "blue_jng_player_champion_recent_win_rate",
+      "value": 0.5555555555555556,
+      "contribution": 0.004663652136820619
+    },
+    {
+      "feature": "blue_jng_player_decay_effective_games",
+      "value": 39.39625540735692,
+      "contribution": 0.00177551073840905
+    },
+    {
+      "feature": "blue_jng_player_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": 0.00041445093320453873
+    },
+    {
+      "feature": "blue_jng_player_decay_win_rate",
+      "value": 0.5122386391798694,
+      "contribution": 0.001603167107668803
+    },
+    {
+      "feature": "blue_jng_player_form_change",
+      "value": -0.044401544401544424,
+      "contribution": -0.0016648164377001094
+    },
+    {
+      "feature": "blue_jng_player_patch_games",
+      "value": 8.0,
+      "contribution": 0.0005823521460346363
+    },
+    {
+      "feature": "blue_jng_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": -0.0009674855453698728
+    },
+    {
+      "feature": "blue_mid_jungle_games",
+      "value": 3.0,
+      "contribution": 0.01505708859653623
+    },
+    {
+      "feature": "blue_mid_jungle_patch_games",
+      "value": 0.0,
+      "contribution": 0.0035685790748392326
+    },
+    {
+      "feature": "blue_mid_jungle_patch_win_rate",
+      "value": 0.5,
+      "contribution": 0.009460093620705504
+    },
+    {
+      "feature": "blue_mid_jungle_players_games",
+      "value": 56.0,
+      "contribution": -0.015093713168450856
+    },
+    {
+      "feature": "blue_mid_jungle_players_win_rate",
+      "value": 0.5263157894736842,
+      "contribution": 0.0020272618196987206
+    },
+    {
+      "feature": "blue_mid_jungle_recent_games",
+      "value": 3.0,
+      "contribution": -0.0011915083628931144
+    },
+    {
+      "feature": "blue_mid_jungle_recent_win_rate",
+      "value": 0.5151515151515151,
+      "contribution": 0.0006257949433249084
+    },
+    {
+      "feature": "blue_mid_jungle_win_rate",
+      "value": 0.5151515151515151,
+      "contribution": 0.005398307122089095
+    },
+    {
+      "feature": "blue_mid_matchup_recent_games",
+      "value": 20.0,
+      "contribution": -0.001785225228471527
+    },
+    {
+      "feature": "blue_mid_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": -0.009894711539218308
+    },
+    {
+      "feature": "blue_mid_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_mid_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.0005917269746765373
+    },
+    {
+      "feature": "blue_mid_player_champion_recent_games",
+      "value": 4.0,
+      "contribution": 0.007075723335030464
+    },
+    {
+      "feature": "blue_mid_player_champion_recent_win_rate",
+      "value": 0.42857142857142855,
+      "contribution": 0.00011624482839902853
+    },
+    {
+      "feature": "blue_mid_player_decay_effective_games",
+      "value": 35.08736647215208,
+      "contribution": 0.006064521882973285
+    },
+    {
+      "feature": "blue_mid_player_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": 0.00023212792162870035
+    },
+    {
+      "feature": "blue_mid_player_decay_win_rate",
+      "value": 0.5257452756316282,
+      "contribution": 0.007736906333359263
+    },
+    {
+      "feature": "blue_mid_player_form_change",
+      "value": -0.06338028169014087,
+      "contribution": 0.0016858353327259862
+    },
+    {
+      "feature": "blue_mid_player_patch_games",
+      "value": 10.0,
+      "contribution": -0.00029743283981284105
+    },
+    {
+      "feature": "blue_mid_player_patch_win_rate",
+      "value": 0.54,
+      "contribution": 0.0025614427468607327
+    },
+    {
+      "feature": "blue_roster_games",
+      "value": 45.0,
+      "contribution": -0.011286152693573116
+    },
+    {
+      "feature": "blue_roster_win_rate",
+      "value": 0.49230769230769234,
+      "contribution": 4.007757800090573e-06
+    },
+    {
+      "feature": "blue_sup_matchup_recent_games",
+      "value": 20.0,
+      "contribution": 0.0014442830542846141
+    },
+    {
+      "feature": "blue_sup_matchup_recent_win_rate",
+      "value": 0.525,
+      "contribution": -0.00016564515143069043
+    },
+    {
+      "feature": "blue_sup_player_champion_patch_games",
+      "value": 1.0,
+      "contribution": 0.000722681808329321
+    },
+    {
+      "feature": "blue_sup_player_champion_patch_win_rate",
+      "value": 0.5238095238095238,
+      "contribution": 0.00016418408529024226
+    },
+    {
+      "feature": "blue_sup_player_champion_recent_games",
+      "value": 5.0,
+      "contribution": 0.0010406711700593672
+    },
+    {
+      "feature": "blue_sup_player_champion_recent_win_rate",
+      "value": 0.4666666666666667,
+      "contribution": 0.002346537859752699
+    },
+    {
+      "feature": "blue_sup_player_decay_effective_games",
+      "value": 41.625154784828275,
+      "contribution": 0.004600703695374856
+    },
+    {
+      "feature": "blue_sup_player_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": 0.002612432902053998
+    },
+    {
+      "feature": "blue_sup_player_decay_win_rate",
+      "value": 0.5099364436919653,
+      "contribution": -0.0014832666855627242
+    },
+    {
+      "feature": "blue_sup_player_form_change",
+      "value": -0.032258064516129004,
+      "contribution": 0.0035090368468753273
+    },
+    {
+      "feature": "blue_sup_player_patch_games",
+      "value": 10.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_sup_player_patch_win_rate",
+      "value": 0.54,
+      "contribution": 0.0005491324980819947
+    },
+    {
+      "feature": "blue_team_decay_effective_games",
+      "value": 39.114761454405475,
+      "contribution": 0.010388222906953218
+    },
+    {
+      "feature": "blue_team_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": -0.001034753666427247
+    },
+    {
+      "feature": "blue_team_decay_win_rate",
+      "value": 0.48990311615252224,
+      "contribution": 0.009118994315567239
+    },
+    {
+      "feature": "blue_team_form_change",
+      "value": 0.020000000000000018,
+      "contribution": 0.009308851757921715
+    },
+    {
+      "feature": "blue_team_patch_games",
+      "value": 10.0,
+      "contribution": -0.0007329324308026605
+    },
+    {
+      "feature": "blue_team_patch_win_rate",
+      "value": 0.54,
+      "contribution": -0.003951421040225431
+    },
+    {
+      "feature": "blue_top_matchup_recent_games",
+      "value": 0.0,
+      "contribution": -0.001510798959544914
+    },
+    {
+      "feature": "blue_top_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_top_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": -5.312260737874606e-07
+    },
+    {
+      "feature": "blue_top_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.0012548939941907362
+    },
+    {
+      "feature": "blue_top_player_champion_recent_games",
+      "value": 1.0,
+      "contribution": -0.0012061681670796625
+    },
+    {
+      "feature": "blue_top_player_champion_recent_win_rate",
+      "value": 0.5454545454545454,
+      "contribution": 0.00041230647246924405
+    },
+    {
+      "feature": "blue_top_player_decay_effective_games",
+      "value": 37.696957363862836,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_top_player_decay_inactive_days",
+      "value": 0.8254166666666667,
+      "contribution": -0.0009471418387675885
+    },
+    {
+      "feature": "blue_top_player_decay_win_rate",
+      "value": 0.47474356007981827,
+      "contribution": 0.0011813541306972533
+    },
+    {
+      "feature": "blue_top_player_form_change",
+      "value": 0.007389162561576346,
+      "contribution": 0.003763898368490226
+    },
+    {
+      "feature": "blue_top_player_patch_games",
+      "value": 10.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_top_player_patch_win_rate",
+      "value": 0.54,
+      "contribution": 2.328106020657742e-05
+    },
+    {
+      "feature": "bot_support_patch_win_rate_diff",
+      "value": -0.016129032258064502,
+      "contribution": -0.0016997653965633397
+    },
+    {
+      "feature": "bot_support_players_win_rate_diff",
+      "value": -0.08202038924930499,
+      "contribution": 0.025159516504548295
+    },
+    {
+      "feature": "bot_support_recent_win_rate_diff",
+      "value": -0.12,
+      "contribution": 0.021054855144529507
+    },
+    {
+      "feature": "bot_support_win_rate_diff",
+      "value": 0.005484460694698379,
+      "contribution": 0.005850270641270172
+    },
+    {
+      "feature": "head_to_head_win_rate_diff",
+      "value": -0.13043478260869562,
+      "contribution": -0.014064214682384724
+    },
+    {
+      "feature": "matchup_recent_win_rate_diff",
+      "value": 0.002592592592592602,
+      "contribution": 0.002643251122277275
+    },
+    {
+      "feature": "mid_jungle_patch_win_rate_diff",
+      "value": 0.0,
+      "contribution": -0.0018148239198505578
+    },
+    {
+      "feature": "mid_jungle_players_win_rate_diff",
+      "value": -0.09416613823715925,
+      "contribution": -0.040638471374359046
+    },
+    {
+      "feature": "mid_jungle_recent_win_rate_diff",
+      "value": -0.024848484848484897,
+      "contribution": 8.164953231441048e-05
+    },
+    {
+      "feature": "mid_jungle_win_rate_diff",
+      "value": 0.0037011334721258615,
+      "contribution": -0.0002850796196523554
+    },
+    {
+      "feature": "player_champion_patch_win_rate_diff",
+      "value": 0.0047619047619047675,
+      "contribution": 0.00038238584712119855
+    },
+    {
+      "feature": "player_champion_recent_win_rate_diff",
+      "value": -0.07280423280423279,
+      "contribution": -0.034540919408661115
+    },
+    {
+      "feature": "player_decay_win_rate_diff",
+      "value": -0.10594123948531906,
+      "contribution": -0.1749973984791164
+    },
+    {
+      "feature": "player_patch_win_rate_diff",
+      "value": -0.03756521739130436,
+      "contribution": -0.0005141909205576937
+    },
+    {
+      "feature": "red_bot_matchup_recent_games",
+      "value": 7.0,
+      "contribution": 6.576679659529082e-05
+    },
+    {
+      "feature": "red_bot_matchup_recent_win_rate",
+      "value": 0.5185185185185185,
+      "contribution": 0.00019120252074556106
+    },
+    {
+      "feature": "red_bot_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": -0.0002650616004019174
+    },
+    {
+      "feature": "red_bot_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.00013566460181805277
+    },
+    {
+      "feature": "red_bot_player_champion_recent_games",
+      "value": 20.0,
+      "contribution": -0.0015759382870286038
+    },
+    {
+      "feature": "red_bot_player_champion_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0023459669905163236
+    },
+    {
+      "feature": "red_bot_player_decay_effective_games",
+      "value": 60.90213140566513,
+      "contribution": 0.012807543060986248
+    },
+    {
+      "feature": "red_bot_player_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_bot_player_decay_win_rate",
+      "value": 0.6146152299033957,
+      "contribution": -0.0019999981745007387
+    },
+    {
+      "feature": "red_bot_player_form_change",
+      "value": -0.09703915950334285,
+      "contribution": 0.00047941090304674165
+    },
+    {
+      "feature": "red_bot_player_patch_games",
+      "value": 8.0,
+      "contribution": 5.58145779137589e-05
+    },
+    {
+      "feature": "red_bot_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": -0.009560831666470275
+    },
+    {
+      "feature": "red_bot_support_games",
+      "value": 1064.0,
+      "contribution": 0.006935375492838377
+    },
+    {
+      "feature": "red_bot_support_patch_games",
+      "value": 1.0,
+      "contribution": 0.0011631459895194661
+    },
+    {
+      "feature": "red_bot_support_patch_win_rate",
+      "value": 0.5161290322580645,
+      "contribution": 0.0003735447332836582
+    },
+    {
+      "feature": "red_bot_support_players_games",
+      "value": 146.0,
+      "contribution": -0.03609921196891328
+    },
+    {
+      "feature": "red_bot_support_players_win_rate",
+      "value": 0.6204819277108434,
+      "contribution": -0.005531974522084414
+    },
+    {
+      "feature": "red_bot_support_recent_games",
+      "value": 20.0,
+      "contribution": -0.0031550144279605683
+    },
+    {
+      "feature": "red_bot_support_recent_win_rate",
+      "value": 0.62,
+      "contribution": 0.02077219912025393
+    },
+    {
+      "feature": "red_bot_support_win_rate",
+      "value": 0.4945155393053016,
+      "contribution": -0.00514488126224799
+    },
+    {
+      "feature": "red_head_to_head_games",
+      "value": 3.0,
+      "contribution": 0.0023113940664178365
+    },
+    {
+      "feature": "red_head_to_head_win_rate",
+      "value": 0.5652173913043478,
+      "contribution": -0.0428032844511706
+    },
+    {
+      "feature": "red_jng_matchup_recent_games",
+      "value": 16.0,
+      "contribution": -0.0010836550515026819
+    },
+    {
+      "feature": "red_jng_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.001711400910943166
+    },
+    {
+      "feature": "red_jng_player_champion_patch_games",
+      "value": 1.0,
+      "contribution": -0.000579376954733406
+    },
+    {
+      "feature": "red_jng_player_champion_patch_win_rate",
+      "value": 0.47619047619047616,
+      "contribution": -0.0003678363608784454
+    },
+    {
+      "feature": "red_jng_player_champion_recent_games",
+      "value": 17.0,
+      "contribution": 0.004878558675901852
+    },
+    {
+      "feature": "red_jng_player_champion_recent_win_rate",
+      "value": 0.48148148148148145,
+      "contribution": -0.0003646532259111516
+    },
+    {
+      "feature": "red_jng_player_decay_effective_games",
+      "value": 60.94737874010336,
+      "contribution": -0.0026437176221276787
+    },
+    {
+      "feature": "red_jng_player_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_jng_player_decay_win_rate",
+      "value": 0.6145634410034836,
+      "contribution": -0.002971284756995137
+    },
+    {
+      "feature": "red_jng_player_form_change",
+      "value": -0.10327144120247567,
+      "contribution": -0.0017880707603253818
+    },
+    {
+      "feature": "red_jng_player_patch_games",
+      "value": 8.0,
+      "contribution": -0.000656721334881224
+    },
+    {
+      "feature": "red_jng_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_mid_jungle_games",
+      "value": 101.0,
+      "contribution": 0.0030878922410215517
+    },
+    {
+      "feature": "red_mid_jungle_patch_games",
+      "value": 0.0,
+      "contribution": 0.0026870959849855055
+    },
+    {
+      "feature": "red_mid_jungle_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.0007691721386732991
+    },
+    {
+      "feature": "red_mid_jungle_players_games",
+      "value": 146.0,
+      "contribution": 0.005245678140904075
+    },
+    {
+      "feature": "red_mid_jungle_players_win_rate",
+      "value": 0.6204819277108434,
+      "contribution": -0.0010547551896589126
+    },
+    {
+      "feature": "red_mid_jungle_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_mid_jungle_recent_win_rate",
+      "value": 0.54,
+      "contribution": -0.0003922151559490474
+    },
+    {
+      "feature": "red_mid_jungle_win_rate",
+      "value": 0.5114503816793893,
+      "contribution": 0.0002060471907808519
+    },
+    {
+      "feature": "red_mid_matchup_recent_games",
+      "value": 20.0,
+      "contribution": 0.0035082136948438583
+    },
+    {
+      "feature": "red_mid_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": -0.006830260867168181
+    },
+    {
+      "feature": "red_mid_player_champion_patch_games",
+      "value": 1.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_mid_player_champion_patch_win_rate",
+      "value": 0.5238095238095238,
+      "contribution": -0.0001742643450165422
+    },
+    {
+      "feature": "red_mid_player_champion_recent_games",
+      "value": 20.0,
+      "contribution": 0.012099841035508416
+    },
+    {
+      "feature": "red_mid_player_champion_recent_win_rate",
+      "value": 0.6,
+      "contribution": -0.0011983846787743289
+    },
+    {
+      "feature": "red_mid_player_decay_effective_games",
+      "value": 62.712487298119335,
+      "contribution": 0.015570218229184515
+    },
+    {
+      "feature": "red_mid_player_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.0021481960867794476
+    },
+    {
+      "feature": "red_mid_player_decay_win_rate",
+      "value": 0.6136450439034349,
+      "contribution": -0.0001575751692834562
+    },
+    {
+      "feature": "red_mid_player_form_change",
+      "value": -0.024806201550387597,
+      "contribution": -0.04758052268772796
+    },
+    {
+      "feature": "red_mid_player_patch_games",
+      "value": 8.0,
+      "contribution": 0.02569327932569533
+    },
+    {
+      "feature": "red_mid_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": 0.007848942423535793
+    },
+    {
+      "feature": "red_roster_games",
+      "value": 146.0,
+      "contribution": 0.04830443837999492
+    },
+    {
+      "feature": "red_roster_win_rate",
+      "value": 0.6204819277108434,
+      "contribution": 0.004274262432721226
+    },
+    {
+      "feature": "red_sup_matchup_recent_games",
+      "value": 20.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_sup_matchup_recent_win_rate",
+      "value": 0.475,
+      "contribution": -0.0002669215122682095
+    },
+    {
+      "feature": "red_sup_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_sup_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.0025379816581874623
+    },
+    {
+      "feature": "red_sup_player_champion_recent_games",
+      "value": 20.0,
+      "contribution": -0.00023405326958897228
+    },
+    {
+      "feature": "red_sup_player_champion_recent_win_rate",
+      "value": 0.7333333333333333,
+      "contribution": -0.0010532597262537572
+    },
+    {
+      "feature": "red_sup_player_decay_effective_games",
+      "value": 61.55622535706271,
+      "contribution": -0.0013967349983032321
+    },
+    {
+      "feature": "red_sup_player_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.0005523533099634974
+    },
+    {
+      "feature": "red_sup_player_decay_win_rate",
+      "value": 0.6179526145831776,
+      "contribution": -0.007305136377590296
+    },
+    {
+      "feature": "red_sup_player_form_change",
+      "value": -0.10547263681592045,
+      "contribution": -0.0018726347496101543
+    },
+    {
+      "feature": "red_sup_player_patch_games",
+      "value": 8.0,
+      "contribution": 0.022127589758427185
+    },
+    {
+      "feature": "red_sup_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": -0.00016179576902200597
+    },
+    {
+      "feature": "red_team_decay_effective_games",
+      "value": 60.82434061971953,
+      "contribution": -0.00022946612093672093
+    },
+    {
+      "feature": "red_team_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.0014206941758846908
+    },
+    {
+      "feature": "red_team_decay_win_rate",
+      "value": 0.6143793828825734,
+      "contribution": -0.010108247755664964
+    },
+    {
+      "feature": "red_team_form_change",
+      "value": -0.04806201550387601,
+      "contribution": -0.00673510726468823
+    },
+    {
+      "feature": "red_team_patch_games",
+      "value": 8.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_team_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": -0.0005038084791037303
+    },
+    {
+      "feature": "red_top_matchup_recent_games",
+      "value": 0.0,
+      "contribution": 0.0
+    },
+    {
+      "feature": "red_top_matchup_recent_win_rate",
+      "value": 0.5,
+      "contribution": 0.0028934427881546917
+    },
+    {
+      "feature": "red_top_player_champion_patch_games",
+      "value": 0.0,
+      "contribution": -0.012181803210580395
+    },
+    {
+      "feature": "red_top_player_champion_patch_win_rate",
+      "value": 0.5,
+      "contribution": -0.00045625020431137707
+    },
+    {
+      "feature": "red_top_player_champion_recent_games",
+      "value": 1.0,
+      "contribution": -0.0009642176490241827
+    },
+    {
+      "feature": "red_top_player_champion_recent_win_rate",
+      "value": 0.5454545454545454,
+      "contribution": 0.00020962769864248684
+    },
+    {
+      "feature": "red_top_player_decay_effective_games",
+      "value": 60.8140754532475,
+      "contribution": -0.0010272148760311647
+    },
+    {
+      "feature": "red_top_player_decay_inactive_days",
+      "value": 1.8254166666666667,
+      "contribution": 0.000528593241627219
+    },
+    {
+      "feature": "red_top_player_decay_win_rate",
+      "value": 0.6144360555356935,
+      "contribution": -0.020824838581020813
+    },
+    {
+      "feature": "red_top_player_form_change",
+      "value": -0.070906949352179,
+      "contribution": -0.0032327054147857377
+    },
+    {
+      "feature": "red_top_player_patch_games",
+      "value": 8.0,
+      "contribution": 0.00018393129417634143
+    },
+    {
+      "feature": "red_top_player_patch_win_rate",
+      "value": 0.5869565217391305,
+      "contribution": -0.0004735314181613055
+    },
+    {
+      "feature": "roster_win_rate_diff",
+      "value": -0.1281742354031511,
+      "contribution": -0.00176208590510657
+    },
+    {
+      "feature": "team_decay_win_rate_diff",
+      "value": -0.12447626673005119,
+      "contribution": -0.13003996925811892
+    },
+    {
+      "feature": "team_form_change_diff",
+      "value": 0.06806201550387603,
+      "contribution": -0.000289750579265985
+    },
+    {
+      "feature": "team_patch_win_rate_diff",
+      "value": -0.04695652173913045,
+      "contribution": -0.002717534023945187
+    },
+    {
+      "feature": "league",
+      "value": "WLDs",
+      "contribution": 8.066760442418212e-05
+    },
+    {
+      "feature": "blue_team_id",
+      "value": "oe:team:bc3824b0bbb8139d16109178faa4822",
+      "contribution": -0.005086429556229646
+    },
+    {
+      "feature": "red_team_id",
+      "value": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+      "contribution": -0.030872471470666855
+    },
+    {
+      "feature": "first_pick_side",
+      "value": "blue",
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_top_player_id",
+      "value": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+      "contribution": -0.015622754374630267
+    },
+    {
+      "feature": "blue_jng_player_id",
+      "value": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+      "contribution": -0.006676676285873919
+    },
+    {
+      "feature": "blue_mid_player_id",
+      "value": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+      "contribution": -0.04248185887770311
+    },
+    {
+      "feature": "blue_bot_player_id",
+      "value": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+      "contribution": -0.14447833095716875
+    },
+    {
+      "feature": "blue_sup_player_id",
+      "value": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+      "contribution": -0.10603811532255708
+    },
+    {
+      "feature": "red_top_player_id",
+      "value": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+      "contribution": -0.017024936846430774
+    },
+    {
+      "feature": "red_jng_player_id",
+      "value": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+      "contribution": -0.0454971877944607
+    },
+    {
+      "feature": "red_mid_player_id",
+      "value": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+      "contribution": -0.05123536769386362
+    },
+    {
+      "feature": "red_bot_player_id",
+      "value": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+      "contribution": -0.06495343684891193
+    },
+    {
+      "feature": "red_sup_player_id",
+      "value": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+      "contribution": -0.049543655131699144
+    },
+    {
+      "feature": "patch",
+      "value": "16.20",
+      "contribution": -0.012885368484044547
+    },
+    {
+      "feature": "blue_ban1",
+      "value": "Renata Glasc",
+      "contribution": -0.00020222974117985957
+    },
+    {
+      "feature": "blue_ban2",
+      "value": "Syndra",
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_ban3",
+      "value": "Jax",
+      "contribution": -0.016067501709066664
+    },
+    {
+      "feature": "blue_ban4",
+      "value": "Renekton",
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_ban5",
+      "value": "Trundle",
+      "contribution": -0.009716493263322879
+    },
+    {
+      "feature": "blue_top_champion",
+      "value": "Yone",
+      "contribution": -0.001752552515683816
+    },
+    {
+      "feature": "blue_jng_champion",
+      "value": "Aatrox",
+      "contribution": 0.0
+    },
+    {
+      "feature": "blue_mid_champion",
+      "value": "Locke",
+      "contribution": -0.047839376318887794
+    },
+    {
+      "feature": "blue_bot_champion",
+      "value": "Twitch",
+      "contribution": -0.06286729684675907
+    },
+    {
+      "feature": "blue_sup_champion",
+      "value": "Camille",
+      "contribution": -0.006360593567016251
+    },
+    {
+      "feature": "red_ban1",
+      "value": "Olaf",
+      "contribution": 0.0015869424243919296
+    },
+    {
+      "feature": "red_ban2",
+      "value": "Vi",
+      "contribution": -0.004740090606081333
+    },
+    {
+      "feature": "red_ban3",
+      "value": "Nocturne",
+      "contribution": 0.0002713237723207356
+    },
+    {
+      "feature": "red_ban4",
+      "value": "Rakan",
+      "contribution": -0.008840459469735294
+    },
+    {
+      "feature": "red_ban5",
+      "value": "Wukong",
+      "contribution": -0.0016347064451303225
+    },
+    {
+      "feature": "red_top_champion",
+      "value": "Zaahen",
+      "contribution": 0.004099580709283384
+    },
+    {
+      "feature": "red_jng_champion",
+      "value": "Naafiri",
+      "contribution": -0.004137451257841521
+    },
+    {
+      "feature": "red_mid_champion",
+      "value": "Viktor",
+      "contribution": 0.007772652917251729
+    },
+    {
+      "feature": "red_bot_champion",
+      "value": "Ezreal",
+      "contribution": 0.0016382946421021724
+    },
+    {
+      "feature": "red_sup_champion",
+      "value": "Leona",
+      "contribution": -0.00042038395481121764
+    }
+  ],
+  "base_value": 0.16921651573471183,
+  "reconstruction_error": 2.886579864025407e-15,
+  "metadata": {
+    "status": "trained",
+    "run_id": "20261022T120914Z-enhanced",
+    "enhanced_available": true,
+    "selected_model": "enhanced_recent90_d4",
+    "model_version": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+    "label_cutoff": "2025-12-30 00:00:00+00:00",
+    "training_as_of": "2026-10-22T00:00:00Z",
+    "evaluation_data_cutoff": "2026-10-18 19:48:36+00:00",
+    "data_sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+    "feature_code_sha256": {
+      "features.py": "e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+      "enhanced_features.py": "68c0942fd881ae8fd8882d7ed1f11e5e51b54717f89de34d5ae3d7bd253da9a1"
+    },
+    "splits": {
+      "train": {
+        "n": 15717,
+        "first_game": "2024-01-01 05:13:15+00:00",
+        "last_game": "2025-06-29 02:03:36+00:00",
+        "last_result_available": "2025-06-30 00:00:00+00:00",
+        "blue_wins": 8375
+      },
+      "validation": {
+        "n": 2968,
+        "first_game": "2025-07-02 00:13:11+00:00",
+        "last_game": "2025-09-29 18:33:20+00:00",
+        "last_result_available": "2025-09-30 00:00:00+00:00",
+        "blue_wins": 1569
+      },
+      "calibration": {
+        "n": 716,
+        "first_game": "2025-10-01 05:08:31+00:00",
+        "last_game": "2025-12-29 10:52:27+00:00",
+        "last_result_available": "2025-12-30 00:00:00+00:00",
+        "blue_wins": 374
+      },
+      "test": {
+        "n": 9309,
+        "first_game": "2026-01-01 09:14:49+00:00",
+        "last_game": "2026-10-18 19:48:36+00:00",
+        "last_result_available": "2026-10-19 00:00:00+00:00",
+        "blue_wins": 4991
+      }
+    },
+    "config": {
+      "as_of": "2026-10-22T00:00:00Z",
+      "train_end": "2025-07-01T00:00:00Z",
+      "validation_end": "2025-10-01T00:00:00Z",
+      "calibration_end": "2026-01-01T00:00:00Z",
+      "seed": 2026,
+      "thread_count": 4,
+      "min_train": 500,
+      "min_eval": 100,
+      "baseline_model_dir": "models/latest",
+      "selection": "Maximum raw validation ROC-AUC among candidates with validation raw log loss <= frozen baseline + 0.01; must strictly improve baseline validation AUC to deploy.",
+      "validation_log_loss_tolerance": 0.01,
+      "bootstrap_repetitions": 500,
+      "candidates": [
+        {
+          "name": "enhanced_uniform_d5",
+          "iterations": 450,
+          "depth": 5,
+          "learning_rate": 0.04,
+          "l2_leaf_reg": 15,
+          "half_life_days": null
+        },
+        {
+          "name": "enhanced_recent180_d5",
+          "iterations": 450,
+          "depth": 5,
+          "learning_rate": 0.04,
+          "l2_leaf_reg": 15,
+          "half_life_days": 180
+        },
+        {
+          "name": "enhanced_recent90_d4",
+          "iterations": 550,
+          "depth": 4,
+          "learning_rate": 0.035,
+          "l2_leaf_reg": 20,
+          "half_life_days": 90
+        }
+      ]
+    },
+    "selected_test_metrics": {
+      "n": 9309,
+      "accuracy": 0.6363734020840047,
+      "roc_auc": 0.692046099839368,
+      "log_loss": 0.6333061050756578,
+      "brier_score": 0.2214836893968125,
+      "ece_10": 0.026308636635152382,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 59,
+          "mean_probability": 0.17516679781064565,
+          "observed_blue_win_rate": 0.15254237288135594
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 543,
+          "mean_probability": 0.26227830009010067,
+          "observed_blue_win_rate": 0.22099447513812154
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1357,
+          "mean_probability": 0.3577826902036364,
+          "observed_blue_win_rate": 0.32571849668386144
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2068,
+          "mean_probability": 0.45182766853098394,
+          "observed_blue_win_rate": 0.47195357833655704
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2349,
+          "mean_probability": 0.5491918155277665,
+          "observed_blue_win_rate": 0.5602383993188591
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1821,
+          "mean_probability": 0.6458734081899253,
+          "observed_blue_win_rate": 0.6672158154859967
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 922,
+          "mean_probability": 0.7418253572994263,
+          "observed_blue_win_rate": 0.8145336225596529
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 189,
+          "mean_probability": 0.8302748718396681,
+          "observed_blue_win_rate": 0.8518518518518519
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 1,
+          "mean_probability": 0.9043704710331151,
+          "observed_blue_win_rate": 1.0
+        }
+      ],
+      "observed_blue_win_rate": 0.5361478139434955
+    },
+    "selected_worlds_metrics": {
+      "n": 22,
+      "accuracy": 0.6818181818181818,
+      "roc_auc": 0.6837606837606838,
+      "log_loss": 0.6375279982654084,
+      "brier_score": 0.22374977512152958,
+      "ece_10": 0.21996041848837367,
+      "calibration_bins": [
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1,
+          "mean_probability": 0.2866120967983478,
+          "observed_blue_win_rate": 0.0
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 4,
+          "mean_probability": 0.3593421634549663,
+          "observed_blue_win_rate": 0.75
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 9,
+          "mean_probability": 0.43947094556736777,
+          "observed_blue_win_rate": 0.3333333333333333
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 4,
+          "mean_probability": 0.5612413848245545,
+          "observed_blue_win_rate": 0.75
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 2,
+          "mean_probability": 0.6225042533475804,
+          "observed_blue_win_rate": 1.0
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 2,
+          "mean_probability": 0.7376893501735966,
+          "observed_blue_win_rate": 1.0
+        }
+      ],
+      "observed_blue_win_rate": 0.5909090909090909
+    },
+    "selection_rule": "Maximum raw validation ROC-AUC among candidates with validation raw log loss <= frozen baseline + 0.01; must strictly improve baseline validation AUC to deploy.",
+    "evaluation_scope": "Retrospective research holdout, previously inspected in phase 1; not fresh confirmatory evidence.",
+    "environment": {
+      "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "platform": "macOS-26.5.1-arm64-arm-64bit"
+    },
+    "unsupported_features": [
+      "crowd control",
+      "engage",
+      "early/mid/late power curve",
+      "team play style"
+    ],
+    "limitations": [
+      "The standardized source lacks these validated tactical descriptors; none was invented.",
+      "Only 22 target-patch Worlds games; no reliable event-specific calibration claim.",
+      "Local professional IDs retain unverified display-name-to-person linkage."
+    ],
+    "artifact_sha256": "26d96efccf0099a0e724ec586f21512d869540640e3875f811566c5a226b032b",
+    "calibrator": {
+      "coefficient": 0.7262702473359947,
+      "intercept": 0.171731534037065
+    }
+  },
+  "coverage": {
+    "history_games": 28715,
+    "effective_as_of": "2026-10-18T19:48:36+00:00",
+    "latest_history_game_time": "2026-10-17T20:50:48+00:00",
+    "latest_history_available_at": "2026-10-18T00:00:00+00:00",
+    "league_history_games": 259,
+    "patch_history_games": 110,
+    "unknown_teams": [],
+    "unknown_players_in_role": [],
+    "unknown_champions_in_role": [],
+    "player_champion_games": {
+      "blue_top": 1,
+      "blue_jng": 8,
+      "blue_mid": 4,
+      "blue_bot": 0,
+      "blue_sup": 5,
+      "red_top": 1,
+      "red_jng": 17,
+      "red_mid": 22,
+      "red_bot": 43,
+      "red_sup": 32
+    },
+    "matchup_games": {
+      "blue_top": 0,
+      "blue_jng": 16,
+      "blue_mid": 26,
+      "blue_bot": 7,
+      "blue_sup": 75,
+      "red_top": 0,
+      "red_jng": 16,
+      "red_mid": 26,
+      "red_bot": 7,
+      "red_sup": 75
+    },
+    "missing_ban_slots": 0,
+    "first_pick_side_observed": true,
+    "smoothing": {
+      "team": 10.0,
+      "player": 10.0,
+      "champion": 20.0,
+      "player_champion": 10.0,
+      "matchup": 20.0,
+      "synergy": 30.0,
+      "patch_champion": 20.0
+    },
+    "recent_window_games": 20,
+    "feature_version": "point-in-time-v1",
+    "enhanced_feature_version": "observed-form-pairs-v1",
+    "decay_half_life_days": 90.0,
+    "specific_pairs": {
+      "blue": {
+        "mid_jungle": 3,
+        "bot_support": 0
+      },
+      "red": {
+        "mid_jungle": 101,
+        "bot_support": 1064
+      }
+    },
+    "same_roster_games": {
+      "blue": 45,
+      "red": 146
+    }
+  },
+  "elapsed_seconds": 5.680139624979347
+}

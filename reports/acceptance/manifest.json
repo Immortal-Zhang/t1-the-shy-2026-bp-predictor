@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-22T12:26:52.242456+00:00",
+  "files": {
+    "reports/acceptance/summary.json": "fe63c6756d270052fc511d057c424758920478580a7c8e296dc9a9f4b8151dba",
+    "reports/acceptance/recomputed_metrics.json": "f838b9a82ffd71508f27c8fe3d282e0b3e6310b5568a94808db4f93dc730e051",
+    "reports/acceptance/webkit.json": "7066d291f072c19b15a3f60daa31ccbd7c60c081fa74ee1ff2137ebc1e08fb47",
+    "reports/acceptance/chrome.json": "c7c0b46e3ee42239d244628a93ef2cf34b8e5369bddc0945fee994d1df04e9d6",
+    "reports/acceptance/model_artifacts.json": "79b3da062a96a14e81961f1ca1fc606cb1573c82fe2456088c96dc74de78eeec",
+    "reports/acceptance/README.md": "1ef585c915dcdd108990fb70ccc84b3b713070e9dd7f9d9e4bb9b528d62b26ad",
+    "scripts/verify_local_acceptance.mjs": "8165873bc2d729a3eab69976f934e0941683381caed4cc1a05b3bf625bbabeb7"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "generated_at": "2026-10-22T12:21:53.720623+00:00",
+  "pytest": {
+    "passed": 263,
+    "log": "pytest.log"
+  },
+  "final_targeted_pytest": {
+    "passed": 55,
+    "log": "final-targeted-pytest.log"
+  },
+  "vitest": {
+    "passed": 61,
+    "log": "vitest.log"
+  },
+  "playwright": {
+    "startTime": "2026-10-22T12:14:24.280Z",
+    "duration": 136166.245,
+    "expected": 16,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "build": "Strict TypeScript + Vite production build passed",
+  "browsers": {
+    "chromium": {
+      "tested_at": "2026-10-22T12:14:40.703Z",
+      "browser": "chromium",
+      "real_api_status": 200,
+      "judgment_model": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+      "original_model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "winner": {
+        "side": "red",
+        "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "tie_break": false
+      },
+      "support": {
+        "blue": 14.9933,
+        "red": 85.0067,
+        "definition": "支持指数不是获胜概率。它将模型到决策边界的距离，在验证期绝对分差中排位，再映射到两侧0–100；不保证命中率，不设置最低胜率。标准模式仍显示原始校准概率。",
+        "raw_margin": -0.9192802312313277,
+        "reference_n": 2968,
+        "out_of_reference_range": false,
+        "judgment_calibrated_probability": 0.3390241676901847
+      },
+      "original_blue_probability": 0.30217792358429685,
+      "unchanged_across_modes": true,
+      "original_history_restored": true,
+      "page_errors": [],
+      "horizontal_overflow_px": 0
+    },
+    "webkit": {
+      "tested_at": "2026-10-22T12:15:44.746Z",
+      "browser": "webkit",
+      "real_api_status": 200,
+      "judgment_model": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+      "original_model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "winner": {
+        "side": "red",
+        "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "tie_break": false
+      },
+      "support": {
+        "blue": 14.9933,
+        "red": 85.0067,
+        "definition": "支持指数不是获胜概率。它将模型到决策边界的距离，在验证期绝对分差中排位，再映射到两侧0–100；不保证命中率，不设置最低胜率。标准模式仍显示原始校准概率。",
+        "raw_margin": -0.9192802312313277,
+        "reference_n": 2968,
+        "out_of_reference_range": false,
+        "judgment_calibrated_probability": 0.3390241676901847
+      },
+      "original_blue_probability": 0.30217792358429685,
+      "unchanged_across_modes": true,
+      "original_history_restored": true,
+      "page_errors": [],
+      "horizontal_overflow_px": -6
+    }
+  },
+  "model_reuse": {
+    "game_id": "LOLTMNT02_480511",
+    "raw_score": -1.1557370249207115,
+    "calibrated_probability": 0.3390241676901847,
+    "saved_prediction": 0.3390241676901847,
+    "prediction_matches_saved": true,
+    "shap_reconstruction_error": 2.886579864025407e-15,
+    "runtime_seconds": 5.680139624979347,
+    "model_version": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+    "model_label_cutoff": "2025-12-30 00:00:00+00:00",
+    "frozen_standard_artifact_unchanged": true,
+    "frozen_feature_unchanged": true,
+    "baseline_prediction_max_abs_delta": 0.0,
+    "baseline_predictions_compared": 9309
+  },
+  "standard_test": {
+    "n": 9309,
+    "accuracy": 0.6394886668815125,
+    "roc_auc": 0.6976526715201767,
+    "log_loss": 0.6301706182065784,
+    "brier_score": 0.22015026141057542,
+    "ece_10": 0.031341277032335545,
+    "calibration_bins": [
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 144,
+        "mean_probability": 0.17288539209933293,
+        "observed_blue_win_rate": 0.09722222222222222
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 691,
+        "mean_probability": 0.25955905130053025,
+        "observed_blue_win_rate": 0.24312590448625182
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 1472,
+        "mean_probability": 0.3558005263759894,
+        "observed_blue_win_rate": 0.36345108695652173
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 2133,
+        "mean_probability": 0.4519617022444613,
+        "observed_blue_win_rate": 0.47913736521331457
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 2224,
+        "mean_probability": 0.5483287051590487,
+        "observed_blue_win_rate": 0.5714928057553957
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 1574,
+        "mean_probability": 0.6458615404551974,
+        "observed_blue_win_rate": 0.7026683608640406
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 831,
+        "mean_probability": 0.740707021549962,
+        "observed_blue_win_rate": 0.7978339350180506
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 230,
+        "mean_probability": 0.831249684049289,
+        "observed_blue_win_rate": 0.8826086956521739
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 10,
+        "mean_probability": 0.9061899885493615,
+        "observed_blue_win_rate": 0.9
+      }
+    ],
+    "observed_blue_win_rate": 0.5361478139434955
+  },
+  "enhanced_test": {
+    "n": 9309,
+    "accuracy": 0.6363734020840047,
+    "roc_auc": 0.692046099839368,
+    "log_loss": 0.6333061050756578,
+    "brier_score": 0.2214836893968125,
+    "ece_10": 0.026308636635152382,
+    "calibration_bins": [
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 59,
+        "mean_probability": 0.17516679781064565,
+        "observed_blue_win_rate": 0.15254237288135594
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 543,
+        "mean_probability": 0.26227830009010067,
+        "observed_blue_win_rate": 0.22099447513812154
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 1357,
+        "mean_probability": 0.3577826902036364,
+        "observed_blue_win_rate": 0.32571849668386144
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 2068,
+        "mean_probability": 0.45182766853098394,
+        "observed_blue_win_rate": 0.47195357833655704
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 2349,
+        "mean_probability": 0.5491918155277665,
+        "observed_blue_win_rate": 0.5602383993188591
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 1821,
+        "mean_probability": 0.6458734081899253,
+        "observed_blue_win_rate": 0.6672158154859967
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 922,
+        "mean_probability": 0.7418253572994263,
+        "observed_blue_win_rate": 0.8145336225596529
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 189,
+        "mean_probability": 0.8302748718396681,
+        "observed_blue_win_rate": 0.8518518518518519
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 1,
+        "mean_probability": 0.9043704710331151,
+        "observed_blue_win_rate": 1.0
+      }
+    ],
+    "observed_blue_win_rate": 0.5361478139434955
+  },
+  "judgment_test": {
+    "n": 9309,
+    "correct": 5924,
+    "accuracy": 0.6363734020840047,
+    "coverage": 1.0,
+    "wilson_low": 0.6265470716842145,
+    "wilson_high": 0.6460872270125786,
+    "grades": [
+      {
+        "key": "slight",
+        "label": "轻微优势",
+        "n": 2649,
+        "correct": 1358,
+        "accuracy": 0.512646281615704,
+        "coverage": 0.2845633258137287,
+        "wilson_low": 0.4936073919065521,
+        "wilson_high": 0.5316485463166783
+      },
+      {
+        "key": "clear",
+        "label": "明显优势",
+        "n": 3963,
+        "correct": 2494,
+        "accuracy": 0.6293212212969972,
+        "coverage": 0.42571704801804705,
+        "wilson_low": 0.6141654057150665,
+        "wilson_high": 0.6442265695227649
+      },
+      {
+        "key": "strong",
+        "label": "强烈倾向",
+        "n": 2697,
+        "correct": 2072,
+        "accuracy": 0.7682610307749351,
+        "coverage": 0.2897196261682243,
+        "wilson_low": 0.7519618888811389,
+        "wilson_high": 0.7837970670080466
+      }
+    ],
+    "scope": "真实标签、按时间保留的 2026 测试段；该测试段已在前阶段查看，本次属于回顾性研究比较，不是全新确认性证据。",
+    "probability_metrics": {
+      "n": 9309,
+      "accuracy": 0.6363734020840047,
+      "roc_auc": 0.692046099839368,
+      "log_loss": 0.6333061050756578,
+      "brier_score": 0.22148368939681257,
+      "ece_10": 0.02630863663515238,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 59,
+          "mean_probability": 0.1751667978106456,
+          "observed_blue_win_rate": 0.15254237288135594
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 543,
+          "mean_probability": 0.2622783000901006,
+          "observed_blue_win_rate": 0.22099447513812154
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1357,
+          "mean_probability": 0.3577826902036364,
+          "observed_blue_win_rate": 0.32571849668386144
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2068,
+          "mean_probability": 0.45182766853098394,
+          "observed_blue_win_rate": 0.47195357833655704
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2349,
+          "mean_probability": 0.5491918155277665,
+          "observed_blue_win_rate": 0.5602383993188591
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1821,
+          "mean_probability": 0.6458734081899253,
+          "observed_blue_win_rate": 0.6672158154859967
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 922,
+          "mean_probability": 0.7418253572994263,
+          "observed_blue_win_rate": 0.8145336225596529
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 189,
+          "mean_probability": 0.8302748718396681,
+          "observed_blue_win_rate": 0.8518518518518519
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 1,
+          "mean_probability": 0.9043704710331152,
+          "observed_blue_win_rate": 1.0
+        }
+      ],
+      "observed_blue_win_rate": 0.5361478139434955
+    },
+    "raw_probability_metrics": {
+      "n": 9309,
+      "accuracy": 0.633150714362445,
+      "roc_auc": 0.692046099839368,
+      "log_loss": 0.6395642315025518,
+      "brier_score": 0.22429482924605024,
+      "ece_10": 0.055769731835786776,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 51,
+          "mean_probability": 0.08332929115314971,
+          "observed_blue_win_rate": 0.1568627450980392
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 578,
+          "mean_probability": 0.16151111237118468,
+          "observed_blue_win_rate": 0.21972318339100347
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 1161,
+          "mean_probability": 0.25657628219950174,
+          "observed_blue_win_rate": 0.32558139534883723
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1546,
+          "mean_probability": 0.35048533162348927,
+          "observed_blue_win_rate": 0.42884864165588615
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 1719,
+          "mean_probability": 0.45040921393403116,
+          "observed_blue_win_rate": 0.5235602094240838
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 1631,
+          "mean_probability": 0.5485054244851009,
+          "observed_blue_win_rate": 0.6131207847946045
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1333,
+          "mean_probability": 0.647112367947968,
+          "observed_blue_win_rate": 0.6586646661665416
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 889,
+          "mean_probability": 0.7468064651245245,
+          "observed_blue_win_rate": 0.7784026996625422
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 365,
+          "mean_probability": 0.8388730566413113,
+          "observed_blue_win_rate": 0.8547945205479452
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 36,
+          "mean_probability": 0.9148549301541193,
+          "observed_blue_win_rate": 0.9166666666666666
+        }
+      ],
+      "observed_blue_win_rate": 0.5361478139434955
+    },
+    "out_of_reference_range_n": 0,
+    "tie_n": 0,
+    "interval_note": "95% Wilson 区间按小局二项分布计算，未校正同日/同系列相关性；不是单局获胜概率。",
+    "strong": {
+      "n": 2697,
+      "correct": 2072,
+      "accuracy": 0.7682610307749351,
+      "coverage": 0.2897196261682243,
+      "wilson_low": 0.7519618888811389,
+      "wilson_high": 0.7837970670080466
+    }
+  },
+  "api_smoke": {
+    "checked_at": "2026-10-22T12:16:52.848594+00:00",
+    "status_code": 200,
+    "elapsed_seconds": 8.742249500006437,
+    "game_id": "LOLTMNT02_480511",
+    "standard_blue": 0.30217792358429685,
+    "enhanced_blue": 0.3390241676901847,
+    "winner": {
+      "side": "red",
+      "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+      "tie_break": false
+    },
+    "support": {
+      "blue": 14.9933,
+      "red": 85.0067,
+      "definition": "支持指数不是获胜概率。它将模型到决策边界的距离，在验证期绝对分差中排位，再映射到两侧0–100；不保证命中率，不设置最低胜率。标准模式仍显示原始校准概率。",
+      "raw_margin": -0.9192802312313277,
+      "reference_n": 2968,
+      "out_of_reference_range": false,
+      "judgment_calibrated_probability": 0.3390241676901847
+    },
+    "comparison_note": "本轮实验判断回顾性测试准确率 63.64%，标准模型 63.95%；未证明整体效果提升。"
+  },
+  "limits": [
+    "The 2026 test period was inspected earlier; this is retrospective evidence.",
+    "No overall or strong-call improvement demonstrated.",
+    "Only 22 target-patch Worlds games; no event-specific reliability claim.",
+    "No validated crowd-control/engage/game-phase/style ratings.",
+    "Full browser workflows covered Chrome and Playwright WebKit; no new full native Safari claim."
+  ]
+}

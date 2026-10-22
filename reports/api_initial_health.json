@@ -1,0 +1,20 @@
+{
+  "service": "Worlds 2026 BP Predictor",
+  "model": {
+    "available": false,
+    "reason": "No trained model artifacts; run the real-data training pipeline"
+  },
+  "worlds_patch_verification": {
+    "event": "Worlds 2026",
+    "configured_patch": "26.20",
+    "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+    "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+    "checked_at": "2026-10-22T09:15:26.747685+00:00",
+    "status": "confirmed",
+    "official_patch": "26.20",
+    "page_sha256": "51d8e2aecfdd4647d15968b01a4fe0c6b2e042b204d227b54c03d7a127629efe",
+    "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+    "reason": "Riot patch-note heading and explicit Worlds statement matched"
+  },
+  "series_prediction_supported": false
+}

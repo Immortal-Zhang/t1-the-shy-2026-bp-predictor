@@ -1,0 +1,82 @@
+{
+  "game_id": "LOLTMNT02_480511",
+  "as_of": "2026-10-18T19:48:36+00:00",
+  "scheduled_start": "2026-10-18T19:48:36+00:00",
+  "league": "Worlds",
+  "patch": "26.20",
+  "first_pick_side": "blue",
+  "blue": {
+    "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+    "players": [
+      {
+        "role": "top",
+        "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+        "champion": "Yone"
+      },
+      {
+        "role": "jng",
+        "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+        "champion": "Aatrox"
+      },
+      {
+        "role": "mid",
+        "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+        "champion": "Locke"
+      },
+      {
+        "role": "bot",
+        "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+        "champion": "Twitch"
+      },
+      {
+        "role": "sup",
+        "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+        "champion": "Camille"
+      }
+    ],
+    "bans": [
+      "Renata Glasc",
+      "Syndra",
+      "Jax",
+      "Renekton",
+      "Trundle"
+    ]
+  },
+  "red": {
+    "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+    "players": [
+      {
+        "role": "top",
+        "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+        "champion": "Zaahen"
+      },
+      {
+        "role": "jng",
+        "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+        "champion": "Naafiri"
+      },
+      {
+        "role": "mid",
+        "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+        "champion": "Viktor"
+      },
+      {
+        "role": "bot",
+        "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+        "champion": "Ezreal"
+      },
+      {
+        "role": "sup",
+        "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+        "champion": "Leona"
+      }
+    ],
+    "bans": [
+      "Olaf",
+      "Vi",
+      "Nocturne",
+      "Rakan",
+      "Wukong"
+    ]
+  }
+}

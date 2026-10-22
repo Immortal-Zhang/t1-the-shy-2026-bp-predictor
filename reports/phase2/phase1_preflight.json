@@ -1,0 +1,267 @@
+{
+  "metadata": {
+    "status": "trained",
+    "run_id": "20261022T093531Z-f5eb82ee9db3",
+    "selected_model": "C_catboost_uniform",
+    "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+    "label_cutoff": "2025-12-30 00:00:00+00:00",
+    "training_as_of": "2026-10-22T00:00:00Z",
+    "evaluation_data_cutoff": "2026-10-18 19:48:36+00:00",
+    "data_sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+    "artifact_sha256": "96803ee64f054ff10aef1bfadb325ac19b2f8ed519fa05ff04b5c89e63af369d",
+    "feature_code_sha256": "e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+    "identity_limitation": "Name-based local pro IDs are stable within registry, but source lacks independent player IDs; unresolved real-person ambiguities remain.",
+    "splits": {
+      "train": {
+        "n": 15717,
+        "first_game": "2024-01-01 05:13:15+00:00",
+        "last_game": "2025-06-29 02:03:36+00:00",
+        "last_result_available": "2025-06-30 00:00:00+00:00",
+        "blue_wins": 8375
+      },
+      "validation": {
+        "n": 2968,
+        "first_game": "2025-07-02 00:13:11+00:00",
+        "last_game": "2025-09-29 18:33:20+00:00",
+        "last_result_available": "2025-09-30 00:00:00+00:00",
+        "blue_wins": 1569
+      },
+      "calibration": {
+        "n": 716,
+        "first_game": "2025-10-01 05:08:31+00:00",
+        "last_game": "2025-12-29 10:52:27+00:00",
+        "last_result_available": "2025-12-30 00:00:00+00:00",
+        "blue_wins": 374
+      },
+      "test": {
+        "n": 9309,
+        "first_game": "2026-01-01 09:14:49+00:00",
+        "last_game": "2026-10-18 19:48:36+00:00",
+        "last_result_available": "2026-10-19 00:00:00+00:00",
+        "blue_wins": 4991
+      }
+    },
+    "config": {
+      "as_of": "2026-10-22T00:00:00Z",
+      "train_end": "2025-07-01T00:00:00Z",
+      "validation_end": "2025-10-01T00:00:00Z",
+      "calibration_end": "2026-01-01T00:00:00Z",
+      "seed": 2026,
+      "iterations": 350,
+      "depth": 5,
+      "learning_rate": 0.045,
+      "l2_leaf_reg": 12,
+      "half_life_days": 180,
+      "thread_count": 4,
+      "min_train": 500,
+      "min_eval": 100,
+      "run_sensitivity": true
+    },
+    "selected_test_metrics": {
+      "n": 9309,
+      "accuracy": 0.6394886668815125,
+      "roc_auc": 0.6976526715201767,
+      "log_loss": 0.6301706182065784,
+      "brier_score": 0.22015026141057542,
+      "ece_10": 0.031341277032335545,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 144,
+          "mean_probability": 0.17288539209933293,
+          "observed_blue_win_rate": 0.09722222222222222
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 691,
+          "mean_probability": 0.25955905130053025,
+          "observed_blue_win_rate": 0.24312590448625182
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1472,
+          "mean_probability": 0.3558005263759894,
+          "observed_blue_win_rate": 0.36345108695652173
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2133,
+          "mean_probability": 0.4519617022444613,
+          "observed_blue_win_rate": 0.47913736521331457
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2224,
+          "mean_probability": 0.5483287051590487,
+          "observed_blue_win_rate": 0.5714928057553957
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1574,
+          "mean_probability": 0.6458615404551974,
+          "observed_blue_win_rate": 0.7026683608640406
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 831,
+          "mean_probability": 0.740707021549962,
+          "observed_blue_win_rate": 0.7978339350180506
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 230,
+          "mean_probability": 0.831249684049289,
+          "observed_blue_win_rate": 0.8826086956521739
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 10,
+          "mean_probability": 0.9061899885493615,
+          "observed_blue_win_rate": 0.9
+        }
+      ],
+      "observed_blue_win_rate": 0.5361478139434955
+    },
+    "environment": {
+      "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "platform": "macOS-26.5.1-arm64-arm-64bit"
+    },
+    "quality_report_available": true
+  },
+  "health": {
+    "service": "Worlds 2026 BP Predictor",
+    "model": {
+      "available": true,
+      "label_cutoff": "2025-12-30 00:00:00+00:00",
+      "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "integrity": "artifact_and_feature_hashes_verified",
+      "note": "Hashes checked against trusted local metadata; inference additionally validates deserialization and request time compatibility"
+    },
+    "worlds_patch_verification": {
+      "event": "Worlds 2026",
+      "configured_patch": "26.20",
+      "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+      "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "checked_at": "2026-10-22T09:33:46.890863+00:00",
+      "status": "confirmed",
+      "official_patch": "26.20",
+      "page_sha256": "51d8e2aecfdd4647d15968b01a4fe0c6b2e042b204d227b54c03d7a127629efe",
+      "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+      "reason": "Riot patch-note heading and explicit Worlds statement matched"
+    },
+    "series_prediction_supported": false
+  },
+  "prediction": {
+    "blue_win_probability": 0.30217792358429685,
+    "red_win_probability": 0.6978220764157032,
+    "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+    "selected_model": "C_catboost_uniform",
+    "as_of": "2026-10-18T19:48:36+00:00",
+    "scheduled_start": "2026-10-18T19:48:36Z",
+    "model_label_cutoff": "2025-12-30 00:00:00+00:00",
+    "data_cutoff": "2026-10-17T20:50:48+00:00",
+    "history_result_available_cutoff": "2026-10-18T00:00:00+00:00",
+    "sample_coverage": {
+      "history_games": 28715,
+      "effective_as_of": "2026-10-18T19:48:36+00:00",
+      "latest_history_game_time": "2026-10-17T20:50:48+00:00",
+      "latest_history_available_at": "2026-10-18T00:00:00+00:00",
+      "league_history_games": 259,
+      "patch_history_games": 110,
+      "unknown_teams": [],
+      "unknown_players_in_role": [],
+      "unknown_champions_in_role": [],
+      "player_champion_games": {
+        "blue_top": 1,
+        "blue_jng": 8,
+        "blue_mid": 4,
+        "blue_bot": 0,
+        "blue_sup": 5,
+        "red_top": 1,
+        "red_jng": 17,
+        "red_mid": 22,
+        "red_bot": 43,
+        "red_sup": 32
+      },
+      "matchup_games": {
+        "blue_top": 0,
+        "blue_jng": 16,
+        "blue_mid": 26,
+        "blue_bot": 7,
+        "blue_sup": 75,
+        "red_top": 0,
+        "red_jng": 16,
+        "red_mid": 26,
+        "red_bot": 7,
+        "red_sup": 75
+      },
+      "missing_ban_slots": 0,
+      "first_pick_side_observed": true,
+      "smoothing": {
+        "team": 10.0,
+        "player": 10.0,
+        "champion": 20.0,
+        "player_champion": 10.0,
+        "matchup": 20.0,
+        "synergy": 30.0,
+        "patch_champion": 20.0
+      },
+      "recent_window_games": 20,
+      "feature_version": "point-in-time-v1"
+    },
+    "training_samples": {
+      "train": {
+        "n": 15717,
+        "first_game": "2024-01-01 05:13:15+00:00",
+        "last_game": "2025-06-29 02:03:36+00:00",
+        "last_result_available": "2025-06-30 00:00:00+00:00",
+        "blue_wins": 8375
+      },
+      "validation": {
+        "n": 2968,
+        "first_game": "2025-07-02 00:13:11+00:00",
+        "last_game": "2025-09-29 18:33:20+00:00",
+        "last_result_available": "2025-09-30 00:00:00+00:00",
+        "blue_wins": 1569
+      },
+      "calibration": {
+        "n": 716,
+        "first_game": "2025-10-01 05:08:31+00:00",
+        "last_game": "2025-12-29 10:52:27+00:00",
+        "last_result_available": "2025-12-30 00:00:00+00:00",
+        "blue_wins": 374
+      }
+    },
+    "first_pick_side": "blue",
+    "input_league": "Worlds",
+    "model_league": "WLDs",
+    "input_patch": "26.20",
+    "model_patch": "16.20",
+    "patch_namespace_note": "Explicit Worlds 2026 public 26.20 corresponds to source/Data Dragon 16.20; raw training source patch values are preserved.",
+    "warnings": [
+      "Name-based local pro IDs are stable within registry, but source lacks independent player IDs; unresolved real-person ambiguities remain.",
+      "Probabilities are calibrated estimates, not guaranteed outcomes. Final BP must already be known at as_of."
+    ],
+    "worlds_patch_verification": {
+      "event": "Worlds 2026",
+      "configured_patch": "26.20",
+      "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+      "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "checked_at": "2026-10-22T09:33:46.890863+00:00",
+      "status": "confirmed",
+      "official_patch": "26.20",
+      "page_sha256": "51d8e2aecfdd4647d15968b01a4fe0c6b2e042b204d227b54c03d7a127629efe",
+      "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+      "reason": "Riot patch-note heading and explicit Worlds statement matched"
+    }
+  }
+}

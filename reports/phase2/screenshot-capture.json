@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-10-22T11:54:06.619Z",
+  "server_mode": "final production Vite preview",
+  "browser": "Google Chrome",
+  "version": "155.0.8059.85",
+  "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+  "real_api_status": 200,
+  "blue_probability": 0.30217792358429685,
+  "red_probability": 0.6978220764157032,
+  "as_of": "2026-10-18T19:48:36+00:00",
+  "source_game_id": "LOLTMNT02_480511",
+  "observed_roster_matches_exact_game": true,
+  "favorite_hero_strips": 10,
+  "horizontal_overflow_pixels": 0,
+  "shap_axis_ticks": [
+    "-0.24",
+    "-0.19",
+    "-0.14",
+    "-0.09",
+    "-0.04",
+    "0.00"
+  ],
+  "chart_animation_settled": true,
+  "files": [
+    "desktop-workbench.png",
+    "desktop-full.png",
+    "desktop-analysis.png"
+  ],
+  "page_errors": []
+}

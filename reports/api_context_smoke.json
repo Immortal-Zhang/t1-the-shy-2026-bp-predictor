@@ -1,0 +1,15 @@
+{
+  "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+  "public_request": {
+    "league": "Worlds",
+    "patch": "26.20"
+  },
+  "source_alias_status": 200,
+  "source_alias_model_patch": "16.20",
+  "source_alias_model_league": "WLDs",
+  "equivalent_probability_verified": true,
+  "wrong_source_patch_status": 422,
+  "wrong_source_patch_detail": {
+    "detail": "Worlds 2026 configured patch is 26.20; equivalent reviewed source patch is 16.20"
+  }
+}

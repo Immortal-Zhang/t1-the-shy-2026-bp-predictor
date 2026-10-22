@@ -1,0 +1,2027 @@
+{
+  "status": "complete",
+  "evaluation_type": "real_gt",
+  "protocol_declared_at": "2026-10-22T09:36:35.067518+00:00",
+  "target_league": "LCK",
+  "global_run_id": "20261022T093531Z-f5eb82ee9db3",
+  "data_sha256": "d99ab5dbca9f36e9f9766429e7dd179151d3be7b11ef2f191561a9dcbe7670ce",
+  "feature_cache_sha256": "b61946c8accc481fbc11402177debdef18a07ee7ac5504f201f47c9cf4009d44",
+  "feature_code_sha256": "e20bcd44395fbd0a34ac3cbfa45ea0bfb8d7acc4cac07194bc2589f07c0ad7cb",
+  "global_predictions_sha256": "b7c72d95c6794e498785b48af8c5916718c2a2a9d8110e8c17a171ab43f6d9bb",
+  "config": {
+    "as_of": "2026-10-22T00:00:00Z",
+    "train_end": "2025-07-01T00:00:00Z",
+    "validation_end": "2025-10-01T00:00:00Z",
+    "calibration_end": "2026-01-01T00:00:00Z",
+    "seed": 2026,
+    "iterations": 350,
+    "depth": 5,
+    "learning_rate": 0.045,
+    "l2_leaf_reg": 12,
+    "half_life_days": 180,
+    "thread_count": 2,
+    "min_train": 500,
+    "min_eval": 100,
+    "run_sensitivity": true
+  },
+  "cohorts": {
+    "train": {
+      "n": 831,
+      "blue_wins": 437,
+      "first_game": "2024-01-17 08:20:00+00:00",
+      "last_game": "2025-06-15 08:16:26+00:00",
+      "latest_result_available": "2025-06-16 00:00:00+00:00"
+    },
+    "validation": {
+      "n": 206,
+      "blue_wins": 94,
+      "first_game": "2025-07-23 08:07:58+00:00",
+      "last_game": "2025-09-28 08:21:35+00:00",
+      "latest_result_available": "2025-09-29 00:00:00+00:00"
+    },
+    "calibration": {
+      "n": 0,
+      "blue_wins": 0,
+      "first_game": null,
+      "last_game": null,
+      "latest_result_available": null
+    },
+    "test": {
+      "n": 502,
+      "blue_wins": 283,
+      "first_game": "2026-01-14 08:13:43+00:00",
+      "last_game": "2026-09-13 08:19:05+00:00",
+      "latest_result_available": "2026-09-14 00:00:00+00:00"
+    }
+  },
+  "pooled_cohort_counts": {
+    "train": 15717,
+    "validation": 2968,
+    "calibration": 716,
+    "test": 9309
+  },
+  "calibrated_comparison": false,
+  "protocol": "Fixed supplemental comparison of pooled C CatBoost labels against target-league-only C CatBoost labels. Same features, chronology, hyperparameters, seed, recency weights, and identical target-league held-out games. No test-driven tuning or deployment selection.",
+  "feature_history_scope": "Globally pooled historical features are preserved in both arms. This is pooled training-label sensitivity, not complete region isolation.",
+  "limitations": [
+    "Single target league, chronological holdout and random seed; results do not establish transport to every region or Worlds.",
+    "League-only and pooled models use different training sample sizes and opposition coverage; effects are not causal.",
+    "Globally derived team/player/champion history remains available to both models.",
+    "This supplemental protocol was fixed before its league-only fit, after the main evaluation; it is exploratory evidence.",
+    "No target-league games exist in the configured calibration block for this run; this separate raw-vs-raw comparison does not establish calibrated league-specific accuracy."
+  ],
+  "blockers": [],
+  "validation_raw": {
+    "n": 206,
+    "accuracy": 0.6601941747572816,
+    "roc_auc": 0.6974734042553191,
+    "log_loss": 0.6406632035897057,
+    "brier_score": 0.22318891866087937,
+    "ece_10": 0.08386065013091382,
+    "calibration_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "n": 13,
+        "mean_probability": 0.07088961836131415,
+        "observed_blue_win_rate": 0.07692307692307693
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 23,
+        "mean_probability": 0.1482205035266895,
+        "observed_blue_win_rate": 0.34782608695652173
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 30,
+        "mean_probability": 0.24498841532455956,
+        "observed_blue_win_rate": 0.3333333333333333
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 21,
+        "mean_probability": 0.3489797368499006,
+        "observed_blue_win_rate": 0.2857142857142857
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 27,
+        "mean_probability": 0.45751558079432325,
+        "observed_blue_win_rate": 0.4074074074074074
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 35,
+        "mean_probability": 0.5480870444742293,
+        "observed_blue_win_rate": 0.6
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 18,
+        "mean_probability": 0.6470915717271286,
+        "observed_blue_win_rate": 0.5
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 27,
+        "mean_probability": 0.7467370284196371,
+        "observed_blue_win_rate": 0.6666666666666666
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 10,
+        "mean_probability": 0.8503211826731203,
+        "observed_blue_win_rate": 0.8
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 2,
+        "mean_probability": 0.9278127386651768,
+        "observed_blue_win_rate": 1.0
+      }
+    ],
+    "observed_blue_win_rate": 0.4563106796116505
+  },
+  "league_only_test": {
+    "n": 502,
+    "accuracy": 0.6175298804780877,
+    "roc_auc": 0.6935476063701049,
+    "log_loss": 0.6706607223788655,
+    "brier_score": 0.2340557715517973,
+    "ece_10": 0.11243630868156407,
+    "calibration_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "n": 24,
+        "mean_probability": 0.06444609859323103,
+        "observed_blue_win_rate": 0.20833333333333334
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 57,
+        "mean_probability": 0.1496875698616717,
+        "observed_blue_win_rate": 0.3508771929824561
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 60,
+        "mean_probability": 0.25335652855422036,
+        "observed_blue_win_rate": 0.45
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 83,
+        "mean_probability": 0.34858938133402684,
+        "observed_blue_win_rate": 0.4819277108433735
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 63,
+        "mean_probability": 0.4526174258529081,
+        "observed_blue_win_rate": 0.6031746031746031
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 62,
+        "mean_probability": 0.5505473106541127,
+        "observed_blue_win_rate": 0.5483870967741935
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 65,
+        "mean_probability": 0.6527418120357737,
+        "observed_blue_win_rate": 0.7230769230769231
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 43,
+        "mean_probability": 0.7574434191736847,
+        "observed_blue_win_rate": 0.813953488372093
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 34,
+        "mean_probability": 0.8496719109246565,
+        "observed_blue_win_rate": 0.7941176470588235
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 11,
+        "mean_probability": 0.9224217794553717,
+        "observed_blue_win_rate": 0.9090909090909091
+      }
+    ],
+    "observed_blue_win_rate": 0.5637450199203188
+  },
+  "pooled_test_same_games": {
+    "n": 502,
+    "accuracy": 0.5916334661354582,
+    "roc_auc": 0.6644238991884086,
+    "log_loss": 0.6634303311760875,
+    "brier_score": 0.23480996149954486,
+    "ece_10": 0.08504310356161637,
+    "calibration_bins": [
+      {
+        "lower": 0.0,
+        "upper": 0.1,
+        "n": 7,
+        "mean_probability": 0.07994752541197733,
+        "observed_blue_win_rate": 0.0
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 38,
+        "mean_probability": 0.1562084857772843,
+        "observed_blue_win_rate": 0.3684210526315789
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.3,
+        "n": 53,
+        "mean_probability": 0.25556746521984525,
+        "observed_blue_win_rate": 0.32075471698113206
+      },
+      {
+        "lower": 0.3,
+        "upper": 0.4,
+        "n": 78,
+        "mean_probability": 0.35454095479823816,
+        "observed_blue_win_rate": 0.5384615384615384
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.5,
+        "n": 92,
+        "mean_probability": 0.4467589979814673,
+        "observed_blue_win_rate": 0.5869565217391305
+      },
+      {
+        "lower": 0.5,
+        "upper": 0.6,
+        "n": 73,
+        "mean_probability": 0.5557893869990107,
+        "observed_blue_win_rate": 0.547945205479452
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.7,
+        "n": 87,
+        "mean_probability": 0.6445444209200807,
+        "observed_blue_win_rate": 0.6436781609195402
+      },
+      {
+        "lower": 0.7,
+        "upper": 0.8,
+        "n": 55,
+        "mean_probability": 0.7538970148685814,
+        "observed_blue_win_rate": 0.8
+      },
+      {
+        "lower": 0.8,
+        "upper": 0.9,
+        "n": 18,
+        "mean_probability": 0.8273801629515883,
+        "observed_blue_win_rate": 0.8333333333333334
+      },
+      {
+        "lower": 0.9,
+        "upper": 1.0,
+        "n": 1,
+        "mean_probability": 0.9217854052804952,
+        "observed_blue_win_rate": 1.0
+      }
+    ],
+    "observed_blue_win_rate": 0.5637450199203188
+  },
+  "paired_comparison": {
+    "metric": "log_loss_pooled_minus_league_only",
+    "point": -0.007230391202778091,
+    "day_block_bootstrap_95_interval": [
+      -0.04193490838182783,
+      0.027012229890486614
+    ],
+    "days": 111,
+    "repetitions": 500,
+    "interpretation": "Negative favors pooled training labels; exploratory day-block interval on one target league and one seed."
+  },
+  "test_by_patch": {
+    "16.01": {
+      "league_only": {
+        "n": 51,
+        "accuracy": 0.6666666666666666,
+        "roc_auc": 0.703076923076923,
+        "log_loss": 0.6473265610477641,
+        "brier_score": 0.2247405979718777,
+        "ece_10": 0.12434612761271305,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.08633257372356481,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 7,
+            "mean_probability": 0.13400968938108576,
+            "observed_blue_win_rate": 0.2857142857142857
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 4,
+            "mean_probability": 0.22830768715985247,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 8,
+            "mean_probability": 0.34236828765477223,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 6,
+            "mean_probability": 0.444288386127252,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 4,
+            "mean_probability": 0.5560343947663462,
+            "observed_blue_win_rate": 0.75
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 5,
+            "mean_probability": 0.6509692169040137,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 7,
+            "mean_probability": 0.7415254461971738,
+            "observed_blue_win_rate": 0.7142857142857143
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 8,
+            "mean_probability": 0.8415543960448837,
+            "observed_blue_win_rate": 0.625
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9204192728368238,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5098039215686274
+      },
+      "pooled": {
+        "n": 51,
+        "accuracy": 0.6274509803921569,
+        "roc_auc": 0.6923076923076923,
+        "log_loss": 0.6397030119240443,
+        "brier_score": 0.22346123375842586,
+        "ece_10": 0.0916084715783664,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 5,
+            "mean_probability": 0.1570323662700462,
+            "observed_blue_win_rate": 0.2
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 5,
+            "mean_probability": 0.2510890371746469,
+            "observed_blue_win_rate": 0.2
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 3,
+            "mean_probability": 0.3574189179769984,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 5,
+            "mean_probability": 0.41972295371094026,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 7,
+            "mean_probability": 0.5310219823696475,
+            "observed_blue_win_rate": 0.42857142857142855
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 12,
+            "mean_probability": 0.6478040161743385,
+            "observed_blue_win_rate": 0.5833333333333334
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 10,
+            "mean_probability": 0.7566650072170787,
+            "observed_blue_win_rate": 0.8
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 4,
+            "mean_probability": 0.8259886780221454,
+            "observed_blue_win_rate": 0.5
+          }
+        ],
+        "observed_blue_win_rate": 0.5098039215686274
+      }
+    },
+    "16.02": {
+      "league_only": {
+        "n": 33,
+        "accuracy": 0.5757575757575758,
+        "roc_auc": 0.6353383458646616,
+        "log_loss": 0.6765997672932916,
+        "brier_score": 0.24128785634525535,
+        "ece_10": 0.18308332183523116,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 1,
+            "mean_probability": 0.1684436328504232,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 4,
+            "mean_probability": 0.263953755321071,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 8,
+            "mean_probability": 0.34989043077292054,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 7,
+            "mean_probability": 0.46603776580013623,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "mean_probability": 0.577712658860445,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 8,
+            "mean_probability": 0.6566512788531438,
+            "observed_blue_win_rate": 0.875
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "mean_probability": 0.7552905350123111,
+            "observed_blue_win_rate": 0.5
+          }
+        ],
+        "observed_blue_win_rate": 0.5757575757575758
+      },
+      "pooled": {
+        "n": 33,
+        "accuracy": 0.6060606060606061,
+        "roc_auc": 0.650375939849624,
+        "log_loss": 0.6507759989157565,
+        "brier_score": 0.2291638477099215,
+        "ece_10": 0.07163572470735989,
+        "calibration_bins": [
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 5,
+            "mean_probability": 0.36076971488556436,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 8,
+            "mean_probability": 0.43884810451596407,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 5,
+            "mean_probability": 0.5764317681752925,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 10,
+            "mean_probability": 0.6471137324923834,
+            "observed_blue_win_rate": 0.7
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 5,
+            "mean_probability": 0.7464818380108436,
+            "observed_blue_win_rate": 0.8
+          }
+        ],
+        "observed_blue_win_rate": 0.5757575757575758
+      }
+    },
+    "16.03": {
+      "league_only": {
+        "n": 41,
+        "accuracy": 0.5853658536585366,
+        "roc_auc": 0.5833333333333333,
+        "log_loss": 0.7780802102956108,
+        "brier_score": 0.26955731573617986,
+        "ece_10": 0.1837013922296009,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.038005409917053166,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 5,
+            "mean_probability": 0.1489254045387956,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 5,
+            "mean_probability": 0.23105135432774698,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 7,
+            "mean_probability": 0.33708323698354625,
+            "observed_blue_win_rate": 0.2857142857142857
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 5,
+            "mean_probability": 0.44273928825310255,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 5,
+            "mean_probability": 0.5489701703879175,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 4,
+            "mean_probability": 0.6423434395322579,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 3,
+            "mean_probability": 0.7551551923501343,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 3,
+            "mean_probability": 0.860687022969372,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 3,
+            "mean_probability": 0.9252274555449652,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5121951219512195
+      },
+      "pooled": {
+        "n": 41,
+        "accuracy": 0.5609756097560976,
+        "roc_auc": 0.580952380952381,
+        "log_loss": 0.7343555277558911,
+        "brier_score": 0.2652637310667639,
+        "ece_10": 0.25033683177474503,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.15540759841493548,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 5,
+            "mean_probability": 0.2324200414671444,
+            "observed_blue_win_rate": 0.8
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 4,
+            "mean_probability": 0.35105360757473286,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 6,
+            "mean_probability": 0.44448804343827314,
+            "observed_blue_win_rate": 0.16666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 8,
+            "mean_probability": 0.5446390931803844,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 9,
+            "mean_probability": 0.6433644629516477,
+            "observed_blue_win_rate": 0.7777777777777778
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 5,
+            "mean_probability": 0.7481984364903208,
+            "observed_blue_win_rate": 0.8
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.8035788785877249,
+            "observed_blue_win_rate": 0.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5121951219512195
+      }
+    },
+    "16.06": {
+      "league_only": {
+        "n": 21,
+        "accuracy": 0.5238095238095238,
+        "roc_auc": 0.6666666666666666,
+        "log_loss": 0.7102598794299586,
+        "brier_score": 0.26067103950686915,
+        "ece_10": 0.3131260046882712,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.13722793858527407,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 3,
+            "mean_probability": 0.28011683071467813,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 4,
+            "mean_probability": 0.34913900371787654,
+            "observed_blue_win_rate": 0.75
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 2,
+            "mean_probability": 0.4529298417243187,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "mean_probability": 0.5692939768483319,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 3,
+            "mean_probability": 0.6366762382975284,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.805103990718921,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 2,
+            "mean_probability": 0.9313265601298975,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.7142857142857143
+      },
+      "pooled": {
+        "n": 21,
+        "accuracy": 0.42857142857142855,
+        "roc_auc": 0.5333333333333334,
+        "log_loss": 0.7698964491500233,
+        "brier_score": 0.2783913508847175,
+        "ece_10": 0.29321277838998305,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.17135242995086442,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 1,
+            "mean_probability": 0.2040377738230278,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 2,
+            "mean_probability": 0.3733879276416011,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 4,
+            "mean_probability": 0.44952250923689036,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 5,
+            "mean_probability": 0.559518216394961,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 3,
+            "mean_probability": 0.6600225812384314,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "mean_probability": 0.790983499912568,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.8151270363383456,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.7142857142857143
+      }
+    },
+    "16.07": {
+      "league_only": {
+        "n": 45,
+        "accuracy": 0.5777777777777777,
+        "roc_auc": 0.6748971193415638,
+        "log_loss": 0.7168815205787864,
+        "brier_score": 0.25151948551211184,
+        "ece_10": 0.2108791628824205,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.05723422193935678,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 6,
+            "mean_probability": 0.16271153228145296,
+            "observed_blue_win_rate": 0.16666666666666666
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 6,
+            "mean_probability": 0.2493331104731077,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 5,
+            "mean_probability": 0.3469953407393479,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 5,
+            "mean_probability": 0.46827689548640566,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 8,
+            "mean_probability": 0.5622130403261949,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 8,
+            "mean_probability": 0.6607926464626048,
+            "observed_blue_win_rate": 0.75
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 4,
+            "mean_probability": 0.7577542288131283,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.8419952889778042,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9598372438832368,
+            "observed_blue_win_rate": 0.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6
+      },
+      "pooled": {
+        "n": 45,
+        "accuracy": 0.5777777777777777,
+        "roc_auc": 0.6234567901234568,
+        "log_loss": 0.677699189898838,
+        "brier_score": 0.24251385132161135,
+        "ece_10": 0.14140181272525454,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 2,
+            "mean_probability": 0.1672471795842626,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 6,
+            "mean_probability": 0.259922119021892,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 8,
+            "mean_probability": 0.37715902813654933,
+            "observed_blue_win_rate": 0.625
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 7,
+            "mean_probability": 0.42729813144691364,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 9,
+            "mean_probability": 0.5565220057170815,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 6,
+            "mean_probability": 0.6271980242559162,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 5,
+            "mean_probability": 0.7607940483080675,
+            "observed_blue_win_rate": 0.8
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 2,
+            "mean_probability": 0.8425260306921525,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6
+      }
+    },
+    "16.08": {
+      "league_only": {
+        "n": 44,
+        "accuracy": 0.7727272727272727,
+        "roc_auc": 0.8210526315789474,
+        "log_loss": 0.5302735438602886,
+        "brier_score": 0.17210731896157083,
+        "ece_10": 0.16639571486628985,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 8,
+            "mean_probability": 0.0577046809742454,
+            "observed_blue_win_rate": 0.125
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 6,
+            "mean_probability": 0.13086959986497426,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 6,
+            "mean_probability": 0.2637135858881774,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 4,
+            "mean_probability": 0.35048557396182484,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 3,
+            "mean_probability": 0.45839550214883856,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 6,
+            "mean_probability": 0.5394141985260121,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 4,
+            "mean_probability": 0.648494614301803,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 3,
+            "mean_probability": 0.7591182067969798,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 3,
+            "mean_probability": 0.8350226412872539,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9109908410489673,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.4318181818181818
+      },
+      "pooled": {
+        "n": 44,
+        "accuracy": 0.7727272727272727,
+        "roc_auc": 0.8547368421052631,
+        "log_loss": 0.499663073063798,
+        "brier_score": 0.16257735855417924,
+        "ece_10": 0.16704735884202446,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 4,
+            "mean_probability": 0.09315818935194647,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 7,
+            "mean_probability": 0.16385336118616117,
+            "observed_blue_win_rate": 0.2857142857142857
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 7,
+            "mean_probability": 0.28221817189455256,
+            "observed_blue_win_rate": 0.14285714285714285
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 5,
+            "mean_probability": 0.34681550407064565,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 4,
+            "mean_probability": 0.4581434667984476,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 4,
+            "mean_probability": 0.572224137444771,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 8,
+            "mean_probability": 0.6556371710177044,
+            "observed_blue_win_rate": 0.875
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "mean_probability": 0.7601384091001715,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 3,
+            "mean_probability": 0.8243737845317058,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.4318181818181818
+      }
+    },
+    "16.09": {
+      "league_only": {
+        "n": 45,
+        "accuracy": 0.6888888888888889,
+        "roc_auc": 0.7733333333333333,
+        "log_loss": 0.608073235078141,
+        "brier_score": 0.2033043376361615,
+        "ece_10": 0.22021163005070452,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 6,
+            "mean_probability": 0.0608868665046813,
+            "observed_blue_win_rate": 0.16666666666666666
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.1245195415024501,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 3,
+            "mean_probability": 0.28484209210630457,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 9,
+            "mean_probability": 0.37200041782830623,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 2,
+            "mean_probability": 0.4510278095955681,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "mean_probability": 0.5804751806453371,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 4,
+            "mean_probability": 0.658038518465695,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 8,
+            "mean_probability": 0.7605698774064346,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 6,
+            "mean_probability": 0.8534014988546446,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9092815262956528,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6666666666666666
+      },
+      "pooled": {
+        "n": 45,
+        "accuracy": 0.6,
+        "roc_auc": 0.7288888888888889,
+        "log_loss": 0.6661200817029445,
+        "brier_score": 0.2322837890810368,
+        "ece_10": 0.23675913627376174,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 2,
+            "mean_probability": 0.0641312327088741,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 6,
+            "mean_probability": 0.14509658169816989,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 3,
+            "mean_probability": 0.2418714072644036,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 7,
+            "mean_probability": 0.35092232997373785,
+            "observed_blue_win_rate": 0.7142857142857143
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 7,
+            "mean_probability": 0.45178398741002274,
+            "observed_blue_win_rate": 0.8571428571428571
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "mean_probability": 0.5725912123167277,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 10,
+            "mean_probability": 0.6548235461977023,
+            "observed_blue_win_rate": 0.7
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 4,
+            "mean_probability": 0.753993822165232,
+            "observed_blue_win_rate": 0.75
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 3,
+            "mean_probability": 0.8200526775833531,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6666666666666666
+      }
+    },
+    "16.10": {
+      "league_only": {
+        "n": 49,
+        "accuracy": 0.6938775510204082,
+        "roc_auc": 0.7701754385964912,
+        "log_loss": 0.5261672492672106,
+        "brier_score": 0.18053894906908818,
+        "ece_10": 0.14516649042698296,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 2,
+            "mean_probability": 0.08973101505232198,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.13418980195106195,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 2,
+            "mean_probability": 0.2631646838099074,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 2,
+            "mean_probability": 0.33504738412143736,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 9,
+            "mean_probability": 0.45404783800021825,
+            "observed_blue_win_rate": 0.5555555555555556
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 8,
+            "mean_probability": 0.520020358936776,
+            "observed_blue_win_rate": 0.625
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 7,
+            "mean_probability": 0.6580201626475347,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 5,
+            "mean_probability": 0.7726506638842787,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 9,
+            "mean_probability": 0.8600148717578722,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 2,
+            "mean_probability": 0.9038876015248598,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6122448979591837
+      },
+      "pooled": {
+        "n": 49,
+        "accuracy": 0.7551020408163265,
+        "roc_auc": 0.7982456140350878,
+        "log_loss": 0.5312380798419813,
+        "brier_score": 0.17850185190741444,
+        "ece_10": 0.17422279061861712,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.0587374550583072,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 4,
+            "mean_probability": 0.16157847020319033,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 4,
+            "mean_probability": 0.25365145558443813,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 7,
+            "mean_probability": 0.35111595123620576,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 3,
+            "mean_probability": 0.47826618582064423,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 9,
+            "mean_probability": 0.5438197291053837,
+            "observed_blue_win_rate": 0.8888888888888888
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 7,
+            "mean_probability": 0.6361704654768562,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 11,
+            "mean_probability": 0.7516725046986898,
+            "observed_blue_win_rate": 0.8181818181818182
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 2,
+            "mean_probability": 0.8293814706023324,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9217854052804952,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6122448979591837
+      }
+    },
+    "16.11": {
+      "league_only": {
+        "n": 20,
+        "accuracy": 0.35,
+        "roc_auc": 0.5104166666666666,
+        "log_loss": 0.8221695711670925,
+        "brier_score": 0.3008972411505715,
+        "ece_10": 0.3387890223320158,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.09325716837196506,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.16336374536921086,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 1,
+            "mean_probability": 0.21568114046958176,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 5,
+            "mean_probability": 0.35170317241934856,
+            "observed_blue_win_rate": 0.4
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 5,
+            "mean_probability": 0.47782611379773304,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 2,
+            "mean_probability": 0.5314900559655994,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 3,
+            "mean_probability": 0.6528001023131297,
+            "observed_blue_win_rate": 0.6666666666666666
+          }
+        ],
+        "observed_blue_win_rate": 0.6
+      },
+      "pooled": {
+        "n": 20,
+        "accuracy": 0.6,
+        "roc_auc": 0.7083333333333334,
+        "log_loss": 0.7074836521726964,
+        "brier_score": 0.2530736441272926,
+        "ece_10": 0.20777008254084378,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.14042993334136253,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 5,
+            "mean_probability": 0.24100411480225134,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 4,
+            "mean_probability": 0.3536711200968757,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 2,
+            "mean_probability": 0.44196234583710736,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 1,
+            "mean_probability": 0.5627038400254022,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 4,
+            "mean_probability": 0.6307381863852333,
+            "observed_blue_win_rate": 0.75
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.834022217519727,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6
+      }
+    },
+    "16.14": {
+      "league_only": {
+        "n": 24,
+        "accuracy": 0.5833333333333334,
+        "roc_auc": 0.6296296296296297,
+        "log_loss": 0.692213922985469,
+        "brier_score": 0.23822520312648063,
+        "ece_10": 0.1998606469356367,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 1,
+            "mean_probability": 0.06872579035988836,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 5,
+            "mean_probability": 0.16562907553975986,
+            "observed_blue_win_rate": 0.2
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 2,
+            "mean_probability": 0.2531388417379934,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 4,
+            "mean_probability": 0.343054221553755,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 3,
+            "mean_probability": 0.4393172775106313,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 4,
+            "mean_probability": 0.5629442282076942,
+            "observed_blue_win_rate": 0.25
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 3,
+            "mean_probability": 0.643972936151281,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 1,
+            "mean_probability": 0.7283978228382115,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.8067418624940363,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.375
+      },
+      "pooled": {
+        "n": 24,
+        "accuracy": 0.5,
+        "roc_auc": 0.36296296296296293,
+        "log_loss": 0.8322914362292195,
+        "brier_score": 0.3073793365788639,
+        "ece_10": 0.3755926982851724,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 2,
+            "mean_probability": 0.158029260682465,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 3,
+            "mean_probability": 0.26035825258186285,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 1,
+            "mean_probability": 0.3728323073394868,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 11,
+            "mean_probability": 0.44063190194327506,
+            "observed_blue_win_rate": 0.2727272727272727
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 3,
+            "mean_probability": 0.5787686537897986,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 2,
+            "mean_probability": 0.6465218896906672,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 2,
+            "mean_probability": 0.7241563136255407,
+            "observed_blue_win_rate": 0.0
+          }
+        ],
+        "observed_blue_win_rate": 0.375
+      }
+    },
+    "16.15": {
+      "league_only": {
+        "n": 49,
+        "accuracy": 0.5918367346938775,
+        "roc_auc": 0.6488970588235294,
+        "log_loss": 0.7151153187579525,
+        "brier_score": 0.2587264890842969,
+        "ece_10": 0.21484094292283187,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 3,
+            "mean_probability": 0.15384219523623568,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 10,
+            "mean_probability": 0.2544634250647656,
+            "observed_blue_win_rate": 0.6
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 9,
+            "mean_probability": 0.3584596502080808,
+            "observed_blue_win_rate": 0.4444444444444444
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 9,
+            "mean_probability": 0.44583410777440236,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 9,
+            "mean_probability": 0.5519069893157096,
+            "observed_blue_win_rate": 0.8888888888888888
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 6,
+            "mean_probability": 0.6693290938354693,
+            "observed_blue_win_rate": 0.6666666666666666
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 3,
+            "mean_probability": 0.7589335992513192,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6530612244897959
+      },
+      "pooled": {
+        "n": 49,
+        "accuracy": 0.5102040816326531,
+        "roc_auc": 0.6672794117647058,
+        "log_loss": 0.6713780651915437,
+        "brier_score": 0.24048225363332706,
+        "ece_10": 0.24363903409524565,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 1,
+            "mean_probability": 0.1247923437913553,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 3,
+            "mean_probability": 0.29254257630543096,
+            "observed_blue_win_rate": 0.0
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 11,
+            "mean_probability": 0.35352382519073106,
+            "observed_blue_win_rate": 0.5454545454545454
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 16,
+            "mean_probability": 0.45936606129796487,
+            "observed_blue_win_rate": 0.8125
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 11,
+            "mean_probability": 0.5586692811980529,
+            "observed_blue_win_rate": 0.7272727272727273
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 4,
+            "mean_probability": 0.6288565660003552,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 3,
+            "mean_probability": 0.7318508383326567,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.6530612244897959
+      }
+    },
+    "16.16": {
+      "league_only": {
+        "n": 80,
+        "accuracy": 0.5875,
+        "roc_auc": 0.6524198617221872,
+        "log_loss": 0.7209889783410779,
+        "brier_score": 0.2530829443083898,
+        "ece_10": 0.155803311533109,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 3,
+            "mean_probability": 0.06557684166634052,
+            "observed_blue_win_rate": 0.3333333333333333
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 12,
+            "mean_probability": 0.1626659301994354,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 14,
+            "mean_probability": 0.25078641306050686,
+            "observed_blue_win_rate": 0.42857142857142855
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 18,
+            "mean_probability": 0.340379061173344,
+            "observed_blue_win_rate": 0.3888888888888889
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 7,
+            "mean_probability": 0.4346715014418238,
+            "observed_blue_win_rate": 0.7142857142857143
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 7,
+            "mean_probability": 0.5437467238034952,
+            "observed_blue_win_rate": 0.42857142857142855
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 10,
+            "mean_probability": 0.6415850474248834,
+            "observed_blue_win_rate": 0.7
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 7,
+            "mean_probability": 0.7631371084435299,
+            "observed_blue_win_rate": 0.8571428571428571
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 2,
+            "mean_probability": 0.8774484145849512,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5375
+      },
+      "pooled": {
+        "n": 80,
+        "accuracy": 0.5,
+        "roc_auc": 0.5845380263984915,
+        "log_loss": 0.7144407693927801,
+        "brier_score": 0.2588192963488754,
+        "ece_10": 0.1799783206678065,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 2,
+            "mean_probability": 0.15498930971768285,
+            "observed_blue_win_rate": 1.0
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 11,
+            "mean_probability": 0.2531354061293177,
+            "observed_blue_win_rate": 0.18181818181818182
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 21,
+            "mean_probability": 0.34691439436101756,
+            "observed_blue_win_rate": 0.5714285714285714
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 19,
+            "mean_probability": 0.44872263481912755,
+            "observed_blue_win_rate": 0.631578947368421
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 8,
+            "mean_probability": 0.5580613764176335,
+            "observed_blue_win_rate": 0.5
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 12,
+            "mean_probability": 0.6432578473195963,
+            "observed_blue_win_rate": 0.4166666666666667
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 6,
+            "mean_probability": 0.7649720551556628,
+            "observed_blue_win_rate": 0.8333333333333334
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 1,
+            "mean_probability": 0.8590656996600637,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5375
+      }
+    }
+  },
+  "artifact_path": "models/sensitivity/20261022T093531Z-f5eb82ee9db3_LCK_raw.joblib",
+  "artifact_sha256": "ed0926790924bf452ce8802103f5f36d58b2c97e74b9469956c12ac14bbe10cf"
+}

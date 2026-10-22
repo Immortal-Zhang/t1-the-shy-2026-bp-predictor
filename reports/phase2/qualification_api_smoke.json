@@ -1,0 +1,71 @@
+{
+  "health": {
+    "service": "Worlds 2026 BP Predictor",
+    "model": {
+      "available": true,
+      "label_cutoff": "2025-12-30 00:00:00+00:00",
+      "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "integrity": "artifact_and_feature_hashes_verified",
+      "note": "Hashes checked against trusted local metadata; inference additionally validates deserialization and request time compatibility"
+    },
+    "worlds_patch_verification": {
+      "event": "Worlds 2026",
+      "configured_patch": "26.20",
+      "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+      "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "checked_at": "2026-10-22T11:32:22.438445+00:00",
+      "status": "confirmed",
+      "official_patch": "26.20",
+      "page_sha256": "288efdd05fb312dc8ba9211e3f4e1f4e4a3bedb1a5db1c0259e1d8494b643021",
+      "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+      "reason": "Riot patch-note heading and explicit Worlds statement matched"
+    },
+    "series_prediction_supported": false
+  },
+  "before_publication": {
+    "as_of": "2026-10-04T00:00:00+00:00",
+    "teams": [],
+    "returned": 0,
+    "participation_source": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "participation_updated_at": "2026-10-22T11:15:10.845237+00:00",
+    "qualification_available_at": "2026-10-06T00:00:00+00:00",
+    "qualification_status": "not_available_before_publication",
+    "qualification_available": false,
+    "qualification_notice": "指定 as_of 尚未晚于官方参赛公告的可用时间，不展示未来参赛资格。",
+    "notice": "指定 as_of 尚未晚于官方参赛公告的可用时间，不展示未来参赛资格。"
+  },
+  "after_returned": 19,
+  "before_catalog_worlds": {
+    "event": "Worlds 2026",
+    "patch": "26.20",
+    "rules": {
+      "verified": true,
+      "mechanism_verified": true,
+      "fearless_mode": "global",
+      "source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+      "updated_at": "2026-10-22T11:15:10.845237+00:00",
+      "definition_source_url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+      "event_source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+      "description": "全局无畏征召：同一系列赛内，双方之前小局已经选用的英雄都不能再选；普通禁用不跨局累积。",
+      "evidence_scope": "2026国际赛事规则4.5.6–4.5.7承认无畏模式并规定错误选禁处理；双方历史选用均不可复用的机制来自Riot官方Fearless解释。2026世界赛规则引用该国际赛事规则并给出Bo3/Bo5赛制。",
+      "applicability_notice": "本工具管理用户指定的同一Bo3/Bo5无畏系列赛上下文；赛事特殊禁用、临时规则和实际名单仍以裁判公布为准。不要把不同系列赛的选用记录合并。",
+      "formats": [
+        "bo3",
+        "bo5"
+      ],
+      "series_prediction_supported": false,
+      "previous_picks_restricted_for": "both_teams",
+      "standard_bans_carry_over": false,
+      "event_rules_sections": [
+        "Worlds 2026 §1.1",
+        "Worlds 2026 §§4.1.1–4.1.3",
+        "International 2026 §§4.5.6–4.5.7"
+      ]
+    },
+    "participant_count": 0,
+    "qualification_available_at": "2026-10-06T00:00:00+00:00",
+    "qualification_status": "not_available_before_publication",
+    "qualification_available": false,
+    "qualification_notice": "指定 as_of 尚未晚于官方参赛公告的可用时间，不展示未来参赛资格。"
+  }
+}

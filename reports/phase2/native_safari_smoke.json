@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-10-22T11:42:54.018682+00:00",
+  "browser": "macOS Safari",
+  "version": "26.5",
+  "url": "http://127.0.0.1:5173/",
+  "observed": {
+    "page_title": "Worlds 2026 · BP Predictor",
+    "model_ready": true,
+    "actual_matches_loaded": 22
+  },
+  "scope": "Native app UI navigation and accessibility-state loading check only. Full interactions automated separately in Playwright WebKit. Native testing stopped when the active Safari tab changed to user content; no further interaction with that tab.",
+  "private_content_saved": false
+}

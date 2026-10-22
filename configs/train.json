@@ -1,0 +1,16 @@
+{
+  "as_of": "2026-10-22T00:00:00Z",
+  "train_end": "2025-07-01T00:00:00Z",
+  "validation_end": "2025-10-01T00:00:00Z",
+  "calibration_end": "2026-01-01T00:00:00Z",
+  "seed": 2026,
+  "iterations": 350,
+  "depth": 5,
+  "learning_rate": 0.045,
+  "l2_leaf_reg": 12,
+  "half_life_days": 180,
+  "thread_count": 4,
+  "min_train": 500,
+  "min_eval": 100,
+  "run_sensitivity": true
+}

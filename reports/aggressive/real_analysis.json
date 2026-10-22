@@ -1,0 +1,1211 @@
+{
+  "prediction": {
+    "blue_win_probability": 0.30217792358429685,
+    "red_win_probability": 0.6978220764157032,
+    "model_version": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+    "selected_model": "C_catboost_uniform",
+    "as_of": "2026-10-18T19:48:36+00:00",
+    "scheduled_start": "2026-10-18T19:48:36Z",
+    "model_label_cutoff": "2025-12-30 00:00:00+00:00",
+    "data_cutoff": "2026-10-17T20:50:48+00:00",
+    "history_result_available_cutoff": "2026-10-18T00:00:00+00:00",
+    "sample_coverage": {
+      "history_games": 28715,
+      "effective_as_of": "2026-10-18T19:48:36+00:00",
+      "latest_history_game_time": "2026-10-17T20:50:48+00:00",
+      "latest_history_available_at": "2026-10-18T00:00:00+00:00",
+      "league_history_games": 259,
+      "patch_history_games": 110,
+      "unknown_teams": [],
+      "unknown_players_in_role": [],
+      "unknown_champions_in_role": [],
+      "player_champion_games": {
+        "blue_top": 1,
+        "blue_jng": 8,
+        "blue_mid": 4,
+        "blue_bot": 0,
+        "blue_sup": 5,
+        "red_top": 1,
+        "red_jng": 17,
+        "red_mid": 22,
+        "red_bot": 43,
+        "red_sup": 32
+      },
+      "matchup_games": {
+        "blue_top": 0,
+        "blue_jng": 16,
+        "blue_mid": 26,
+        "blue_bot": 7,
+        "blue_sup": 75,
+        "red_top": 0,
+        "red_jng": 16,
+        "red_mid": 26,
+        "red_bot": 7,
+        "red_sup": 75
+      },
+      "missing_ban_slots": 0,
+      "first_pick_side_observed": true,
+      "smoothing": {
+        "team": 10.0,
+        "player": 10.0,
+        "champion": 20.0,
+        "player_champion": 10.0,
+        "matchup": 20.0,
+        "synergy": 30.0,
+        "patch_champion": 20.0
+      },
+      "recent_window_games": 20,
+      "feature_version": "point-in-time-v1"
+    },
+    "training_samples": {
+      "train": {
+        "n": 15717,
+        "first_game": "2024-01-01 05:13:15+00:00",
+        "last_game": "2025-06-29 02:03:36+00:00",
+        "last_result_available": "2025-06-30 00:00:00+00:00",
+        "blue_wins": 8375
+      },
+      "validation": {
+        "n": 2968,
+        "first_game": "2025-07-02 00:13:11+00:00",
+        "last_game": "2025-09-29 18:33:20+00:00",
+        "last_result_available": "2025-09-30 00:00:00+00:00",
+        "blue_wins": 1569
+      },
+      "calibration": {
+        "n": 716,
+        "first_game": "2025-10-01 05:08:31+00:00",
+        "last_game": "2025-12-29 10:52:27+00:00",
+        "last_result_available": "2025-12-30 00:00:00+00:00",
+        "blue_wins": 374
+      }
+    },
+    "first_pick_side": "blue",
+    "input_league": "Worlds",
+    "model_league": "WLDs",
+    "input_patch": "26.20",
+    "model_patch": "16.20",
+    "patch_namespace_note": "Explicit Worlds 2026 public 26.20 corresponds to source/Data Dragon 16.20; raw training source patch values are preserved.",
+    "warnings": [
+      "Name-based local pro IDs are stable within registry, but source lacks independent player IDs; unresolved real-person ambiguities remain.",
+      "Probabilities are calibrated estimates, not guaranteed outcomes. Final BP must already be known at as_of."
+    ],
+    "worlds_patch_verification": {
+      "event": "Worlds 2026",
+      "configured_patch": "26.20",
+      "official_source": "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-20-notes/",
+      "official_event_url": "https://lolesports.com/en-US/news/worlds-2026-primer",
+      "checked_at": "2026-10-22T12:14:06.182126+00:00",
+      "status": "confirmed",
+      "official_patch": "26.20",
+      "page_sha256": "51d8e2aecfdd4647d15968b01a4fe0c6b2e042b204d227b54c03d7a127629efe",
+      "verification_scope": "Configured Riot announcement, not a guarantee against later rule amendments",
+      "reason": "Riot patch-note heading and explicit Worlds statement matched"
+    }
+  },
+  "comparison": {
+    "pre_bp": {
+      "model": "20261022T093531Z-f5eb82ee9db3/B_catboost",
+      "blue_probability": 0.3538980344286181,
+      "red_probability": 0.6461019655713819
+    },
+    "post_bp": {
+      "model": "20261022T093531Z-f5eb82ee9db3/C_catboost_uniform",
+      "blue_probability": 0.30217792358429685,
+      "red_probability": 0.6978220764157032
+    },
+    "delta_blue": -0.051720110844321265,
+    "limitation": "两个模型使用相同时间切分、同类独立 sigmoid 校准，但 B 使用近期样本权重，部署 C 使用均匀权重；C 同时加入 BP 与版本，差值不能隔离 BP 的因果效应。"
+  },
+  "players": [
+    {
+      "side": "blue",
+      "role": "top",
+      "player_id": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+      "name": "Kratos",
+      "champion": "Yone",
+      "games": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "last_played": "2024-02-22T10:06:32+00:00",
+      "recent_games": 1,
+      "recent_win_rate": 1.0,
+      "player_history_games": 193,
+      "player_recent_win_rate": 0.5,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "role": "jng",
+      "player_id": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+      "name": "Gury",
+      "champion": "Aatrox",
+      "games": 8,
+      "wins": 5,
+      "win_rate": 0.625,
+      "last_played": "2026-08-20T10:07:30+00:00",
+      "recent_games": 8,
+      "recent_win_rate": 0.625,
+      "player_history_games": 249,
+      "player_recent_win_rate": 0.5,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "role": "mid",
+      "player_id": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+      "name": "Chika",
+      "champion": "Locke",
+      "games": 4,
+      "wins": 1,
+      "win_rate": 0.25,
+      "last_played": "2026-08-29T09:03:52+00:00",
+      "recent_games": 4,
+      "recent_win_rate": 0.25,
+      "player_history_games": 132,
+      "player_recent_win_rate": 0.5,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "role": "bot",
+      "player_id": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+      "name": "Harky",
+      "champion": "Twitch",
+      "games": 0,
+      "wins": 0,
+      "win_rate": null,
+      "last_played": null,
+      "recent_games": 0,
+      "recent_win_rate": null,
+      "player_history_games": 134,
+      "player_recent_win_rate": 0.5,
+      "sample_status": "none"
+    },
+    {
+      "side": "blue",
+      "role": "sup",
+      "player_id": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+      "name": "SiuLoong",
+      "champion": "Camille",
+      "games": 5,
+      "wins": 2,
+      "win_rate": 0.4,
+      "last_played": "2026-10-16T01:01:24+00:00",
+      "recent_games": 5,
+      "recent_win_rate": 0.4,
+      "player_history_games": 176,
+      "player_recent_win_rate": 0.5,
+      "sample_status": "limited"
+    },
+    {
+      "side": "red",
+      "role": "top",
+      "player_id": "pro:3870faf8-1d8a-5a44-82ae-218e706b4cf6",
+      "name": "Canna",
+      "champion": "Zaahen",
+      "games": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "last_played": "2026-06-07T17:09:58+00:00",
+      "recent_games": 1,
+      "recent_win_rate": 1.0,
+      "player_history_games": 273,
+      "player_recent_win_rate": 0.55,
+      "sample_status": "limited"
+    },
+    {
+      "side": "red",
+      "role": "jng",
+      "player_id": "pro:45a9a379-4717-5bd7-bb57-726c773c1b10",
+      "name": "Yike",
+      "champion": "Naafiri",
+      "games": 17,
+      "wins": 8,
+      "win_rate": 0.47058823529411764,
+      "last_played": "2026-10-15T20:17:23+00:00",
+      "recent_games": 17,
+      "recent_win_rate": 0.47058823529411764,
+      "player_history_games": 367,
+      "player_recent_win_rate": 0.55,
+      "sample_status": "limited"
+    },
+    {
+      "side": "red",
+      "role": "mid",
+      "player_id": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+      "name": "kyeahoo",
+      "champion": "Viktor",
+      "games": 22,
+      "wins": 15,
+      "win_rate": 0.6818181818181818,
+      "last_played": "2026-10-16T19:53:53+00:00",
+      "recent_games": 20,
+      "recent_win_rate": 0.65,
+      "player_history_games": 377,
+      "player_recent_win_rate": 0.55,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "role": "bot",
+      "player_id": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+      "name": "Caliste",
+      "champion": "Ezreal",
+      "games": 43,
+      "wins": 25,
+      "win_rate": 0.5813953488372093,
+      "last_played": "2026-09-19T17:16:53+00:00",
+      "recent_games": 20,
+      "recent_win_rate": 0.5,
+      "player_history_games": 339,
+      "player_recent_win_rate": 0.55,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "role": "sup",
+      "player_id": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+      "name": "Busio",
+      "champion": "Leona",
+      "games": 32,
+      "wins": 26,
+      "win_rate": 0.8125,
+      "last_played": "2026-08-29T15:09:14+00:00",
+      "recent_games": 20,
+      "recent_win_rate": 0.85,
+      "player_history_games": 325,
+      "player_recent_win_rate": 0.55,
+      "sample_status": "sufficient"
+    }
+  ],
+  "matchups": [
+    {
+      "role": "top",
+      "blue_champion": "Yone",
+      "red_champion": "Zaahen",
+      "games": 0,
+      "blue_win_rate": null,
+      "sample_status": "none"
+    },
+    {
+      "role": "jng",
+      "blue_champion": "Aatrox",
+      "red_champion": "Naafiri",
+      "games": 16,
+      "blue_win_rate": 0.5,
+      "sample_status": "limited"
+    },
+    {
+      "role": "mid",
+      "blue_champion": "Locke",
+      "red_champion": "Viktor",
+      "games": 26,
+      "blue_win_rate": 0.46153846153846156,
+      "sample_status": "sufficient"
+    },
+    {
+      "role": "bot",
+      "blue_champion": "Twitch",
+      "red_champion": "Ezreal",
+      "games": 7,
+      "blue_win_rate": 0.42857142857142855,
+      "sample_status": "limited"
+    },
+    {
+      "role": "sup",
+      "blue_champion": "Camille",
+      "red_champion": "Leona",
+      "games": 75,
+      "blue_win_rate": 0.4533333333333333,
+      "sample_status": "sufficient"
+    }
+  ],
+  "synergies": [
+    {
+      "side": "blue",
+      "champions": [
+        "Yone",
+        "Aatrox"
+      ],
+      "roles": [
+        "top",
+        "jng"
+      ],
+      "games": 2,
+      "win_rate": 1.0,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Yone",
+        "Locke"
+      ],
+      "roles": [
+        "top",
+        "mid"
+      ],
+      "games": 3,
+      "win_rate": 0.3333333333333333,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Yone",
+        "Twitch"
+      ],
+      "roles": [
+        "top",
+        "bot"
+      ],
+      "games": 1,
+      "win_rate": 1.0,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Yone",
+        "Camille"
+      ],
+      "roles": [
+        "top",
+        "sup"
+      ],
+      "games": 4,
+      "win_rate": 0.75,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Aatrox",
+        "Locke"
+      ],
+      "roles": [
+        "jng",
+        "mid"
+      ],
+      "games": 3,
+      "win_rate": 0.6666666666666666,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Aatrox",
+        "Twitch"
+      ],
+      "roles": [
+        "jng",
+        "bot"
+      ],
+      "games": 0,
+      "win_rate": null,
+      "sample_status": "none"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Aatrox",
+        "Camille"
+      ],
+      "roles": [
+        "jng",
+        "sup"
+      ],
+      "games": 5,
+      "win_rate": 0.6,
+      "sample_status": "limited"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Locke",
+        "Twitch"
+      ],
+      "roles": [
+        "mid",
+        "bot"
+      ],
+      "games": 0,
+      "win_rate": null,
+      "sample_status": "none"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Locke",
+        "Camille"
+      ],
+      "roles": [
+        "mid",
+        "sup"
+      ],
+      "games": 26,
+      "win_rate": 0.5384615384615384,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "blue",
+      "champions": [
+        "Twitch",
+        "Camille"
+      ],
+      "roles": [
+        "bot",
+        "sup"
+      ],
+      "games": 0,
+      "win_rate": null,
+      "sample_status": "none"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Zaahen",
+        "Naafiri"
+      ],
+      "roles": [
+        "top",
+        "jng"
+      ],
+      "games": 17,
+      "win_rate": 0.5882352941176471,
+      "sample_status": "limited"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Zaahen",
+        "Viktor"
+      ],
+      "roles": [
+        "top",
+        "mid"
+      ],
+      "games": 35,
+      "win_rate": 0.4857142857142857,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Zaahen",
+        "Ezreal"
+      ],
+      "roles": [
+        "top",
+        "bot"
+      ],
+      "games": 56,
+      "win_rate": 0.44642857142857145,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Zaahen",
+        "Leona"
+      ],
+      "roles": [
+        "top",
+        "sup"
+      ],
+      "games": 28,
+      "win_rate": 0.5,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Naafiri",
+        "Viktor"
+      ],
+      "roles": [
+        "jng",
+        "mid"
+      ],
+      "games": 101,
+      "win_rate": 0.5148514851485149,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Naafiri",
+        "Ezreal"
+      ],
+      "roles": [
+        "jng",
+        "bot"
+      ],
+      "games": 285,
+      "win_rate": 0.5298245614035088,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Naafiri",
+        "Leona"
+      ],
+      "roles": [
+        "jng",
+        "sup"
+      ],
+      "games": 181,
+      "win_rate": 0.5027624309392266,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Viktor",
+        "Ezreal"
+      ],
+      "roles": [
+        "mid",
+        "bot"
+      ],
+      "games": 326,
+      "win_rate": 0.450920245398773,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Viktor",
+        "Leona"
+      ],
+      "roles": [
+        "mid",
+        "sup"
+      ],
+      "games": 215,
+      "win_rate": 0.5023255813953489,
+      "sample_status": "sufficient"
+    },
+    {
+      "side": "red",
+      "champions": [
+        "Ezreal",
+        "Leona"
+      ],
+      "roles": [
+        "bot",
+        "sup"
+      ],
+      "games": 1064,
+      "win_rate": 0.4943609022556391,
+      "sample_status": "sufficient"
+    }
+  ],
+  "explanation": {
+    "method": "CatBoost SHAP",
+    "space": "raw_log_odds",
+    "base_value": 0.16031507521794433,
+    "raw_prediction": -1.253278735822248,
+    "contributions": [
+      {
+        "feature": "blue_bot_player_id",
+        "label": "蓝方 · 下路 · 选手 · 标识",
+        "value": "pro:c38d7068-688c-5e1b-b085-9224d4cad92d",
+        "contribution": -0.2407219377390243
+      },
+      {
+        "feature": "historical_game_count",
+        "label": "历史 · 比赛 · 数量",
+        "value": 28715.0,
+        "contribution": -0.2033363789168972
+      },
+      {
+        "feature": "red_bot_player_id",
+        "label": "红方 · 下路 · 选手 · 标识",
+        "value": "pro:9cfa9714-d26c-5cd5-94e0-7a09329782da",
+        "contribution": -0.14921381602938397
+      },
+      {
+        "feature": "blue_sup_player_id",
+        "label": "蓝方 · 辅助 · 选手 · 标识",
+        "value": "pro:7db6c0ee-b1aa-5f95-a13a-6442ba092430",
+        "contribution": -0.14190247208454845
+      },
+      {
+        "feature": "player_win_rate_diff",
+        "label": "选手 · 胜 · 率 · 差值",
+        "value": -0.07876913207561352,
+        "contribution": -0.12819906580048093
+      },
+      {
+        "feature": "blue_mid_player_id",
+        "label": "蓝方 · 中单 · 选手 · 标识",
+        "value": "pro:4384aa69-5ed3-5ede-8825-cee4044d7d61",
+        "contribution": -0.09950760815153431
+      },
+      {
+        "feature": "blue_bot_champion",
+        "label": "蓝方 · 下路 · 英雄",
+        "value": "Twitch",
+        "contribution": -0.08604907950135122
+      },
+      {
+        "feature": "red_sup_player_id",
+        "label": "红方 · 辅助 · 选手 · 标识",
+        "value": "pro:7a49a785-de07-5ce2-9836-32606f80d693",
+        "contribution": -0.07708198556905173
+      },
+      {
+        "feature": "blue_jng_player_id",
+        "label": "蓝方 · 打野 · 选手 · 标识",
+        "value": "pro:b1e6dda0-69b1-582a-bf92-e693b10267d0",
+        "contribution": -0.0745881730927439
+      },
+      {
+        "feature": "red_jng_player_champion_games",
+        "label": "红方 · 打野 · 选手 · 英雄 · 场次",
+        "value": 17.0,
+        "contribution": 0.07090063284450245
+      },
+      {
+        "feature": "blue_top_player_id",
+        "label": "蓝方 · 上单 · 选手 · 标识",
+        "value": "pro:984962d0-f05a-5f23-85ad-213d51bc7c0e",
+        "contribution": -0.07055394553325475
+      },
+      {
+        "feature": "red_sup_player_games",
+        "label": "红方 · 辅助 · 选手 · 场次",
+        "value": 325.0,
+        "contribution": -0.07000514013091773
+      },
+      {
+        "feature": "blue_sup_player_games",
+        "label": "蓝方 · 辅助 · 选手 · 场次",
+        "value": 176.0,
+        "contribution": 0.060565869791074194
+      },
+      {
+        "feature": "blue_team_id",
+        "label": "蓝方 · 战队 · 标识",
+        "value": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "contribution": -0.05880909919313512
+      },
+      {
+        "feature": "red_mid_player_games",
+        "label": "红方 · 中单 · 选手 · 场次",
+        "value": 377.0,
+        "contribution": -0.05630096900385257
+      },
+      {
+        "feature": "red_mid_player_id",
+        "label": "红方 · 中单 · 选手 · 标识",
+        "value": "pro:b8f2b4d6-af24-53a7-a9b7-87bb279c9cf3",
+        "contribution": -0.053344250239938634
+      }
+    ],
+    "other_contribution": -0.035446392689655104,
+    "feature_count": 184,
+    "reconstruction_error": 8.881784197001252e-16,
+    "notice": "这是模型原始蓝方对数胜算的特征贡献；正值推向蓝方，负值推向红方。显示前16项及其余项合计。最终概率另经 sigmoid 校准，SHAP 不是胜负的确定原因，也不是百分点贡献。"
+  },
+  "evaluation": {
+    "n": 9309,
+    "accuracy": 0.6394886668815125,
+    "roc_auc": 0.6976526715201767,
+    "log_loss": 0.6301706182065784,
+    "brier_score": 0.22015026141057542,
+    "ece_10": 0.031341277032335545,
+    "worlds_target": {
+      "n": 22,
+      "accuracy": 0.5454545454545454,
+      "roc_auc": 0.5897435897435899,
+      "log_loss": 0.7204438131253489,
+      "brier_score": 0.26182869969436157,
+      "ece_10": 0.32261603764431307
+    },
+    "scope": "冻结模型的全联赛时间顺序独立测试；Worlds 目标版本样本很少。评测指标是已保存的研究报告，未参与本次预测特征。",
+    "evaluated_data_cutoff": "2026-10-18 19:48:36+00:00"
+  },
+  "draft_context_validation": {
+    "enabled": false,
+    "rule": null,
+    "source_url": null,
+    "excluded_champions": [],
+    "note": "Series context is a selection constraint only; the model predicts one map, not a series probability."
+  },
+  "supported_analysis": {
+    "player_form": {
+      "available": true,
+      "kind": "model_feature_and_descriptive_history",
+      "description": "角色内更早比赛的胜负与近期20局表现；不是独立个人实力分。"
+    },
+    "proficiency": {
+      "available": true,
+      "kind": "model_feature_and_descriptive_history",
+      "description": "选手-英雄-位置的历史样本；面板给出未平滑真实计数，模型另用平滑估计。"
+    },
+    "matchups": {
+      "available": true,
+      "kind": "model_feature_and_descriptive_history",
+      "description": "同位置英雄对位的早期已知胜负统计，混杂于选手/队伍水平。"
+    },
+    "synergy": {
+      "available": true,
+      "kind": "model_feature_and_descriptive_history",
+      "description": "位置化两英雄同时出场的历史胜负统计，不是确定的协同强度。"
+    },
+    "patch_adaptation": {
+      "available": true,
+      "kind": "model_feature",
+      "description": "版本类别及版本内英雄历史计数已参与 C 模型；样本少时收缩。"
+    },
+    "early_late_damage_engage_protection_cc": {
+      "available": false,
+      "kind": "unsupported",
+      "description": "现有模型没有经过验证的前后期、伤害类型、开团、保护或控制能力特征，不输出主观评分。"
+    }
+  },
+  "limitations": [
+    "这是单局概率模型，不输出 Bo3/Bo5 系列赛胜率。",
+    "两个模型使用相同时间切分、同类独立 sigmoid 校准，但 B 使用近期样本权重，部署 C 使用均匀权重；C 同时加入 BP 与版本，差值不能隔离 BP 的因果效应。",
+    "历史胜率仅为描述统计，少于20局显示历史样本不足；0局返回空值而非假定50%。",
+    "历史统计严格早于 as_of 且结果已可用，当前目标比赛及未来比赛均被排除。",
+    "名称派生的职业选手身份存在未核验关联；历史观测阵容不等于已确认的当前首发。",
+    "Worlds 26.20 的独立测试仅22局，不能证明可靠的赛事专项准确率或概率校准。"
+  ],
+  "judgment": {
+    "available": true,
+    "version": "evidence-judgment-v1",
+    "model_version": "20261022T120914Z-enhanced/enhanced_recent90_d4",
+    "engine": "enhanced",
+    "winner": {
+      "side": "red",
+      "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+      "tie_break": false
+    },
+    "support": {
+      "blue": 14.9933,
+      "red": 85.0067,
+      "definition": "支持指数不是获胜概率。它将模型到决策边界的距离，在验证期绝对分差中排位，再映射到两侧0–100；不保证命中率，不设置最低胜率。标准模式仍显示原始校准概率。",
+      "raw_margin": -0.9192802312313277,
+      "reference_n": 2968,
+      "out_of_reference_range": false,
+      "judgment_calibrated_probability": 0.3390241676901847
+    },
+    "advantage": {
+      "key": "strong",
+      "label": "强烈倾向",
+      "raw_key": "strong",
+      "strong_validated": true,
+      "downgraded": false
+    },
+    "reasons": [
+      {
+        "title": "选手身份与近期状态推动本次判断",
+        "detail": "本组模型贡献支持红方（蓝方原始对数胜算 -0.293）。Canna：273 局职业历史，最近至多20局胜率 55.0%；Yike：367 局职业历史，最近至多20局胜率 55.0%；kyeahoo：377 局职业历史，最近至多20局胜率 55.0%；Caliste：339 局职业历史，最近至多20局胜率 55.0%；Busio：325 局职业历史，最近至多20局胜率 55.0%。这是该模型的判断依据，不是独立验证的战术因果关系。",
+        "category": "players",
+        "contribution": -0.29338196536883737,
+        "feature_names": [
+          "player_decay_win_rate_diff",
+          "mid_jungle_players_win_rate_diff",
+          "red_bot_support_players_games",
+          "blue_bot_support_players_games",
+          "bot_support_players_win_rate_diff",
+          "player_win_rate_diff",
+          "blue_mid_jungle_players_games",
+          "player_recent_win_rate_diff",
+          "red_bot_support_players_win_rate",
+          "red_mid_jungle_players_games",
+          "blue_mid_jungle_players_win_rate",
+          "red_mid_jungle_players_win_rate",
+          "blue_bot_support_players_win_rate"
+        ],
+        "sample_games": 273,
+        "evidence_status": "model"
+      },
+      {
+        "title": "中单 · 选手身份与近期状态推动本次判断",
+        "detail": "本组模型贡献支持红方（蓝方原始对数胜算 -0.219）。Chika：132 局职业历史，最近至多20局胜率 50.0%；kyeahoo：377 局职业历史，最近至多20局胜率 55.0%。这是该模型的判断依据，不是独立验证的战术因果关系。",
+        "category": "players",
+        "contribution": -0.2189803476818219,
+        "feature_names": [
+          "red_mid_player_games",
+          "red_mid_player_id",
+          "red_mid_player_form_change",
+          "blue_mid_player_id",
+          "blue_mid_player_games",
+          "red_mid_player_decay_effective_games",
+          "red_mid_player_win_rate",
+          "blue_mid_player_decay_win_rate",
+          "blue_mid_player_decay_effective_games",
+          "blue_mid_player_recent_win_rate",
+          "blue_mid_player_recent_games",
+          "red_mid_player_decay_inactive_days",
+          "blue_mid_player_form_change",
+          "red_mid_player_recent_win_rate",
+          "red_mid_player_recent_games",
+          "blue_mid_player_decay_inactive_days",
+          "red_mid_player_decay_win_rate",
+          "blue_mid_player_win_rate"
+        ],
+        "sample_games": 132,
+        "evidence_status": "model"
+      },
+      {
+        "title": "战队与阵容历史推动本次判断",
+        "detail": "本组模型贡献支持红方（蓝方原始对数胜算 -0.218）。贡献来自战队身份、截至赛前的胜负记录和已观测阵容；不等同于个人实力的因果估计。这是该模型的判断依据，不是独立验证的战术因果关系。",
+        "category": "teams",
+        "contribution": -0.218144613395935,
+        "feature_names": [
+          "team_decay_win_rate_diff",
+          "red_team_games",
+          "red_roster_games",
+          "red_head_to_head_win_rate",
+          "red_team_id",
+          "team_recent_win_rate_diff",
+          "head_to_head_win_rate_diff",
+          "blue_head_to_head_win_rate",
+          "blue_roster_games",
+          "blue_team_decay_effective_games",
+          "red_team_decay_win_rate",
+          "red_team_win_rate",
+          "team_win_rate_diff",
+          "blue_team_form_change",
+          "blue_team_decay_win_rate",
+          "blue_team_games",
+          "red_team_form_change",
+          "blue_team_id",
+          "red_roster_win_rate",
+          "red_head_to_head_games",
+          "roster_win_rate_diff",
+          "blue_team_win_rate",
+          "red_team_decay_inactive_days",
+          "blue_team_recent_win_rate",
+          "blue_team_decay_inactive_days",
+          "blue_head_to_head_games",
+          "red_team_recent_win_rate",
+          "team_form_change_diff",
+          "red_team_decay_effective_games",
+          "blue_roster_win_rate",
+          "blue_team_recent_games",
+          "red_team_recent_games"
+        ],
+        "sample_games": null,
+        "evidence_status": "model"
+      }
+    ],
+    "risks": [
+      {
+        "title": "中单 · 版本历史是反向证据",
+        "detail": "本组模型贡献反对红方（蓝方原始对数胜算 +0.072）。当前版本共 110 局赛前历史，本组最少的具体版本组合只有 0 局；新版本类别本身不证明模型学会了该版本。这一项是对手扳回局面的主要模型证据；它没有给出实际比赛中的触发概率。历史样本不足，不能把这一贡献当作可靠战术定论。",
+        "category": "patch",
+        "contribution": 0.07189334642489653,
+        "feature_names": [
+          "red_mid_player_patch_games",
+          "blue_mid_patch_champion_win_rate",
+          "red_mid_patch_champion_win_rate",
+          "red_mid_player_patch_win_rate",
+          "blue_mid_patch_champion_games",
+          "blue_mid_player_patch_win_rate",
+          "blue_mid_player_champion_patch_win_rate",
+          "blue_mid_player_patch_games",
+          "red_mid_player_champion_patch_win_rate",
+          "red_mid_patch_champion_games",
+          "blue_mid_player_champion_patch_games",
+          "red_mid_player_champion_patch_games"
+        ],
+        "sample_games": 0,
+        "evidence_status": "limited"
+      },
+      {
+        "title": "中野组合是反向证据",
+        "detail": "本组模型贡献反对红方（蓝方原始对数胜算 +0.036）。蓝方 Aatrox + Locke：3 局组合样本；红方 Naafiri + Viktor：101 局组合样本。这一项是对手扳回局面的主要模型证据；它没有给出实际比赛中的触发概率。历史样本不足，不能把这一贡献当作可靠战术定论。",
+        "category": "mid_jungle",
+        "contribution": 0.03571974910957891,
+        "feature_names": [
+          "blue_mid_jungle_games",
+          "blue_mid_jungle_patch_win_rate",
+          "blue_mid_jungle_win_rate",
+          "blue_mid_jungle_patch_games",
+          "red_mid_jungle_games",
+          "red_mid_jungle_patch_games",
+          "mid_jungle_patch_win_rate_diff",
+          "blue_mid_jungle_recent_games",
+          "red_mid_jungle_patch_win_rate",
+          "blue_mid_jungle_recent_win_rate",
+          "red_mid_jungle_recent_win_rate",
+          "mid_jungle_win_rate_diff",
+          "red_mid_jungle_win_rate",
+          "mid_jungle_recent_win_rate_diff",
+          "red_mid_jungle_recent_games"
+        ],
+        "sample_games": 3,
+        "evidence_status": "limited"
+      }
+    ],
+    "bp_assessment": {
+      "favored_side": "red",
+      "label": "红方 BP 特征净占优",
+      "net_contribution": -0.010107153252183164,
+      "weakness": {
+        "title": "中单 · 版本历史是反向证据",
+        "detail": "本组模型贡献反对红方（蓝方原始对数胜算 +0.072）。当前版本共 110 局赛前历史，本组最少的具体版本组合只有 0 局；新版本类别本身不证明模型学会了该版本。这一项是对手扳回局面的主要模型证据；它没有给出实际比赛中的触发概率。历史样本不足，不能把这一贡献当作可靠战术定论。",
+        "category": "patch",
+        "contribution": 0.07189334642489653,
+        "feature_names": [
+          "red_mid_player_patch_games",
+          "blue_mid_patch_champion_win_rate",
+          "red_mid_patch_champion_win_rate",
+          "red_mid_player_patch_win_rate",
+          "blue_mid_patch_champion_games",
+          "blue_mid_player_patch_win_rate",
+          "blue_mid_player_champion_patch_win_rate",
+          "blue_mid_player_patch_games",
+          "red_mid_player_champion_patch_win_rate",
+          "red_mid_patch_champion_games",
+          "blue_mid_player_champion_patch_games",
+          "red_mid_player_champion_patch_games"
+        ],
+        "sample_games": 0,
+        "evidence_status": "limited"
+      }
+    },
+    "driver": {
+      "primary": "players_teams",
+      "label": "主要靠选手和战队历史",
+      "bp_share": 0.3362495138948839,
+      "players_teams_share": 0.635203559120926,
+      "context_share": 0.028546926984190146,
+      "note": "占比为完整 SHAP 绝对贡献之和，不是胜率或因果份额；模型截距 +0.169 不参与占比。相关特征会分摊贡献。"
+    },
+    "reliability": {
+      "level": "low",
+      "label": "数据可靠性有限",
+      "details": [
+        "历史覆盖 28715 局；同版本 110 局；7/10 个选手英雄组合少于20局。",
+        "职业身份仍含未人工核验的名称关联；出场记录不等于已确认首发。",
+        "目标世界赛回测只有 22 局，不能证明该赛事的稳定命中率。"
+      ]
+    },
+    "evaluation": {
+      "n": 9309,
+      "correct": 5924,
+      "accuracy": 0.6363734020840047,
+      "coverage": 1.0,
+      "wilson_low": 0.6265470716842145,
+      "wilson_high": 0.6460872270125786,
+      "grades": [
+        {
+          "key": "slight",
+          "label": "轻微优势",
+          "n": 2649,
+          "correct": 1358,
+          "accuracy": 0.512646281615704,
+          "coverage": 0.2845633258137287,
+          "wilson_low": 0.4936073919065521,
+          "wilson_high": 0.5316485463166783
+        },
+        {
+          "key": "clear",
+          "label": "明显优势",
+          "n": 3963,
+          "correct": 2494,
+          "accuracy": 0.6293212212969972,
+          "coverage": 0.42571704801804705,
+          "wilson_low": 0.6141654057150665,
+          "wilson_high": 0.6442265695227649
+        },
+        {
+          "key": "strong",
+          "label": "强烈倾向",
+          "n": 2697,
+          "correct": 2072,
+          "accuracy": 0.7682610307749351,
+          "coverage": 0.2897196261682243,
+          "wilson_low": 0.7519618888811389,
+          "wilson_high": 0.7837970670080466
+        }
+      ],
+      "scope": "真实标签、按时间保留的 2026 测试段；该测试段已在前阶段查看，本次属于回顾性研究比较，不是全新确认性证据。",
+      "probability_metrics": {
+        "n": 9309,
+        "accuracy": 0.6363734020840047,
+        "roc_auc": 0.692046099839368,
+        "log_loss": 0.6333061050756578,
+        "brier_score": 0.22148368939681257,
+        "ece_10": 0.02630863663515238,
+        "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 59,
+            "mean_probability": 0.1751667978106456,
+            "observed_blue_win_rate": 0.15254237288135594
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 543,
+            "mean_probability": 0.2622783000901006,
+            "observed_blue_win_rate": 0.22099447513812154
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 1357,
+            "mean_probability": 0.3577826902036364,
+            "observed_blue_win_rate": 0.32571849668386144
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 2068,
+            "mean_probability": 0.45182766853098394,
+            "observed_blue_win_rate": 0.47195357833655704
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 2349,
+            "mean_probability": 0.5491918155277665,
+            "observed_blue_win_rate": 0.5602383993188591
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 1821,
+            "mean_probability": 0.6458734081899253,
+            "observed_blue_win_rate": 0.6672158154859967
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 922,
+            "mean_probability": 0.7418253572994263,
+            "observed_blue_win_rate": 0.8145336225596529
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 189,
+            "mean_probability": 0.8302748718396681,
+            "observed_blue_win_rate": 0.8518518518518519
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 1,
+            "mean_probability": 0.9043704710331152,
+            "observed_blue_win_rate": 1.0
+          }
+        ],
+        "observed_blue_win_rate": 0.5361478139434955
+      },
+      "raw_probability_metrics": {
+        "n": 9309,
+        "accuracy": 0.633150714362445,
+        "roc_auc": 0.692046099839368,
+        "log_loss": 0.6395642315025518,
+        "brier_score": 0.22429482924605024,
+        "ece_10": 0.055769731835786776,
+        "calibration_bins": [
+          {
+            "lower": 0.0,
+            "upper": 0.1,
+            "n": 51,
+            "mean_probability": 0.08332929115314971,
+            "observed_blue_win_rate": 0.1568627450980392
+          },
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "n": 578,
+            "mean_probability": 0.16151111237118468,
+            "observed_blue_win_rate": 0.21972318339100347
+          },
+          {
+            "lower": 0.2,
+            "upper": 0.3,
+            "n": 1161,
+            "mean_probability": 0.25657628219950174,
+            "observed_blue_win_rate": 0.32558139534883723
+          },
+          {
+            "lower": 0.3,
+            "upper": 0.4,
+            "n": 1546,
+            "mean_probability": 0.35048533162348927,
+            "observed_blue_win_rate": 0.42884864165588615
+          },
+          {
+            "lower": 0.4,
+            "upper": 0.5,
+            "n": 1719,
+            "mean_probability": 0.45040921393403116,
+            "observed_blue_win_rate": 0.5235602094240838
+          },
+          {
+            "lower": 0.5,
+            "upper": 0.6,
+            "n": 1631,
+            "mean_probability": 0.5485054244851009,
+            "observed_blue_win_rate": 0.6131207847946045
+          },
+          {
+            "lower": 0.6,
+            "upper": 0.7,
+            "n": 1333,
+            "mean_probability": 0.647112367947968,
+            "observed_blue_win_rate": 0.6586646661665416
+          },
+          {
+            "lower": 0.7,
+            "upper": 0.8,
+            "n": 889,
+            "mean_probability": 0.7468064651245245,
+            "observed_blue_win_rate": 0.7784026996625422
+          },
+          {
+            "lower": 0.8,
+            "upper": 0.9,
+            "n": 365,
+            "mean_probability": 0.8388730566413113,
+            "observed_blue_win_rate": 0.8547945205479452
+          },
+          {
+            "lower": 0.9,
+            "upper": 1.0,
+            "n": 36,
+            "mean_probability": 0.9148549301541193,
+            "observed_blue_win_rate": 0.9166666666666666
+          }
+        ],
+        "observed_blue_win_rate": 0.5361478139434955
+      },
+      "out_of_reference_range_n": 0,
+      "tie_n": 0,
+      "interval_note": "95% Wilson 区间按小局二项分布计算，未校正同日/同系列相关性；不是单局获胜概率。",
+      "strong": {
+        "n": 2697,
+        "correct": 2072,
+        "accuracy": 0.7682610307749351,
+        "coverage": 0.2897196261682243,
+        "wilson_low": 0.7519618888811389,
+        "wilson_high": 0.7837970670080466
+      },
+      "comparison_note": "本轮实验判断回顾性测试准确率 63.64%，标准模型 63.95%；未证明整体效果提升。"
+    },
+    "limitations": [
+      "三种展示模式使用同一判断及指数；极限模式不抬高数字，也不增加证据。",
+      "本轮实验判断回顾性测试准确率 63.64%，标准模型 63.95%；未证明整体效果提升。",
+      "优势等级描述总体模型倾向；BP 净占优另由 BP 特征的完整 SHAP 合计判断。",
+      "强倾向的历史命中率来自跨联赛回测，不能当作本场真实概率。",
+      "2026 测试集此前已经查看，本轮属于回顾性实验；需要新增未见比赛验证泛化。",
+      "中野/下路组合是历史共同出场证据；尚无经验证的开团、控制、前中后期或战队战术风格标签。",
+      "若精确落在决策边界，按固定蓝方规则给出选择并标记平局，不表示蓝方有证据优势。"
+    ]
+  }
+}

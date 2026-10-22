@@ -1,0 +1,291 @@
+{
+  "input_path": "reports/metrics.json",
+  "input_sha256": "87fb6fcf095d2d32630d2225be31f549f91da2631d68d3b7c0829feb90563466",
+  "run_id": "20261022T093531Z-f5eb82ee9db3",
+  "test": {
+    "n": 9309,
+    "first_game": "2026-01-01 09:14:49+00:00",
+    "last_game": "2026-10-18 19:48:36+00:00",
+    "last_result_available": "2026-10-19 00:00:00+00:00",
+    "blue_wins": 4991
+  },
+  "selected_model": "C_catboost_uniform",
+  "reliability_curves": {
+    "A_catboost": {
+      "n": 9309,
+      "ece_10": 0.020731275910337257,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 30,
+          "mean_probability": 0.17194293374441924,
+          "observed_blue_win_rate": 0.2
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 330,
+          "mean_probability": 0.26292058057475653,
+          "observed_blue_win_rate": 0.3696969696969697
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1244,
+          "mean_probability": 0.3583130524537897,
+          "observed_blue_win_rate": 0.4172025723472669
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2337,
+          "mean_probability": 0.4530691740845722,
+          "observed_blue_win_rate": 0.4668378262729996
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2676,
+          "mean_probability": 0.5451442196918047,
+          "observed_blue_win_rate": 0.546711509715994
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1852,
+          "mean_probability": 0.6462181748985522,
+          "observed_blue_win_rate": 0.6339092872570194
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 748,
+          "mean_probability": 0.7401367864540732,
+          "observed_blue_win_rate": 0.7152406417112299
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 92,
+          "mean_probability": 0.8167263059239637,
+          "observed_blue_win_rate": 0.8804347826086957
+        }
+      ]
+    },
+    "B_catboost": {
+      "n": 9309,
+      "ece_10": 0.014621074188241255,
+      "calibration_bins": [
+        {
+          "lower": 0.0,
+          "upper": 0.1,
+          "n": 1,
+          "mean_probability": 0.0934298968530024,
+          "observed_blue_win_rate": 0.0
+        },
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 73,
+          "mean_probability": 0.1779791605508866,
+          "observed_blue_win_rate": 0.1917808219178082
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 536,
+          "mean_probability": 0.2590146070950159,
+          "observed_blue_win_rate": 0.22574626865671643
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1069,
+          "mean_probability": 0.3555593279912828,
+          "observed_blue_win_rate": 0.3283442469597755
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 1889,
+          "mean_probability": 0.4530123874589932,
+          "observed_blue_win_rate": 0.4483853890947591
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2234,
+          "mean_probability": 0.5495794984937713,
+          "observed_blue_win_rate": 0.5340196956132498
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 2099,
+          "mean_probability": 0.6478533087778778,
+          "observed_blue_win_rate": 0.6603144354454502
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 1076,
+          "mean_probability": 0.7450984284653785,
+          "observed_blue_win_rate": 0.7546468401486989
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 332,
+          "mean_probability": 0.8287677169412031,
+          "observed_blue_win_rate": 0.8042168674698795
+        }
+      ]
+    },
+    "C_catboost": {
+      "n": 9309,
+      "ece_10": 0.036967419493820736,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 78,
+          "mean_probability": 0.1747531612344059,
+          "observed_blue_win_rate": 0.10256410256410256
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 575,
+          "mean_probability": 0.2603227615300829,
+          "observed_blue_win_rate": 0.22608695652173913
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1479,
+          "mean_probability": 0.3547329143400381,
+          "observed_blue_win_rate": 0.34212305611899935
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2308,
+          "mean_probability": 0.45145634021983794,
+          "observed_blue_win_rate": 0.4826689774696707
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2354,
+          "mean_probability": 0.5489312063115682,
+          "observed_blue_win_rate": 0.586661002548853
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1676,
+          "mean_probability": 0.6446216318350547,
+          "observed_blue_win_rate": 0.6992840095465394
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 720,
+          "mean_probability": 0.7410309339060367,
+          "observed_blue_win_rate": 0.8027777777777778
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 119,
+          "mean_probability": 0.8299427432294505,
+          "observed_blue_win_rate": 0.8571428571428571
+        }
+      ]
+    },
+    "C_catboost_uniform": {
+      "n": 9309,
+      "ece_10": 0.031341277032335545,
+      "calibration_bins": [
+        {
+          "lower": 0.1,
+          "upper": 0.2,
+          "n": 144,
+          "mean_probability": 0.17288539209933293,
+          "observed_blue_win_rate": 0.09722222222222222
+        },
+        {
+          "lower": 0.2,
+          "upper": 0.3,
+          "n": 691,
+          "mean_probability": 0.25955905130053025,
+          "observed_blue_win_rate": 0.24312590448625182
+        },
+        {
+          "lower": 0.3,
+          "upper": 0.4,
+          "n": 1472,
+          "mean_probability": 0.3558005263759894,
+          "observed_blue_win_rate": 0.36345108695652173
+        },
+        {
+          "lower": 0.4,
+          "upper": 0.5,
+          "n": 2133,
+          "mean_probability": 0.4519617022444613,
+          "observed_blue_win_rate": 0.47913736521331457
+        },
+        {
+          "lower": 0.5,
+          "upper": 0.6,
+          "n": 2224,
+          "mean_probability": 0.5483287051590487,
+          "observed_blue_win_rate": 0.5714928057553957
+        },
+        {
+          "lower": 0.6,
+          "upper": 0.7,
+          "n": 1574,
+          "mean_probability": 0.6458615404551974,
+          "observed_blue_win_rate": 0.7026683608640406
+        },
+        {
+          "lower": 0.7,
+          "upper": 0.8,
+          "n": 831,
+          "mean_probability": 0.740707021549962,
+          "observed_blue_win_rate": 0.7978339350180506
+        },
+        {
+          "lower": 0.8,
+          "upper": 0.9,
+          "n": 230,
+          "mean_probability": 0.831249684049289,
+          "observed_blue_win_rate": 0.8826086956521739
+        },
+        {
+          "lower": 0.9,
+          "upper": 1.0,
+          "n": 10,
+          "mean_probability": 0.9061899885493615,
+          "observed_blue_win_rate": 0.9
+        }
+      ]
+    }
+  },
+  "test_calibrated_log_loss": {
+    "A_logistic": 0.665915812387276,
+    "B_logistic": 0.6351174071712415,
+    "C_logistic": 0.6419793584035902,
+    "A_catboost": 0.6704941900031931,
+    "B_catboost": 0.6376556745597802,
+    "C_catboost": 0.6358663022407681,
+    "C_catboost_uniform": 0.6301706182065784
+  },
+  "outputs": {
+    "png": "reports/calibration.png",
+    "pdf": "reports/calibration.pdf"
+  },
+  "note": "All empirical points copied from real_gt test_calibrated metrics; diagonal is a labeled mathematical reference."
+}

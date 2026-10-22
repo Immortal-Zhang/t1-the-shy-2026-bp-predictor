@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-10-22T12:16:52.848594+00:00",
+  "status_code": 200,
+  "elapsed_seconds": 8.742249500006437,
+  "game_id": "LOLTMNT02_480511",
+  "standard_blue": 0.30217792358429685,
+  "enhanced_blue": 0.3390241676901847,
+  "winner": {
+    "side": "red",
+    "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+    "tie_break": false
+  },
+  "support": {
+    "blue": 14.9933,
+    "red": 85.0067,
+    "definition": "支持指数不是获胜概率。它将模型到决策边界的距离，在验证期绝对分差中排位，再映射到两侧0–100；不保证命中率，不设置最低胜率。标准模式仍显示原始校准概率。",
+    "raw_margin": -0.9192802312313277,
+    "reference_n": 2968,
+    "out_of_reference_range": false,
+    "judgment_calibrated_probability": 0.3390241676901847
+  },
+  "comparison_note": "本轮实验判断回顾性测试准确率 63.64%，标准模型 63.95%；未证明整体效果提升。"
+}

@@ -1,0 +1,338 @@
+{
+  "manifest": {
+    "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+    "champion_version": "16.20.1",
+    "public_patch": "26.20",
+    "champion_count": 173,
+    "champion_assets_source": "https://developer.riotgames.com/docs/lol#data-dragon",
+    "policy_url": "https://developer.riotgames.com/policies/general",
+    "champion_asset_terms": "Riot Data Dragon assets permitted by Riot developer policies; retain attribution and non-endorsement notice. Public products require Riot registration/review; this project is local-only.",
+    "team_logo_policy": "No verified reusable team logos are bundled; neutral initials are not team marks.",
+    "non_endorsement": "Worlds 2026 BP Predictor isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.",
+    "match_data_source": "https://chaincc.lol/free/data/",
+    "match_data_license": "CC BY 4.0; attribution required",
+    "sources": [
+      {
+        "filename": "champion-en_US.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/en_US/champion.json",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "84fd12721ea0cec502d2a747aea94d8e57d4da337422d1d3ca33a7890909787f",
+        "bytes": 159011
+      },
+      {
+        "filename": "champion-zh_CN.json",
+        "url": "https://ddragon.leagueoflegends.com/cdn/16.20.1/data/zh_CN/champion.json",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "68de0b884ce4beb29d608c08b73f774ae2abe3a3271ebceaa6cbb19c7094a326",
+        "bytes": 195548
+      },
+      {
+        "filename": "worlds-2026-primer.html",
+        "url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "cfa6c54200bab6917828c3b9d7249b63c8042024f6f2bb68681b061dc9074799",
+        "bytes": 213307
+      },
+      {
+        "filename": "riot-rules-library.html",
+        "url": "https://competitiveops.riotgames.com/en-US/library?game=lol",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "5822f6b541fb36d1c602aeb85d3d7b6ea98d667697460a4adf3983b7ee006291",
+        "bytes": 279861
+      },
+      {
+        "filename": "worlds-2026-rules.pdf",
+        "url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "3907cf8389be3a06ff895ce863fb02346d5c9eac9a025595a77793222aa35eab",
+        "bytes": 476823
+      },
+      {
+        "filename": "international-2026-rules.pdf",
+        "url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "0ece714f4124803884bffc546d770f528f4409a477dbf972b5fbef81de080d1b",
+        "bytes": 619701
+      },
+      {
+        "filename": "fearless-definition.html",
+        "url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "2e20a080d52eb6f82be622bd0d4dfc0b1d157f44a063640e7a852cd8f45905a4",
+        "bytes": 192890
+      },
+      {
+        "filename": "riot-developer-policy.html",
+        "url": "https://developer.riotgames.com/policies/general",
+        "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+        "sha256": "27c3dec47858d90693ab46e71a0152cbc8394b32a56d50ed70b3da5a2537b8a1",
+        "bytes": 18909
+      }
+    ]
+  },
+  "participants": {
+    "event": "Worlds 2026",
+    "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+    "source_published_date": "2026-10-05",
+    "retrieved_at": "2026-10-22T11:15:10.845237+00:00",
+    "notice": "Official team participation snapshot; does not assert current per-game starting rosters.",
+    "teams": [
+      {
+        "name": "Anyone’s Legend",
+        "code": "AL",
+        "region": "LPL",
+        "team_id": "oe:team:ed28f87f0cfdba0a2a8f183cebae73a",
+        "provider_name": "Anyone's Legend",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Bilibili Gaming",
+        "code": "BLG",
+        "region": "LPL",
+        "team_id": "oe:team:d356a144644879dabb5f34cd99c886d",
+        "provider_name": "Bilibili Gaming",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "TOP Esports",
+        "code": "TES",
+        "region": "LPL",
+        "team_id": "oe:team:fcec508e780bbd1ad493852640f5b36",
+        "provider_name": "Top Esports",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Shanghai Invictus Gaming Meituan",
+        "code": "IG",
+        "region": "LPL",
+        "team_id": "oe:team:53a258f289c26d94431c0496a54e151",
+        "provider_name": "Invictus Gaming",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Gen.G",
+        "code": "GEN",
+        "region": "LCK",
+        "team_id": "oe:team:50f58982d91a36557ec8aec52ab014f",
+        "provider_name": "Gen.G",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Hanwha Life Esports",
+        "code": "HLE",
+        "region": "LCK",
+        "team_id": "oe:team:3a1d18f46bcb3716ebcfcf4ef068934",
+        "provider_name": "Hanwha Life Esports",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "T1",
+        "code": "T1",
+        "region": "LCK",
+        "team_id": "oe:team:ce499dea30cfce118f4fe85da0227e8",
+        "provider_name": "T1",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Dplus Kia",
+        "code": "DK",
+        "region": "LCK",
+        "team_id": "oe:team:ef69efa6acebe94107f0cf1ba716806",
+        "provider_name": "Dplus Kia",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "G2 Esports",
+        "code": "G2",
+        "region": "LEC",
+        "team_id": "oe:team:7d6673d3a9d00363c6bebc1a630da6e",
+        "provider_name": "G2 Esports",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Movistar KOI",
+        "code": "MKOI",
+        "region": "LEC",
+        "team_id": "oe:team:4acc40654379b4da680be1bd3129dfa",
+        "provider_name": "Movistar KOI",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Karmine Corp",
+        "code": "KC",
+        "region": "LEC",
+        "team_id": "oe:team:f3aa9bbd924ce3af42ac53f8326bc7c",
+        "provider_name": "Karmine Corp",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Team Liquid Alienware",
+        "code": "TLAW",
+        "region": "LCS",
+        "team_id": "oe:team:8eb884e168f28402ce685bedebb5250",
+        "provider_name": "Team Liquid",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "LYON",
+        "code": "LYON",
+        "region": "LCS",
+        "team_id": "oe:team:da1143bf9a245b78a8dc86417de85b3",
+        "provider_name": "LYON",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Cloud9 Kia",
+        "code": "C9",
+        "region": "LCS",
+        "team_id": "oe:team:fc8e90107dabb9a35c490b0d86adea0",
+        "provider_name": "Cloud9",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "Team Secret Whales",
+        "code": "TSW",
+        "region": "LCP",
+        "team_id": "oe:team:740de582f50775c516c77ed7b923fd5",
+        "provider_name": "Team Secret Whales",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "CTBC Flying Oyster",
+        "code": "CFO",
+        "region": "LCP",
+        "team_id": "oe:team:0916b3c324c8577b0c6344f3e067f62",
+        "provider_name": "CTBC Flying Oyster",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "MVK Esports",
+        "code": "MVK",
+        "region": "LCP",
+        "team_id": "oe:team:bc3824b0bbb8139d16109178faa4822",
+        "provider_name": "MVK Esports",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "LOS",
+        "code": "LOS",
+        "region": "CBLOL",
+        "team_id": "oe:team:ea65e6cc48a9be50fc5334369a5fca5",
+        "provider_name": "LØS",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      },
+      {
+        "name": "FURIA",
+        "code": "FUR",
+        "region": "CBLOL",
+        "team_id": "oe:team:87e3e1e75839f75a10bbc66e894d806",
+        "provider_name": "FURIA",
+        "mapping_basis": "reviewed_exact_source_name_correspondence",
+        "participation_status": "official_confirmed",
+        "source_url": "https://lolesports.com/en-GB/news/worlds-2026-primer",
+        "logo_url": null,
+        "logo_license_status": "no_verified_reusable_team_logo_source"
+      }
+    ],
+    "source_published_at": null,
+    "qualification_available_at": "2026-10-06T00:00:00+00:00",
+    "publication_time_basis": "Only a date is published in the source time element; use next UTC midnight and require strictly before as_of. Current snapshot may contain later edits."
+  },
+  "rules": {
+    "verified": true,
+    "mechanism_verified": true,
+    "fearless_mode": "global",
+    "source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/d29e446e0a0d0813a8caaae1d2817dd82cfe79c6.pdf",
+    "updated_at": "2026-10-22T11:15:10.845237+00:00",
+    "definition_source_url": "https://lolesports.com/en-US/news/lol-esports-in-2025",
+    "event_source_url": "https://cdn.sanity.io/files/dsfx7636/news_live/faa5ce974e58615911fbee931c6123e2785a8b46.pdf",
+    "description": "全局无畏征召：同一系列赛内，双方之前小局已经选用的英雄都不能再选；普通禁用不跨局累积。",
+    "evidence_scope": "2026国际赛事规则4.5.6–4.5.7承认无畏模式并规定错误选禁处理；双方历史选用均不可复用的机制来自Riot官方Fearless解释。2026世界赛规则引用该国际赛事规则并给出Bo3/Bo5赛制。",
+    "applicability_notice": "本工具管理用户指定的同一Bo3/Bo5无畏系列赛上下文；赛事特殊禁用、临时规则和实际名单仍以裁判公布为准。不要把不同系列赛的选用记录合并。",
+    "formats": [
+      "bo3",
+      "bo5"
+    ],
+    "series_prediction_supported": false,
+    "previous_picks_restricted_for": "both_teams",
+    "standard_bans_carry_over": false,
+    "event_rules_sections": [
+      "Worlds 2026 §1.1",
+      "Worlds 2026 §§4.1.1–4.1.3",
+      "International 2026 §§4.5.6–4.5.7"
+    ]
+  },
+  "roster_limitation": "No official per-game starter feed imported. Every auto-filled roster is a dated, source-observed lineup and must be confirmed by the user."
+}
