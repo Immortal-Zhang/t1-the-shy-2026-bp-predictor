@@ -8,6 +8,8 @@ Ten champions enter. One model has opinions.
 
 Your draft has a plan. Your solo queue teammate does not. Let the real trained model take this one.
 
+![Prediction interface preview — support indices and BP analysis](docs/assets/prediction-preview.png)
+
 ## Queue up
 
 Have Python 3.11–3.13 and Node.js 20.19+ (or 22.12+) installed. First launch downloads dependencies, trained models and match history. No training arc required.

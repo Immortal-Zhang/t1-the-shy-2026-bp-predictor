@@ -39,16 +39,16 @@
       "bytes": 1388
     },
     "README.ko.md": {
-      "sha256": "f4d1ad63312339bbd4bb5dcfc33ef3e3385f721447967a023e4ecb5b7a41e9f8",
-      "bytes": 1449
+      "sha256": "9abfcab254b6dfb23f80e8d75072bc92b49eff41522422335f57676ce700d027",
+      "bytes": 1551
     },
     "README.md": {
-      "sha256": "39503cf99ef5f8c61b9302a551aaa06b0fcc6b4b66bd39aafa001d0e47c97e9a",
-      "bytes": 1334
+      "sha256": "248e4aefe833ccdb69959a6a49ce6f52becc0dd8bcf434139326e278f00e31dc",
+      "bytes": 1439
     },
     "README.zh-CN.md": {
-      "sha256": "ccd83100e79c301ace9a5dd12d743ff813b930ba30602b6b7cfef20f44fb6826",
-      "bytes": 1280
+      "sha256": "8dc825a1bb1d194480cc5154049dac14310c1e21a27a5b40697e031b6da7f67c",
+      "bytes": 1367
     },
     "SOURCE_DATA.md": {
       "sha256": "473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
@@ -829,6 +829,10 @@
     "docs/assets/readme-banner.meta.json": {
       "sha256": "7d05e1c586c78bf62a531ba474a87014570cba30d2dbaeefee1f1730cba4569d",
       "bytes": 384
+    },
+    "docs/assets/prediction-preview.png": {
+      "sha256": "f537af5e55d2153e52efd6a7d317355a3cb08656d5a52c0929393e7476bb73c6",
+      "bytes": 1298941
     }
   }
 }
