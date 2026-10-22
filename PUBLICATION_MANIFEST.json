@@ -39,16 +39,16 @@
       "bytes": 1388
     },
     "README.ko.md": {
-      "sha256": "44b69ab0e44bd6bb4869a6bcff0d4a967760d3b6e3a7bb458ad3b6d3b0247c98",
-      "bytes": 1611
+      "sha256": "346766401a101c62a6aeb79cbf72533d4c15abd0a71bbf7924739d4805db934e",
+      "bytes": 1621
     },
     "README.md": {
-      "sha256": "1aa5273bd0537ae7358a5b7e41f83aef30e45c367efbc194df92f364fecb6968",
-      "bytes": 1499
+      "sha256": "b183d4d52ba3f4fa9db05b34098eb1054c1b449251510aceaebbb2e167fd875e",
+      "bytes": 1512
     },
     "README.zh-CN.md": {
-      "sha256": "df1339d3c1ef9e9136501f0fd07f90ed4aa1abdfb27b61ecc4c92643298b61c4",
-      "bytes": 1427
+      "sha256": "9c5cb0b35b2c5bc0f79615263f72e100fbe211062cb3b7587ea9700df1afc0b6",
+      "bytes": 1445
     },
     "SOURCE_DATA.md": {
       "sha256": "473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
@@ -833,6 +833,18 @@
     "docs/assets/prediction-preview.png": {
       "sha256": "f537af5e55d2153e52efd6a7d317355a3cb08656d5a52c0929393e7476bb73c6",
       "bytes": 1298941
+    },
+    "docs/assets/readme-banner-players.png": {
+      "sha256": "34bcaf9ab96e9ac7ec66002ed6521b8da4b712e976d3a50a8e5d574c5acf4ebc",
+      "bytes": 2832685
+    },
+    "docs/assets/readme-banner-players.meta.json": {
+      "sha256": "5c050687c668b8b1e6f27440bec0a33a9386353ad315088970506bf5f4ec0388",
+      "bytes": 1010
+    },
+    "docs/assets/readme-banner-players.prompt.txt": {
+      "sha256": "df8d2f93857ad3fa9940e28f21517345af75784208ad9fae60347e325ca0d598",
+      "bytes": 2464
     }
   }
 }

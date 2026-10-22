@@ -1,0 +1,27 @@
+{
+  "asset": "docs/assets/readme-banner-players.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "bytes": 2832685,
+  "sha256": "34bcaf9ab96e9ac7ec66002ed6521b8da4b712e976d3a50a8e5d574c5acf4ebc",
+  "generation": "Built-in imagegen",
+  "prompt": "docs/assets/readme-banner-players.prompt.txt",
+  "purpose": "README masthead; AI-generated fan-art composite with TheShy on the left and Faker on the right; not an event photograph or an endorsement",
+  "base_asset": "docs/assets/readme-banner.png",
+  "references": [
+    {
+      "subject": "TheShy",
+      "position": "left",
+      "page": "https://www.trackingthepros.com/player/TheShy/",
+      "image": "https://s3.amazonaws.com/media.trackingthepros.com/profile/p366.png"
+    },
+    {
+      "subject": "Faker",
+      "position": "right",
+      "page": "https://www.t1.gg/teams/leagueoflegends",
+      "image": "https://images.squarespace-cdn.com/content/v1/62d09f54a49d6f1c78455cce/3b656df2-6ab2-4046-a20c-23ba82c8e380/LCK%2BFaker.jpg?format=1500w"
+    }
+  ]
+}
