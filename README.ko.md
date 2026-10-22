@@ -1,3 +1,5 @@
+<div align="center">
+
 # T1.the shy 2026 BP Predictor
 
 ![T1.the shy 2026 BP Predictor — 블루·레드 대결 배너](docs/assets/readme-banner.png)
@@ -14,11 +16,15 @@
 
 Python 3.11–3.13와 Node.js 20.19+(또는 22.12+)를 준비하세요. 첫 실행 시 의존성·학습된 모델·경기 기록을 내려받습니다. 재학습은 없습니다.
 
+</div>
+
 ```bash
 git clone https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor.git
 cd t1-the-shy-2026-bp-predictor
 ./start.sh
 ```
+
+<div align="center">
 
 **http://127.0.0.1:5173** 에 접속하세요. Mac에서는 `start.command`를 더블 클릭해도 됩니다.
 
@@ -27,3 +33,5 @@ cd t1-the-shy-2026-bp-predictor
 [모델·데이터 다운로드](https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/tag/runtime-2026-10-22-v1) · [기술 설명](docs/TECHNICAL.zh-CN.md)
 
 비공식 팬 프로젝트로 T1·TheShy·Riot Games와 공식 관계가 없습니다. 경기 데이터: [ChainCC](https://chaincc.lol/free/data/) · CC BY 4.0. 챔피언 자료: Riot Data Dragon.
+
+</div>

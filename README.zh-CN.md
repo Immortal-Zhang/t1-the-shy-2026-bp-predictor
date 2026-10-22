@@ -1,3 +1,5 @@
+<div align="center">
+
 # T1.the shy 2026 BP Predictor
 
 ![T1.the shy 2026 BP Predictor — 蓝红对决封面](docs/assets/readme-banner.png)
@@ -14,11 +16,15 @@
 
 先装好 Python 3.11–3.13、Node.js 20.19+（或 22.12+）。首次启动自动下载依赖、训练好的模型和历史数据，不用闭关炼丹。
 
+</div>
+
 ```bash
 git clone https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor.git
 cd t1-the-shy-2026-bp-predictor
 ./start.sh
 ```
+
+<div align="center">
 
 打开 **http://127.0.0.1:5173**。Mac 也可以双击 `start.command`。
 
@@ -27,3 +33,5 @@ cd t1-the-shy-2026-bp-predictor
 [模型与数据下载](https://github.com/Immortal-Zhang/t1-the-shy-2026-bp-predictor/releases/tag/runtime-2026-10-22-v1) · [想看技术细节再点这里](docs/TECHNICAL.zh-CN.md)
 
 粉丝整活项目，与 T1、TheShy、Riot Games 无官方关联。比赛数据：[ChainCC](https://chaincc.lol/free/data/) · CC BY 4.0；英雄素材：Riot Data Dragon。
+
+</div>
