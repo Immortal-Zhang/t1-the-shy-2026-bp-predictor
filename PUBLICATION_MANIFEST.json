@@ -39,16 +39,16 @@
       "bytes": 1388
     },
     "README.ko.md": {
-      "sha256": "346766401a101c62a6aeb79cbf72533d4c15abd0a71bbf7924739d4805db934e",
-      "bytes": 1621
+      "sha256": "9d2f81ece2479a448b859cbef6929dc29f828444212dc26775e5033c51164d4e",
+      "bytes": 1667
     },
     "README.md": {
-      "sha256": "b183d4d52ba3f4fa9db05b34098eb1054c1b449251510aceaebbb2e167fd875e",
-      "bytes": 1512
+      "sha256": "04f9aaf2349859404024492c37d3c269f26bc5bab83998aaad954b269868c06b",
+      "bytes": 1533
     },
     "README.zh-CN.md": {
-      "sha256": "9c5cb0b35b2c5bc0f79615263f72e100fbe211062cb3b7587ea9700df1afc0b6",
-      "bytes": 1445
+      "sha256": "145a05ca8f842288008fe90d9276e58b5ba505921bffde78f4b5ae1c156a9dd9",
+      "bytes": 1476
     },
     "SOURCE_DATA.md": {
       "sha256": "473941ab9a8856ca6d64a8c75912a897b8a9800c6ec9f80503ba8dd54b1024e5",
@@ -845,6 +845,18 @@
     "docs/assets/readme-banner-players.prompt.txt": {
       "sha256": "df8d2f93857ad3fa9940e28f21517345af75784208ad9fae60347e325ca0d598",
       "bytes": 2464
+    },
+    "docs/assets/readme-banner-worlds-shush.png": {
+      "sha256": "55f24df890fe2a221ee9c7cafd26bcde77b733e5b04820bede09b1073acbc95d",
+      "bytes": 2846508
+    },
+    "docs/assets/readme-banner-worlds-shush.meta.json": {
+      "sha256": "3fad8638891be41a67fabd53f12f7f4e5eb4681870007bb39e92bd28959fb5e4",
+      "bytes": 1985
+    },
+    "docs/assets/readme-banner-worlds-shush.prompt.txt": {
+      "sha256": "d949ff454efb77bef8f340c38a0231298463463dbb01e51e8c99b00a8e977e28",
+      "bytes": 7152
     }
   }
 }

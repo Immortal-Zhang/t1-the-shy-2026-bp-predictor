@@ -2,7 +2,7 @@
 
 # T1.the shy 2026 BP Predictor
 
-![T1.the shy 2026 BP Predictor — 왼쪽 TheShy, 오른쪽 Faker](docs/assets/readme-banner-players.png)
+![T1.the shy 2026 BP Predictor — 왼쪽 TheShy 1회 우승, 오른쪽 Faker 6회 우승과 쉿 제스처](docs/assets/readme-banner-worlds-shush.png)
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [한국어](README.ko.md)
 

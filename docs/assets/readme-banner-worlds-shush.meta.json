@@ -1,0 +1,53 @@
+{
+  "asset": "docs/assets/readme-banner-worlds-shush.png",
+  "dimensions": [
+    2172,
+    724
+  ],
+  "bytes": 2846508,
+  "sha256": "55f24df890fe2a221ee9c7cafd26bcde77b733e5b04820bede09b1073acbc95d",
+  "generation": "Built-in imagegen",
+  "prompt": "docs/assets/readme-banner-worlds-shush.prompt.txt",
+  "purpose": "AI-generated fan-art README masthead: TheShy at left with one Worlds trophy; dominant Faker at right with six Worlds trophies and an index-finger shush gesture. Not an event photograph, prediction, or endorsement.",
+  "base_asset": "docs/assets/readme-banner-players.png",
+  "references": [
+    {
+      "subject": "TheShy",
+      "role": "left portrait identity",
+      "page": "https://www.trackingthepros.com/player/TheShy/",
+      "image": "https://s3.amazonaws.com/media.trackingthepros.com/profile/p366.png"
+    },
+    {
+      "subject": "Faker",
+      "role": "initial composition portrait; palm-over-mouth gesture superseded by final shush edit",
+      "page": "https://kr.pinterest.com/finite503/t1-faker-%EC%9D%B4%EC%83%81%ED%98%81/",
+      "image": "https://i.pinimg.com/originals/19/f4/16/19f4161462fa95bff314b4cc789a4ed6.jpg",
+      "visible_credit": "xttohax"
+    },
+    {
+      "subject": "Faker",
+      "role": "final shush gesture and portrait reference",
+      "page": "https://thethao247.vn/400-t1-faker-toi-ghet-thua-cuoc-d304899.html",
+      "image": "https://cdn-img.thethao247.vn/origin_1366x0/storage/files/haibui/2023/11/17/t1-faker-toi-ghet-thua-cuoc-358033.png"
+    }
+  ],
+  "championship_context": {
+    "scope": "League of Legends World Championship titles through 2026-10-22",
+    "TheShy": [
+      2018
+    ],
+    "Faker": [
+      2013,
+      2015,
+      2016,
+      2023,
+      2024,
+      2025
+    ],
+    "sources": [
+      "https://www.youtube.com/watch?v=or7Xc8tZg-g",
+      "https://en.yna.co.kr/view/AEN20251109003200320",
+      "https://nexus.leagueoflegends.com/en-us/2018/11/an-lpl-first-invictus-gaming-wins-it-all/"
+    ]
+  }
+}
